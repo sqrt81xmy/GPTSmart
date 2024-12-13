@@ -1,0 +1,3548 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/sangkilc/Develop/B2R2/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.ARMap-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.ARMap-1.html",
+          "hash": "+WeI/pUlcDbFRguduyeoNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.ARMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.ARMap.html",
+          "hash": "HaxXp2Ff/qhwNwmKi6YAIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Addr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Addr.html",
+          "hash": "4elqPvqciKGMRjfzuzL17A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.AddrModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.AddrModule.html",
+          "hash": "m5VKoQ8VPu0fbvIG6jeARQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.AddrRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.AddrRange.html",
+          "hash": "QUYIarMcqRzs3M16t1j7aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Arch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Arch.html",
+          "hash": "wxOQNyoRPyaVZEus5lpQIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.ArchOperationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.ArchOperationMode.html",
+          "hash": "Zaxlvmb/BtUjijjjrDl2vQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.ArchOperationModeModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.ArchOperationModeModule.html",
+          "hash": "EbY7sSpaaqt5ycsGwoQJpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Architecture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Architecture.html",
+          "hash": "Utv3ldZ+/o9ZbBv8KSaKpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Array.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Array.html",
+          "hash": "X6WO/PcL88RZxpFsyhWngA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Attribution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Attribution.html",
+          "hash": "/FBauFaDYpGbPG1hjxv6zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BigInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BigInteger.html",
+          "hash": "7t5XeDguo0lRqJoMwhOuAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.DynamicSectionEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.DynamicSectionEntry.html",
+          "hash": "eNbKhzfeEwP82djgFwqNFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.DynamicSectionTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.DynamicSectionTag.html",
+          "hash": "oThPp2jB+wsbU3oBs7vPWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.ELF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.ELF.html",
+          "hash": "oxu3vbKtXEyikFgpcyB2Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.ELFFileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.ELFFileType.html",
+          "hash": "eR6gCAh1bYBYw72bx7/06g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.ELFHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.ELFHeader.html",
+          "hash": "i4z1mDqdTO1/jyINlS9zHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.ELFSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.ELFSection.html",
+          "hash": "8bVHOuFbrToB2IBbNg1cxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.ELFSymbol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.ELFSymbol.html",
+          "hash": "sEwKul5AY+PIxgKoPvlP4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.ELFSymbolInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.ELFSymbolInfo.html",
+          "hash": "SCfOOVpHELtWTBcaIP547w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.OSABI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.OSABI.html",
+          "hash": "SLKoIMYmJoTtnYbXbdG0ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.ProgramHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.ProgramHeader.html",
+          "hash": "9B/87Iubb6FkUqTyMWN5EQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.ProgramHeaderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.ProgramHeaderType.html",
+          "hash": "xTjV8nT/rR5gjLanlc7kNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.RelocInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.RelocInfo.html",
+          "hash": "oy2LGfsX+byAZ2luJ/FdmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.RelocationARMv7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.RelocationARMv7.html",
+          "hash": "9NUW/WJ/DSoGaymOaQFCug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.RelocationARMv8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.RelocationARMv8.html",
+          "hash": "aGowP7n6xtaAoA75C2VoPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.RelocationEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.RelocationEntry.html",
+          "hash": "P2QTwfm4t3wloHUWBHmLfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.RelocationMIPS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.RelocationMIPS.html",
+          "hash": "N85PXGymX8GTC3erMKgMSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.RelocationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.RelocationType.html",
+          "hash": "L1jxbrjxUWXh0nL5ZWS2kA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.RelocationX64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.RelocationX64.html",
+          "hash": "M11p7iKEVl3GPSjroCDB8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.RelocationX86.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.RelocationX86.html",
+          "hash": "NOaS87f0HAdIj/kgqEEEgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.SectionFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.SectionFlag.html",
+          "hash": "Y2bRh9qarYFwGA1Z8Kzd0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.SectionHeaderIdx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.SectionHeaderIdx.html",
+          "hash": "KCXo/OqClux7EKIciq9oAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.SectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.SectionInfo.html",
+          "hash": "pbkuIUhwq4H5mraZtjyo2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.SectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.SectionType.html",
+          "hash": "NRYS0CoadHbsgRAGif79UQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.SymVerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.SymVerInfo.html",
+          "hash": "9Jz72Kjg41Gx8RLMyPtcww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.SymbolBind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.SymbolBind.html",
+          "hash": "GPiGaFQ/ZbJpA7wUa96ALg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.SymbolType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.SymbolType.html",
+          "hash": "0VC3prhKYWdQdnoGibW23w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.SymbolVisibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.SymbolVisibility.html",
+          "hash": "tElQ9NVyBoL3g8KWGf41Rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.VersionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.VersionType.html",
+          "hash": "jhEjoB7FO+w5i9TpDmmhxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELF.html",
+          "hash": "Oq0iQhiwaTgu+hZ5DhOelQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.ELFFileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.ELFFileInfo.html",
+          "hash": "FOT5mOJ4GqxBqMoOc83qEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.FileFormatMismatchException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.FileFormatMismatchException.html",
+          "hash": "HwujNcVaF9M7f/Tpzy8uNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.FileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.FileInfo.html",
+          "hash": "udJvAlRNsNOBLEnETjVyrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.FileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.FileType.html",
+          "hash": "WCSd466+485IGOvUaVD1sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.FormatDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.FormatDetector.html",
+          "hash": "SsgJxZ9KLgBVyitCa23B8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.InvalidAddrReadException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.InvalidAddrReadException.html",
+          "hash": "XMVElml9yzty39E0VPYjXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.InvalidFileTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.InvalidFileTypeException.html",
+          "hash": "0jsy5drYuiwMuhKIMCA+Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.LinkageTableEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.LinkageTableEntry.html",
+          "hash": "LztFOb5mflBEa4Gu+qKWVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.CPUSubType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.CPUSubType.html",
+          "hash": "gy0gNUvG1a+Csi1z2ZWTbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.CPUType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.CPUType.html",
+          "hash": "nUbn/wMLlLL3wDz+rtuVrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.DyLdInfoCmd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.DyLdInfoCmd.html",
+          "hash": "0u/B1OJrvis0crS/hlNHww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.DyLibCmd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.DyLibCmd.html",
+          "hash": "3YCshlmBSzYiyT7qbpsC9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.DySymTabCmd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.DySymTabCmd.html",
+          "hash": "OEt2CeYh+lqJ2MMly0R/2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.ExportInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.ExportInfo.html",
+          "hash": "5UmWZNIOisjwV6c0Ch68Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.LoadCmdType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.LoadCmdType.html",
+          "hash": "NlUXU4EJ8YyvoyImZhmcPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.LoadCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.LoadCommand.html",
+          "hash": "uFxS8nJXf9k3tzHhdcVvZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.Mach.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.Mach.html",
+          "hash": "FW9qgnhzE0PNf0El9jA+Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.MachFileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.MachFileType.html",
+          "hash": "t4YuvkN7l6vjOWGPgNrhqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.MachFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.MachFlag.html",
+          "hash": "YbrAtPhG9MYMgqqJKGyDrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.MachHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.MachHeader.html",
+          "hash": "VhXJX46rNTC9P/KClami4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.MachSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.MachSection.html",
+          "hash": "1/A21XN0pOz0v+6I4D41Iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.MachSymbol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.MachSymbol.html",
+          "hash": "JnxfFighU+EzxdhZPVLSZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.Magic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.Magic.html",
+          "hash": "E08NTKVIja9kl/TcNMyywQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.MainCmd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.MainCmd.html",
+          "hash": "8T85K6BcgIGqaPIAsAklzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.SectionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.SectionAttribute.html",
+          "hash": "nRbDzcJbQr45iFI4V/40bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.SectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.SectionInfo.html",
+          "hash": "wi3QDm1kvG8Vqk44mJgJaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.SectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.SectionType.html",
+          "hash": "q4Ajev3NPhP9AkmNZE0uwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.SegCmd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.SegCmd.html",
+          "hash": "NJVWF8yvYvW9V8jtF9Uc0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.SymInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.SymInfo.html",
+          "hash": "953ZRgckjZ6FWotwC3psqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.SymTabCmd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.SymTabCmd.html",
+          "hash": "bK9b2+F/6MUcoRpvl6s+Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.SymbolType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.SymbolType.html",
+          "hash": "KnvkcwaH5CdCiTo1OCJUaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.UnhandledCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.UnhandledCommand.html",
+          "hash": "9qLRKepuAgyScnnem2gHJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Mach.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Mach.html",
+          "hash": "drKT1N3y/9HvCuB/oo/K0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.MachFileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.MachFileInfo.html",
+          "hash": "2X7vi7vH9dqwMo9vrbIfmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.BaseRelocType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.BaseRelocType.html",
+          "hash": "Au/Oag7p5emaI75PRoA96w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.DBIStreamHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.DBIStreamHeader.html",
+          "hash": "bQJrZ8VFXqECmP7giTemJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.DBIStreamVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.DBIStreamVersion.html",
+          "hash": "5xQYvlFD64swTy5mNeCjsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.ExportAddressTableField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.ExportAddressTableField.html",
+          "hash": "6AjO5fHIc/I/HytiuqCdEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.ExportDirectoryTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.ExportDirectoryTable.html",
+          "hash": "Tc/b8id3T8Ffh1AP0dYJ0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.GSIHashHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.GSIHashHeader.html",
+          "hash": "hE2Klpfq6vNgO0016o9n/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.GSIHashRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.GSIHashRecord.html",
+          "hash": "qu7ayntXIqkDNQTFIr8qig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.ImportDirectoryTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.ImportDirectoryTable.html",
+          "hash": "d4MMOl3b8UNDOu01y5cd2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.ImportInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.ImportInfo.html",
+          "hash": "OFursdwVnPD+SoTL4bXVxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.ModuleInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.ModuleInfo.html",
+          "hash": "2UdMCbnUha4QWHEHRthd0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.PDBInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.PDBInfo.html",
+          "hash": "ywN3JA5NZLzNr7alQ5+4/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.PE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.PE.html",
+          "hash": "Vi5qKKQkzBoQv8cGaxHaTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.PESymbol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.PESymbol.html",
+          "hash": "Yb0g6q6h1GGZcYF9bwZJxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.RelocBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.RelocBlock.html",
+          "hash": "VOovPEa4vqj1IWavt9nhMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.RelocBlockEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.RelocBlockEntry.html",
+          "hash": "CeVJO1HHj4WExL6MaboWjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.StreamDirectory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.StreamDirectory.html",
+          "hash": "M0EXNfzP8f14LLzxYxbb6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.SuperBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.SuperBlock.html",
+          "hash": "korSd5Z/HZvHVrt9s1qFZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.SymFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.SymFlags.html",
+          "hash": "RyGxzIMFRAUwVvp6nSUAtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.SymType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.SymType.html",
+          "hash": "HES4So4IFeDQxwY3SFyerg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PE.html",
+          "hash": "zuFyIwVtLMi7BGs4y2jTRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.PEFileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.PEFileInfo.html",
+          "hash": "XVlHgQUUxBnStAPW8ZYoOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Permission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Permission.html",
+          "hash": "LS/00d8Vfv9fMY7DuHo2mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.RawFileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.RawFileInfo.html",
+          "hash": "mfAax0mk65Bn8upIQAFDWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Section.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Section.html",
+          "hash": "RVBh61kutKE/fPr+2ANmKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.SectionKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.SectionKind.html",
+          "hash": "9WBSw+Ki06z0cJVbT51Rig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Segment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Segment.html",
+          "hash": "eqGP9NcHdKD6oKFk5oFebg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.Symbol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.Symbol.html",
+          "hash": "x17t5Y9v8eHHNfauyLDRWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.SymbolKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.SymbolKind.html",
+          "hash": "FiZGzkN3BJFSmrD6NaKYtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.TargetKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.TargetKind.html",
+          "hash": "GfmEXXLQnJQwK0TmR4aiJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinFile.html",
+          "hash": "yN0MRcF1U7+LAeucJFay8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.Algorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.Algorithms.html",
+          "hash": "WQSpZQipvZUul+rV2MOojg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.BasicBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.BasicBlock.html",
+          "hash": "uOF5ccQBeKcKrvbdjxI6wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.BinEssence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.BinEssence.html",
+          "hash": "t3kiFmpJgzAqM80xIY1TIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.BinaryApparatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.BinaryApparatus.html",
+          "hash": "XDyiRpvzT4+LxnlwA2KA5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.BinaryApparatusModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.BinaryApparatusModule.html",
+          "hash": "irOT2aBkWu6VwPoWPBo0Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.CFGEdgeKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.CFGEdgeKind.html",
+          "hash": "XK4P1kWwreJx/jURUL799g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.CallCFG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.CallCFG.html",
+          "hash": "GwGgfZdoi1l5SFJ+hjiCkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.CallGraphBBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.CallGraphBBlock.html",
+          "hash": "u7C0gxfWxoGLSzV8OnqHhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.CallGraphLens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.CallGraphLens.html",
+          "hash": "xVDueYV2VqKlnkYO0aXBbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.CallVMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.CallVMap.html",
+          "hash": "dECYPByv7giflxeBuBQ2wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.Callee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.Callee.html",
+          "hash": "2UURverixNCOp8f4gYaNew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.CalleeKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.CalleeKind.html",
+          "hash": "tdgVTmaW9BviON0aTV7xmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.CalleeMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.CalleeMap.html",
+          "hash": "iWRxG8uUuSfaZ4eRMxxzxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.CalleeMapModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.CalleeMapModule.html",
+          "hash": "UliM87lF0mabr+EVIO9bSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.CallerMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.CallerMap.html",
+          "hash": "BzQnZOgICYHcm6dKBqmRXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.CallerMapModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.CallerMapModule.html",
+          "hash": "RzDUjhgWIWy2NoCvpLLqUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.ControlFlowGraph-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.ControlFlowGraph-2.html",
+          "hash": "SNph/evSFndid3t1GIkHJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.DefSites.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.DefSites.html",
+          "hash": "Tlw5DcQsSApRnJ5KDbSZAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.DefsPerNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.DefsPerNode.html",
+          "hash": "zdwIvW2gWvdFW0GzyuGxEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.DiGraph-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.DiGraph-2.html",
+          "hash": "iUjf3eoOr2jSj6OlH8BAfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.DisasmBBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.DisasmBBlock.html",
+          "hash": "en+MYc6wUtvvDgloBmQn1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.DisasmCFG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.DisasmCFG.html",
+          "hash": "4MIwRjyLpWtJDRygSgArLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.DisasmLens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.DisasmLens.html",
+          "hash": "tkk9VblksRxniEv/ea7ajQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.DisasmVMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.DisasmVMap.html",
+          "hash": "Iyr6AesoeROK36jn1NwPhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.Dominator.DomInfo-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.Dominator.DomInfo-1.html",
+          "hash": "FHBOnKsfuVsQg2wW+MSgCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.Dominator.DominatorContext-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.Dominator.DominatorContext-2.html",
+          "hash": "DoLOG8wmQFTfbD9GrWG1wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.Dominator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.Dominator.html",
+          "hash": "XbNm6RwJ30A1a/iqa5K7Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.DummyDataAccessException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.DummyDataAccessException.html",
+          "hash": "ZyT+OTtQ649PUdLdhNH3Fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.Edge-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.Edge-1.html",
+          "hash": "xvlfNYjSkIFVLOAIyf2PzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.EdgeID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.EdgeID.html",
+          "hash": "Uws2SBH23dAxgN4x9vCY2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.EdgeNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.EdgeNotFoundException.html",
+          "hash": "dLNHY38GYn2SndXkxOMLlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.EmulationHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.EmulationHelper.html",
+          "hash": "7mjytCTa+/3NS9Kf1a675A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.FakeVMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.FakeVMap.html",
+          "hash": "Ox7ZHgZ1f77Yzd8P1qGY/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.IDStack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.IDStack.html",
+          "hash": "RZfAf/TgLO115TKYe8g2qA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.ILens-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.ILens-1.html",
+          "hash": "D+OdAxif+HrS4ryXhvGDQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.IPostAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.IPostAnalysis.html",
+          "hash": "azcnYY12gPcYTy8tRW9jfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.IRBasicBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.IRBasicBlock.html",
+          "hash": "+9j6gp/VF4al30UnydekAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.IRCFG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.IRCFG.html",
+          "hash": "iHiy6zwUeHWafZTSCI41XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.InsIRPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.InsIRPair.html",
+          "hash": "KjiYOfa+Dy8yOU0D9Kx4AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.InstrMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.InstrMap.html",
+          "hash": "YU8/7xnbx6O+Pma+e9XLJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.InstrMapModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.InstrMapModule.html",
+          "hash": "WQGy1ZJMTHZ2ZQKOP1jpjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.InvalidFunctionAddressException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.InvalidFunctionAddressException.html",
+          "hash": "IZAjOIwBNrY0qwPQx44deg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.JmpTargetMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.JmpTargetMap.html",
+          "hash": "tonStWNMFgXQpZ51z5+UFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.LibcAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.LibcAnalysis.html",
+          "hash": "RR6JLGdoPC1nClWwws+oUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.MultipleEntryException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.MultipleEntryException.html",
+          "hash": "tbPMPsgfg3O7I69vnAEAmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.MultipleVerticesFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.MultipleVerticesFoundException.html",
+          "hash": "HrhQHlmTdZ4uXXbKr/mLAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.NoReturnAnalysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.NoReturnAnalysis.html",
+          "hash": "5cja23e/RIS1gmXYHjW+KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.ProgramPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.ProgramPoint.html",
+          "hash": "i7FWW0NQWfb46PeDIWoK6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.RangedDiGraph-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.RangedDiGraph-2.html",
+          "hash": "/g/e2ObQW5Ok2xuX0Miz4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.RangedVertexData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.RangedVertexData.html",
+          "hash": "gMLakhIao5BPp0JaJ3YA6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.SCFG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.SCFG.html",
+          "hash": "FwFFkx2GruxUIQ+dJyyWRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.SCFGUtils.VMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.SCFGUtils.VMap.html",
+          "hash": "OSG0vRTVMG8cVFV6D0iQfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.SCFGUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.SCFGUtils.html",
+          "hash": "62jTVvEdb8sxRjVVH5Cl9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.SSABBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.SSABBlock.html",
+          "hash": "jcCjRuJI2cSZl5fK17oFvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.SSABlockHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.SSABlockHelper.html",
+          "hash": "lkOCZgq81KU4oMLA/viRZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.SSACFG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.SSACFG.html",
+          "hash": "DNVeLl62YVW4/4mfzGm52A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.SSALens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.SSALens.html",
+          "hash": "ddHMSbKIvXbCz8umk43uNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.SSAUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.SSAUtils.html",
+          "hash": "4YrlSv7yuivfg56V5xuByw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.SSAVMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.SSAVMap.html",
+          "hash": "94471V0zdOkFF0UzMJY6mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.VarCountMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.VarCountMap.html",
+          "hash": "j9D7riffF2cFr2axRl8y8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.Vertex-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.Vertex-1.html",
+          "hash": "EmNIkhsV3ivZptoU+mql6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.VertexData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.VertexData.html",
+          "hash": "UOrgJ5gMfZU1ND9FYidqwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.VertexDataModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.VertexDataModule.html",
+          "hash": "GTh4AKnEseG/HBGjr7L1Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.VertexID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.VertexID.html",
+          "hash": "Xe29vf4/YxFMy/vdIkSr0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.VertexNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.VertexNotFoundException.html",
+          "hash": "CycqTmoLcAWYpyAT8kQ7WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.VisualBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.VisualBlock.html",
+          "hash": "10Ow6EKFK4TOx0TlH0JX9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.VisualBlockModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.VisualBlockModule.html",
+          "hash": "sW2ldK38AHtBSxSE589acw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.VisualLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.VisualLine.html",
+          "hash": "H8dabfHj3DEuQqIRu4EKGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.VisualLineModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.VisualLineModule.html",
+          "hash": "ArV1FhGImTPIbuJXD00xHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinGraph.html",
+          "hash": "ZJ2ZAXmGmBFiAT6OLc0Knw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.BinOpType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.BinOpType.html",
+          "hash": "3mhKctBQsOCpRsqlXrtmEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.BinOpTypeModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.BinOpTypeModule.html",
+          "hash": "nHFmEVfbuhcXc+dztppzgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.CastKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.CastKind.html",
+          "hash": "5dOvnBmrfmD5a8apd9fN1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.CastKindModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.CastKindModule.html",
+          "hash": "nfljtd0fDNY1JVdfHoc7jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.IllegalASTTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.IllegalASTTypeException.html",
+          "hash": "f7iznlC+pfhg0WWFqCByeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.InvalidAssignmentException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.InvalidAssignmentException.html",
+          "hash": "UVuURYZt+K0sYdfhOrLE0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.InvalidExprException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.InvalidExprException.html",
+          "hash": "au1ngGxfJgJwScHLVjJSmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.AST.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.AST.html",
+          "hash": "sPOk6hftOmowVHuViLoT0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.ConsInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.ConsInfo.html",
+          "hash": "crSBKh8rZetTFkoSV1OTYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.Expr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.Expr.html",
+          "hash": "H6koIWCEF1lXQtYdLBBltQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.ExprInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.ExprInfo.html",
+          "hash": "8pXf2mmGTQ9BW2z6R99LzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.HashCons.ConsistencyFailException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.HashCons.ConsistencyFailException.html",
+          "hash": "JLEu0dZigzBzEZgypM1DYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.HashCons.TagNotExistException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.HashCons.TagNotExistException.html",
+          "hash": "ZBFkxLlzzKUOwzOe/35GOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.HashCons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.HashCons.html",
+          "hash": "aG2+7ee+SrEZ3IIRHtHRag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.InterJmpInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.InterJmpInfo.html",
+          "hash": "JxBjXHbvQs0pt4/Rc/ZnEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.Pp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.Pp.html",
+          "hash": "FtOclcpI2SYIR+HvI4nFiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.RegParseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.RegParseHelper.html",
+          "hash": "pADgEOv8D0Qd650asJX9bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.Stmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.Stmt.html",
+          "hash": "E81M3bqBLCN8ZIRHJKl1XA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.LowUIR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.LowUIR.html",
+          "hash": "gIVLtX9TuySWp5lTqYvxow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.PrettyPrinter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.PrettyPrinter.html",
+          "hash": "bX7iSqx2dBHCnO0/SgQJ1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.RelOpType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.RelOpType.html",
+          "hash": "PIYKAMkDWPjyPLeuMqGZxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.RelOpTypeModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.RelOpTypeModule.html",
+          "hash": "odH87Gt79edQfTb280vpGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SSA.AST.InvalidExprException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SSA.AST.InvalidExprException.html",
+          "hash": "d+BOoaF+qMs4gqM1d8JYJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SSA.AST.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SSA.AST.html",
+          "hash": "dqK6ipVL25qi4KF5Y7+OMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SSA.Expr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SSA.Expr.html",
+          "hash": "WVEAWJEbzkwT/E2riSuhGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SSA.JmpType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SSA.JmpType.html",
+          "hash": "rug2HhKTu00fuHOLFuYnrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SSA.Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SSA.Label.html",
+          "hash": "WOXUoSIpuYuBiJdwAV74Zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SSA.Pp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SSA.Pp.html",
+          "hash": "axO67AGn5ty0yTuLOeUfkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SSA.Prog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SSA.Prog.html",
+          "hash": "WhTGJeObVvrZmhb0APvqvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SSA.Stmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SSA.Stmt.html",
+          "hash": "4ex5CNfpoHtAgd3HfY9uQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SSA.Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SSA.Variable.html",
+          "hash": "SZqWB5//eSYN1B2ljEFfDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SSA.VariableKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SSA.VariableKind.html",
+          "hash": "SdXe6M2zMp+xTQpFwZE2EQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SSA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SSA.html",
+          "hash": "CcPMB9HTcExrlZckc4Pjpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SideEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SideEffect.html",
+          "hash": "KHRQYxiYVIif8LZvO6BHTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SideEffectModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SideEffectModule.html",
+          "hash": "iJ53+InNWHUT8psSVZvN3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.StartPos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.StartPos.html",
+          "hash": "9xaSkXkp+swBi7xfEU4TeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.Symbol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.Symbol.html",
+          "hash": "T1VMpotKnCV9971GBNHT7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.SymbolModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.SymbolModule.html",
+          "hash": "hADFQq3s2Xe7FQWXYaUoWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.TypeCheckException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.TypeCheckException.html",
+          "hash": "QRmaRTN2l2mXrXobKKYg8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.UnOpType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.UnOpType.html",
+          "hash": "nmVJiYtOhFb4LVUkEdq+ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.UnOpTypeModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.UnOpTypeModule.html",
+          "hash": "9v/RSM50cFL0NTOgFBlYlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.Utils.html",
+          "hash": "sU9OrLw9Gd0x/fQ0p4wmbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinIR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinIR.html",
+          "hash": "QbCx+cLu5pCV46MDSzkYGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BinReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BinReader.html",
+          "hash": "aptOgzz55ptoXs5Xo7ThQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.BitVector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.BitVector.html",
+          "hash": "3aWhxPkyz+R6iHCASbHpiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.ByteArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.ByteArray.html",
+          "hash": "f2bPSRJy/gKVJsN17nl+zQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.ConcurrentLRU-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.ConcurrentLRU-2.html",
+          "hash": "yYPWXfrZIipsIBmX/5qVGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.ConcurrentWeakReferenceTable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.ConcurrentWeakReferenceTable-1.html",
+          "hash": "p7X31Ybhsl9zeJlPpfsBKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.EmptyRegisterSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.EmptyRegisterSet.html",
+          "hash": "ZoDED938XghelLRRcWo/Jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Endian.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Endian.html",
+          "hash": "2dzIIGhtRxnwb2fW/2zRAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.EndianModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.EndianModule.html",
+          "hash": "HPCTluy2SQff58OUlphgPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FileFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FileFormat.html",
+          "hash": "/zWOB9rKaO2ERoV7bBPQtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FileFormatModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FileFormatModule.html",
+          "hash": "r1/bNITeAJvA1YXdx1ImBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.AsmWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.AsmWord.html",
+          "hash": "5NHKX03TCyKZJgiJ22Tisg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.AsmWordBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.AsmWordBuilder.html",
+          "hash": "pCRuMl/chjSyX6Mye4LqZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.AsmWordKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.AsmWordKind.html",
+          "hash": "Go6lf/B/LE3eBffFkuTllQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.BinHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.BinHandler.html",
+          "hash": "ucVingVO1TSnugsYSi+gng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.Instruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.Instruction.html",
+          "hash": "ujECM20vxO6WVOuTGenK/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.InvalidOpcodeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.InvalidOpcodeException.html",
+          "hash": "N8Ty3yJPM68aGq7NU81ezA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.InvalidOperandException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.InvalidOperandException.html",
+          "hash": "MU5rx4cdpIMxYG5ZgLBJyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.InvalidOperandSizeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.InvalidOperandSizeException.html",
+          "hash": "Mw3mlt04kgSlJGG8qYwCdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.InvalidRegisterException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.InvalidRegisterException.html",
+          "hash": "kN9yYTwBHllECCekvllgcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.LocalOptimizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.LocalOptimizer.html",
+          "hash": "gXy96/2nxl6GVijYgTiKvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.NotImplementedIRException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.NotImplementedIRException.html",
+          "hash": "Aonpk280f1dNnPIBpDoZBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.Parser.html",
+          "hash": "Qehf6UPX3j5c/zQkbGZJWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.ParsingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.ParsingContext.html",
+          "hash": "nfE1i/YsWq57YtGuoHsmOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.StmtBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.StmtBuilder.html",
+          "hash": "8yKo2RTACGKOhBvQ1xuAzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.TranslationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.TranslationContext.html",
+          "hash": "9bSiYXwNk2DwVa9m6r1SnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.UnhandledRegExprException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.UnhandledRegExprException.html",
+          "hash": "A6KclGRfhdlygpXvlkSFFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.FrontEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.FrontEnd.html",
+          "hash": "Ry+BGNSHD5NX+DJNoTlNTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.ISA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.ISA.html",
+          "hash": "t2IU6PIhEWTgAGYl7zFetA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Int64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Int64.html",
+          "hash": "3Z2gAnAl6x7H4VtHQLNqeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.IntervalMap-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.IntervalMap-1.html",
+          "hash": "XBD5YqlX6rn3oma74dzcKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.IntervalMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.IntervalMap.html",
+          "hash": "D5zuesSxLRA8/oKO0sAEkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.IntervalMapElem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.IntervalMapElem-1.html",
+          "hash": "fO35BMmBi8QYUeqsD8hGdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.IntervalSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.IntervalSet.html",
+          "hash": "Tu1wFwQvTAJpGWBL6DJtMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.IntervalSetElem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.IntervalSetElem.html",
+          "hash": "G/thvls/woSpjzwOV9RkYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.IntervalSetModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.IntervalSetModule.html",
+          "hash": "qVndOkQFVteBu3yCSDjNNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.InvalidAddrRangeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.InvalidAddrRangeException.html",
+          "hash": "jhc3bXwfVpcJSZpmUprEWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.InvalidEndianException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.InvalidEndianException.html",
+          "hash": "ef7TvrfJ3XzFP+bDx22qTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.InvalidISAException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.InvalidISAException.html",
+          "hash": "nN9rLKWOySukV2fvPPYjfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.InvalidRegTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.InvalidRegTypeException.html",
+          "hash": "HpKcF04hDgu+NKyBtnh5NQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.InvalidTargetArchModeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.InvalidTargetArchModeException.html",
+          "hash": "sMAmwhiJFJla7lDk3Wy/SQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.InvalidWordSizeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.InvalidWordSizeException.html",
+          "hash": "PitwGwcvy6tjazOlVmAa7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Monads.Maybe.MaybeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Monads.Maybe.MaybeBuilder.html",
+          "hash": "cw0vdwxThXUsj3QbY0VIhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Monads.Maybe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Monads.Maybe.html",
+          "hash": "/YjzSH7oFahs9cpvrFem5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Monads.OrElse.OrElseBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Monads.OrElse.OrElseBuilder.html",
+          "hash": "dgLrhh+o55+EX+QZo3K4kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Monads.OrElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Monads.OrElse.html",
+          "hash": "DWgAk5mmI1cIZj5qjunH2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Monads.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Monads.html",
+          "hash": "HMMWjYMxAgpYoItH0EpK/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.NonEmptyRegisterSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.NonEmptyRegisterSet.html",
+          "hash": "R9w+9c2IvaeNHLjzvAH9bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.OS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.OS.html",
+          "hash": "M1/9m5aZvwh2w8F6oB1Y8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.OSModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.OSModule.html",
+          "hash": "F6k2wsLiL4e6Y76w3YVMGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Option.html",
+          "hash": "Tt7ieTCdw9FtoOQgiff3OA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RandomAccessQueue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RandomAccessQueue-1.html",
+          "hash": "/BkOohmXLvOtrvti6BIclQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RandomAccessQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RandomAccessQueue.html",
+          "hash": "Cf80zIsu8cfh2gmBVQR14Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RandomAccessQueueElem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RandomAccessQueueElem-1.html",
+          "hash": "KgM0H73TluPf9I80z7vnsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RangeOverlapException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RangeOverlapException.html",
+          "hash": "DeGJbf3PTNJS+ngqj30pTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RegType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RegType.html",
+          "hash": "x3nQNDMqIyJeOYvCLd/Pog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RegTypeModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RegTypeModule.html",
+          "hash": "ngYpkyfNSuCskL0wvkAB4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RegisterID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RegisterID.html",
+          "hash": "UpnPkS68T1EBfqZpWX+Akg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RegisterIDModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RegisterIDModule.html",
+          "hash": "dbx6u5thNhCfZ7LvuTmmog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RegisterSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RegisterSet.html",
+          "hash": "HT+9ymcEUn3F36hOh8yC3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RegisterSetBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RegisterSetBuilder.html",
+          "hash": "FDTgCRakd5JEJPKSaiuRWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RegisterSetModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RegisterSetModule.html",
+          "hash": "PiusA4kGjH0eyRTC6dk5Uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.RegisterSetTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.RegisterSetTag.html",
+          "hash": "E/cJCG8bT7oGmbue29W8RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.String.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.String.html",
+          "hash": "YLbeLGw4T/7w7t27vooxEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.TagMismatchException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.TagMismatchException.html",
+          "hash": "iy8bX4mEQvXw0e4+ETm2Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.UnknownOSException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.UnknownOSException.html",
+          "hash": "NLbpck0ulB3o2ShXLPDhPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.Utils.html",
+          "hash": "vtiFQJpzXNIOwJN/DenADQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.WordSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.WordSize.html",
+          "hash": "1TfXRxvy7xD60hnuXQCkPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.WordSizeModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.WordSizeModule.html",
+          "hash": "BZRPAx8l5VGeUjoQLy0Hrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.rt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.rt.html",
+          "hash": "ugFqzJW7C8HIx+eg0uS/KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/B2R2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/B2R2.html",
+          "hash": "bM4Q8b/SIXCRFY4juBP/9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "JV+GT1kqz5g+43Efku0iXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "c19LiFVR03hM0adaBRHwEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "BH99XZdU//mogW1KTkHOcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 288,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

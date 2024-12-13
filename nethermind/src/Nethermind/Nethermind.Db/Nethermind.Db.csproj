@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\rocksdb-sharp\RocksDbNative\RocksDbNative.csproj" />
+    <ProjectReference Include="..\..\rocksdb-sharp\RocksDbSharp\RocksDbSharp.csproj" />
+    <ProjectReference Include="..\Nethermind.Config\Nethermind.Config.csproj" />
+    <ProjectReference Include="..\Nethermind.Store\Nethermind.Store.csproj">
+      <Project>{8311E4F7-DB36-40F5-A496-7CE4FD486FEE}</Project>
+      <Name>Nethermind.Store</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+[submodule "src/Dirichlet"]
+	path = src/Dirichlet
+	url = https://github.com/SoftSec-KAIST/Smartian-Dirichlet.git
+[submodule "src/rocksdb-sharp"]
+	path = src/rocksdb-sharp
+	url = https://github.com/NethermindEth/rocksdb-sharp.git
+	branch = master

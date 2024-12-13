@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Core/Const.fs" />
+    <Compile Include="Core/Config.fs" />
+    <Compile Include="Core/Typedef.fs" />
+    <Compile Include="Core/Extension.fs" />
+    <Compile Include="Core/FuncSpec.fs" />
+    <Compile Include="FrontEnd/BasicBlock.fs" />
+    <Compile Include="FrontEnd/CFG.fs" />
+    <Compile Include="FrontEnd/ABI.fs" />
+    <Compile Include="FrontEnd/Parse.fs" />
+    <Compile Include="Domain/Signature.fs" />
+    <Compile Include="Domain/Functor.fs" />
+    <Compile Include="Domain/FlatInt.fs" />
+    <Compile Include="Domain/ShaOutput.fs" />
+    <Compile Include="Domain/Taint.fs" />
+    <Compile Include="Domain/AbsVal.fs" />
+    <Compile Include="Domain/RegMap.fs" />
+    <Compile Include="Domain/Stack.fs" />
+    <Compile Include="Domain/Memory.fs" />
+    <Compile Include="Domain/State.fs" />
+    <Compile Include="Analysis/FuncInfo.fs" />
+    <Compile Include="Analysis/Record.fs" />
+    <Compile Include="Analysis/Evaluate.fs" />
+    <Compile Include="Analysis/ExternFunc.fs" />
+    <Compile Include="Analysis/Execute.fs" />
+    <Compile Include="Analysis/WorkList.fs" />
+    <Compile Include="Analysis/AbstractInterpret.fs" />
+    <Compile Include="Analysis/TopLevel.fs" />
+    <Compile Include="Main.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\B2R2\src\MiddleEnd\BinGraph\B2R2.MiddleEnd.BinGraph.fsproj" />
+    <ProjectReference Include="..\B2R2\src\FrontEnd\BinInterface\B2R2.FrontEnd.BinInterface.fsproj" />
+    <ProjectReference Include="..\B2R2\src\MiddleEnd\BinEssence\B2R2.MiddleEnd.BinEssence.fsproj" />
+    <ProjectReference Include="..\B2R2\src\Core\B2R2.Core.fsproj" />
+    <ProjectReference Include="..\B2R2\src\MiddleEnd\Reclaimer\B2R2.MiddleEnd.Reclaimer.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="4.0.1" />
+  </ItemGroup>
+
+</Project>

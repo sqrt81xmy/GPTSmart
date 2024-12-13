@@ -1,0 +1,15 @@
+# Build results
+build/
+bin/
+obj/
+
+# Visual Studio
+.vs/
+.vscode/
+
+# etc
+*.swp
+
+# Example test results
+examples/log
+examples/output

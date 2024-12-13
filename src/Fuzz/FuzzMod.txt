@@ -1,0 +1,77 @@
+[{
+    "Transactions": [
+        {
+            "FuncSpec": {
+                "Name": "Bar",
+                "Signature": [176, 163, 120, 176],
+                "Kind": "Normal",   //1. 不确定 2. 有Fallback/Normal/Constructor类型
+                "Payable": false,   
+                //如何判断payable?
+                
+                "OnlyOwner": false, //Constructor和Fallback时是false 
+                "Entry": 150, //constructor和Fallback的情况下是0UL
+                "ArgSpecs": [
+                    {
+                        "TypeStr": "uint256",
+                        "Kind": "UInt"
+                    }
+                ]
+            },
+            "Args": [
+                {
+                    "Spec": {
+                        "TypeStr": "uint256",
+                         "Kind": "UInt" 
+                    },
+                    "Elems": [
+                        {
+                            "ElemType": "UInt",
+                            "ByteVals": [
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched",
+                                "Untouched"
+                            ],
+                            "MaxLength": 32,
+                            "ByteCursor": 0  确定
+                        }
+                    ],
+                    "ElemCursor": 0  确定
+                }
+            ],
+            "ArgCursor": 0, 确定
+            "Sender": 未定,
+            "UseAgent": false, 确定
+            "Timestamp": 10000000, 确定
+            "Blocknum": 20000000 确定
+        }
+    ],
+    "TXCursor": 0 确定
+}]

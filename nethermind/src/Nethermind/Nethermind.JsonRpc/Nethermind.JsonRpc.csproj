@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nethermind.Blockchain\Nethermind.Blockchain.csproj">
+      <Project>{B1C9CF07-F89B-4F92-B8A5-F6949B9D3DA5}</Project>
+      <Name>Nethermind.Blockchain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nethermind.Config\Nethermind.Config.csproj" />
+    <ProjectReference Include="..\Nethermind.Core\Nethermind.Core.csproj">
+      <Project>{5751C57B-9F2D-45DE-BCC2-42645B85E39E}</Project>
+      <Name>Nethermind.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nethermind.Evm\Nethermind.Evm.csproj">
+      <Project>{E992EFB5-85F0-49B1-9C0B-6D3846A813A5}</Project>
+      <Name>Nethermind.Evm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nethermind.Facade\Nethermind.Facade.csproj" />
+    <ProjectReference Include="..\Nethermind.Network\Nethermind.Network.csproj" />
+    <ProjectReference Include="..\Nethermind.PubSub\Nethermind.PubSub.csproj" />
+    <ProjectReference Include="..\Nethermind.Wallet\Nethermind.Wallet.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
+        <OutputType>Exe</OutputType>
+        <PackageId>Nethermind CLI</PackageId>
+        <Authors>Nethermind</Authors>
+        <PackageVersion>1.0.0</PackageVersion>
+        <LangVersion>8.0</LangVersion>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="Colorful.Console" Version="1.2.9" />
+      <PackageReference Include="Jint" Version="2.11.58" />
+      <PackageReference Include="ReadLine" Version="2.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="handlebars-v4.0.12.js" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Nethermind.DataMarketplace.Core\Nethermind.DataMarketplace.Core.csproj" />
+      <ProjectReference Include="..\Nethermind.JsonRpc.Client\Nethermind.JsonRpc.Client.csproj" />
+    </ItemGroup>
+</Project>

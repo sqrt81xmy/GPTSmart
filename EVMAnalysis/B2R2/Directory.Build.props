@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <Product>B2R2</Product>
+    <Authors>SoftSec Lab. @ KAIST</Authors>
+    <Company>SoftSec Lab. @ KAIST</Company>
+    <VersionPrefix>0.4.0</VersionPrefix>
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+    <Description>B2R2: the Next-Generation Reversing Platform</Description>
+    <Copyright>Copyright (c) SoftSec Lab. @ KAIST, since 2016</Copyright>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <CustomPropTarget>$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))</CustomPropTarget>
+  </PropertyGroup>
+  <Import Project="$(CustomPropTarget)" Condition="Exists('$(CustomPropTarget)')" />
+</Project>

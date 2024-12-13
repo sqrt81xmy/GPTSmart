@@ -1,0 +1,2527 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CFGUtils (mod)
+   | B2R2 API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CFGUtils (mod)
+   | B2R2 API ">
+    <meta name="generator" content="docfx 2.40.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="B2R2.html" title="B2R2" class="">B2R2</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="B2R2.Addr.html" title="Addr (abrv)" class="">Addr (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.AddrRange.html" title="AddrRange" class="">AddrRange</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.Arch.html" title="Arch (abrv)" class="">Arch (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.Architecture.html" title="Architecture" class="">Architecture</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.ArchOperationMode.html" title="ArchOperationMode" class="">ArchOperationMode</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.ArchOperationModeModule.html" title="ArchOperationMode (mod)" class="">ArchOperationMode (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.ARMap.html" title="ARMap (mod)" class="">ARMap (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.ARMap-1.html" title="ARMap&lt;'V&gt;" class="">ARMap&lt;'V&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.Array.html" title="Array (mod)" class="">Array (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.Attribution.html" title="Attribution (mod)" class="">Attribution (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BigInteger.html" title="BigInteger (mod)" class="">BigInteger (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinReader.html" title="BinReader" class="">BinReader</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BitVector.html" title="BitVector (rec)" class="">BitVector (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.ByteArray.html" title="ByteArray (mod)" class="">ByteArray (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.ConcurrentLRU-2.html" title="ConcurrentLRU&lt;'K, 'V&gt;" class="">ConcurrentLRU&lt;'K, 'V&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.ConcurrentWeakReferenceTable-1.html" title="ConcurrentWeakReferenceTable&lt;'T&gt;" class="">ConcurrentWeakReferenceTable&lt;'T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.EmptyRegisterSet.html" title="EmptyRegisterSet" class="">EmptyRegisterSet</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.Endian.html" title="Endian" class="">Endian</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.EndianModule.html" title="Endian (mod)" class="">Endian (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FileFormat.html" title="FileFormat" class="">FileFormat</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FileFormatModule.html" title="FileFormat (mod)" class="">FileFormat (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.Int64.html" title="Int64 (mod)" class="">Int64 (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.IntervalMap.html" title="IntervalMap (mod)" class="">IntervalMap (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.IntervalMap-1.html" title="IntervalMap&lt;'a&gt; (union)" class="">IntervalMap&lt;'a&gt; (union)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.IntervalMapElem-1.html" title="IntervalMapElem&lt;'a&gt;" class="">IntervalMapElem&lt;'a&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.IntervalSetModule.html" title="IntervalSet (mod)" class="">IntervalSet (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.IntervalSet.html" title="IntervalSet (union)" class="">IntervalSet (union)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.IntervalSetElem.html" title="IntervalSetElem" class="">IntervalSetElem</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.InvalidAddrRangeException.html" title="InvalidAddrRangeException" class="">InvalidAddrRangeException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.InvalidEndianException.html" title="InvalidEndianException" class="">InvalidEndianException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.InvalidISAException.html" title="InvalidISAException" class="">InvalidISAException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.InvalidRegTypeException.html" title="InvalidRegTypeException" class="">InvalidRegTypeException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.InvalidTargetArchModeException.html" title="InvalidTargetArchModeException" class="">InvalidTargetArchModeException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.ISA.html" title="ISA (rec)" class="">ISA (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.NonEmptyRegisterSet.html" title="NonEmptyRegisterSet" class="">NonEmptyRegisterSet</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.Option.html" title="Option (mod)" class="">Option (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.OS.html" title="OS" class="">OS</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.OSModule.html" title="OS (mod)" class="">OS (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RandomAccessQueue.html" title="RandomAccessQueue (mod)" class="">RandomAccessQueue (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RandomAccessQueue-1.html" title="RandomAccessQueue&lt;'a&gt; (union)" class="">RandomAccessQueue&lt;'a&gt; (union)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RandomAccessQueueElem-1.html" title="RandomAccessQueueElem&lt;'a&gt;" class="">RandomAccessQueueElem&lt;'a&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RangeOverlapException.html" title="RangeOverlapException" class="">RangeOverlapException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RegisterID.html" title="RegisterID (abrv)" class="">RegisterID (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RegisterIDModule.html" title="RegisterID (mod)" class="">RegisterID (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RegisterSet.html" title="RegisterSet" class="">RegisterSet</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RegisterSetModule.html" title="RegisterSet (mod)" class="">RegisterSet (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RegisterSetBuilder.html" title="RegisterSetBuilder (mod)" class="">RegisterSetBuilder (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RegisterSetTag.html" title="RegisterSetTag" class="">RegisterSetTag</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RegType.html" title="RegType (abrv)" class="">RegType (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.RegTypeModule.html" title="RegType (mod)" class="">RegType (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.rt.html" title="rt (meas)" class="">rt (meas)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.String.html" title="String (mod)" class="">String (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.TagMismatchException.html" title="TagMismatchException" class="">TagMismatchException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.UnknownOSException.html" title="UnknownOSException" class="">UnknownOSException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.Utils.html" title="Utils (mod)" class="">Utils (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.WordSize.html" title="WordSize" class="">WordSize</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.WordSizeModule.html" title="WordSize (mod)" class="">WordSize (mod)</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="B2R2.BinFile.html" title="B2R2.BinFile" class="">B2R2.BinFile</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="B2R2.BinFile.ELFFileInfo.html" title="ELFFileInfo" class="">ELFFileInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.FileFormatMismatchException.html" title="FileFormatMismatchException" class="">FileFormatMismatchException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.FileInfo.html" title="FileInfo" class="">FileInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.FileType.html" title="FileType" class="">FileType</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.FormatDetector.html" title="FormatDetector (mod)" class="">FormatDetector (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.InvalidAddrReadException.html" title="InvalidAddrReadException" class="">InvalidAddrReadException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.LinkageTableEntry.html" title="LinkageTableEntry (rec)" class="">LinkageTableEntry (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.MachFileInfo.html" title="MachFileInfo" class="">MachFileInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.PEFileInfo.html" title="PEFileInfo" class="">PEFileInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.Permission.html" title="Permission" class="">Permission</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.RawFileInfo.html" title="RawFileInfo" class="">RawFileInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.Section.html" title="Section (rec)" class="">Section (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.SectionKind.html" title="SectionKind" class="">SectionKind</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.Segment.html" title="Segment (rec)" class="">Segment (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.Symbol.html" title="Symbol (rec)" class="">Symbol (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.SymbolKind.html" title="SymbolKind" class="">SymbolKind</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinFile.TargetKind.html" title="TargetKind" class="">TargetKind</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="B2R2.BinGraph.html" title="B2R2.BinGraph" class="">B2R2.BinGraph</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="B2R2.BinGraph.Algorithms.html" title="Algorithms (mod)" class="">Algorithms (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.BinEssence.html" title="BinEssence (rec)" class="">BinEssence (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.Boundary.html" title="Boundary (mod)" class="">Boundary (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.CFG.html" title="CFG&lt;'a&gt; (abrv)" class="">CFG&lt;'a&gt; (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.CFGBuilder.html" title="CFGBuilder" class="">CFGBuilder</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.CFGEdge.html" title="CFGEdge (union)" class="">CFGEdge (union)</a>
+                          </li>
+                          <li class="active">
+                            <a href="B2R2.BinGraph.CFGUtils.html" title="CFGUtils (mod)" class="active">CFGUtils (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.DiGraph-2.html" title="DiGraph&lt;'V, 'E&gt;" class="">DiGraph&lt;'V, 'E&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.DisasHeuristic.html" title="DisasHeuristic (mod)" class="">DisasHeuristic (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.DisasmCFG.html" title="DisasmCFG (abrv)" class="">DisasmCFG (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.DisasmVertex.html" title="DisasmVertex (abrv)" class="">DisasmVertex (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.DisassemblyBBL.html" title="DisassemblyBBL" class="">DisassemblyBBL</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.Dominator.html" title="Dominator (mod)" class="">Dominator (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.DummyDataAccessException.html" title="DummyDataAccessException" class="">DummyDataAccessException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.Edge-1.html" title="Edge&lt;'E&gt; (union)" class="">Edge&lt;'E&gt; (union)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.EdgeID.html" title="EdgeID (abrv)" class="">EdgeID (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.EdgeNotFoundException.html" title="EdgeNotFoundException" class="">EdgeNotFoundException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.Funcs.html" title="Funcs (abrv)" class="">Funcs (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.Function.html" title="Function" class="">Function</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.IRBBL.html" title="IRBBL" class="">IRBBL</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.IRCFG.html" title="IRCFG (abrv)" class="">IRCFG (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.IRVertex.html" title="IRVertex (abrv)" class="">IRVertex (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.MultipleEntryException.html" title="MultipleEntryException" class="">MultipleEntryException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.MultipleVerticesFoundException.html" title="MultipleVerticesFoundException" class="">MultipleVerticesFoundException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.PPoint.html" title="PPoint (abrv)" class="">PPoint (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.RangedDiGraph-2.html" title="RangedDiGraph&lt;'V, 'E&gt;" class="">RangedDiGraph&lt;'V, 'E&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.RangedVertexData.html" title="RangedVertexData" class="">RangedVertexData</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.RootNodeNotSetException.html" title="RootNodeNotSetException" class="">RootNodeNotSetException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.SimpleDiGraph-2.html" title="SimpleDiGraph&lt;'V, 'E&gt;" class="">SimpleDiGraph&lt;'V, 'E&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.Vertex-1.html" title="Vertex&lt;'V&gt;" class="">Vertex&lt;'V&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.VertexData.html" title="VertexData" class="">VertexData</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.VertexDataModule.html" title="VertexData (mod)" class="">VertexData (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.VertexID.html" title="VertexID (abrv)" class="">VertexID (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinGraph.VertexNotFoundException.html" title="VertexNotFoundException" class="">VertexNotFoundException</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="B2R2.BinIR.html" title="B2R2.BinIR" class="">B2R2.BinIR</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="B2R2.BinIR.PrettyPrinter.html" title="PrettyPrinter" class="">PrettyPrinter</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.Symbol.html" title="Symbol (abrv)" class="">Symbol (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.SymbolModule.html" title="Symbol (mod)" class="">Symbol (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.Utils.html" title="Utils (mod)" class="">Utils (mod)</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="B2R2.BinIR.LowUIR.html" title="B2R2.BinIR.LowUIR" class="">B2R2.BinIR.LowUIR</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.AST.html" title="AST (mod)" class="">AST (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.BinOpType.html" title="BinOpType" class="">BinOpType</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.CastKind.html" title="CastKind" class="">CastKind</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.ConsInfo.html" title="ConsInfo (rec)" class="">ConsInfo (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Eval.html" title="Eval (mod)" class="">Eval (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Eval.EvalCallBacks.html" title="Eval.EvalCallBacks (rec)" class="">Eval.EvalCallBacks (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Eval.EvalState.html" title="Eval.EvalState (rec)" class="">Eval.EvalState (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Eval.EvalValue.html" title="Eval.EvalValue (union)" class="">Eval.EvalValue (union)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Eval.InvalidExpException.html" title="Eval.InvalidExpException" class="">Eval.InvalidExpException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Eval.InvalidMemException.html" title="Eval.InvalidMemException" class="">Eval.InvalidMemException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Eval.MemTbl.html" title="Eval.MemTbl (abrv)" class="">Eval.MemTbl (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Eval.TmpVarTbl.html" title="Eval.TmpVarTbl (abrv)" class="">Eval.TmpVarTbl (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Eval.UndefExpException.html" title="Eval.UndefExpException" class="">Eval.UndefExpException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Eval.UnknownVarException.html" title="Eval.UnknownVarException" class="">Eval.UnknownVarException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Eval.VarTbl.html" title="Eval.VarTbl (abrv)" class="">Eval.VarTbl (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Expr.html" title="Expr (union)" class="">Expr (union)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.ExprInfo.html" title="ExprInfo (rec)" class="">ExprInfo (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.HashCons.html" title="HashCons (mod)" class="">HashCons (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.HashCons.ConsistencyFailException.html" title="HashCons.ConsistencyFailException" class="">HashCons.ConsistencyFailException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.HashCons.TagNotExistException.html" title="HashCons.TagNotExistException" class="">HashCons.TagNotExistException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.IllegalASTTypeException.html" title="IllegalASTTypeException" class="">IllegalASTTypeException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.InvalidAssignmentException.html" title="InvalidAssignmentException" class="">InvalidAssignmentException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.InvalidExprException.html" title="InvalidExprException" class="">InvalidExprException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Pp.html" title="Pp (mod)" class="">Pp (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Prog.html" title="Prog (abrv)" class="">Prog (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.RelOpType.html" title="RelOpType" class="">RelOpType</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.SideEffect.html" title="SideEffect (union)" class="">SideEffect (union)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.StartPos.html" title="StartPos (abrv)" class="">StartPos (abrv)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.Stmt.html" title="Stmt (union)" class="">Stmt (union)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.BinIR.LowUIR.UnOpType.html" title="UnOpType" class="">UnOpType</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="B2R2.FrontEnd.html" title="B2R2.FrontEnd" class="">B2R2.FrontEnd</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="B2R2.FrontEnd.BinHandler.html" title="BinHandler (rec)" class="">BinHandler (rec)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.Instruction.html" title="Instruction" class="">Instruction</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.InvalidOpcodeException.html" title="InvalidOpcodeException" class="">InvalidOpcodeException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.InvalidOperandException.html" title="InvalidOperandException" class="">InvalidOperandException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.InvalidOperandSizeException.html" title="InvalidOperandSizeException" class="">InvalidOperandSizeException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.InvalidRegisterException.html" title="InvalidRegisterException" class="">InvalidRegisterException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.LocalOptimizer.html" title="LocalOptimizer" class="">LocalOptimizer</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.NotImplementedIRException.html" title="NotImplementedIRException" class="">NotImplementedIRException</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.Parser.html" title="Parser" class="">Parser</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.ParsingContext.html" title="ParsingContext" class="">ParsingContext</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.StmtBuilder.html" title="StmtBuilder" class="">StmtBuilder</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.TranslationContext.html" title="TranslationContext" class="">TranslationContext</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.FrontEnd.UnhandledRegExprException.html" title="UnhandledRegExprException" class="">UnhandledRegExprException</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="B2R2.Monads.html" title="B2R2.Monads" class="">B2R2.Monads</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="B2R2.Monads.Maybe.html" title="Maybe (mod)" class="">Maybe (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.Monads.Maybe.MaybeBuilder.html" title="Maybe.MaybeBuilder" class="">Maybe.MaybeBuilder</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.Monads.OrElse.html" title="OrElse (mod)" class="">OrElse (mod)</a>
+                          </li>
+                          <li class="">
+                            <a href="B2R2.Monads.OrElse.OrElseBuilder.html" title="OrElse.OrElseBuilder" class="">OrElse.OrElseBuilder</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="B2R2.BinGraph.CFGUtils">
+  
+  
+  <h1 id="B2R2_BinGraph_CFGUtils" data-uid="B2R2.BinGraph.CFGUtils" class="text-break">Class CFGUtils (mod)
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">CFGUtils (mod)</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="B2R2.BinGraph.html">B2R2.BinGraph</a></h6>
+  <h6><strong>Assembly</strong>: B2R2.BinGraph.dll</h6>
+  <h5 id="B2R2_BinGraph_CFGUtils_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">module CFGUtils</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_accumulateBBLs_" data-uid="B2R2.BinGraph.CFGUtils.accumulateBBLs*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_accumulateBBLs_Map___31171___31172_______31171____Result___31172_unit__" data-uid="B2R2.BinGraph.CFGUtils.accumulateBBLs(Map&lt;'?31171,'?31172&gt; -&gt; '?31171 -&gt; Result&lt;'?31172,unit&gt;)">val accumulateBBLs: Map&lt;'?31171,'?31172&gt; -&gt; '?31171 -&gt; Result&lt;'?31172,unit&gt; -&gt; Map&lt;'?31171,'?31172&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val accumulateBBLs: bbls:Map&lt;'?31171,'?31172&gt; -&gt; addr:'?31171 -&gt; _arg1:Result&lt;'?31172,unit&gt; -&gt; Map&lt;'?31171,'?31172&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Map</span>&lt;&#39;?31171,&#39;?31172&gt;</td>
+        <td><span class="parametername">bbls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#39;?31171</td>
+        <td><span class="parametername">addr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Result</span>&lt;&#39;?31172,<span class="xref">unit</span>&gt;</td>
+        <td><span class="parametername">_arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Map</span>&lt;&#39;?31171,&#39;?31172&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_addDisasmLeader_" data-uid="B2R2.BinGraph.CFGUtils.addDisasmLeader*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_addDisasmLeader_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____Set_B2R2_Addr_____Map_B2R2_Addr___31174_____B2R2_BinGraph_DisasmCFG____B2R2_Addr____B2R2_Addr____B2R2_Addr_option_" data-uid="B2R2.BinGraph.CFGUtils.addDisasmLeader(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; Set&lt;B2R2.Addr&gt; -&gt; Map&lt;B2R2.Addr,'?31174&gt; -&gt; B2R2.BinGraph.DisasmCFG -&gt; B2R2.Addr -&gt; B2R2.Addr -&gt; B2R2.Addr option)">val addDisasmLeader: BinHandler -&gt; CFGBuilder -&gt; Set&lt;Addr&gt; -&gt; Map&lt;Addr,'?31174&gt; -&gt; DisasmCFG -&gt; Addr -&gt; Addr -&gt; Addr option -&gt; Vertex&lt;DisassemblyBBL&gt; * Addr * CFGEdge option list option</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val addDisasmLeader: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; funcset:Set&lt;Addr&gt; -&gt; bbls:Map&lt;Addr,'?31174&gt; -&gt; g:DisasmCFG -&gt; entry:Addr -&gt; leader:Addr -&gt; _arg1:Addr option -&gt; Vertex&lt;DisassemblyBBL&gt; * Addr * CFGEdge option list option</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Set</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>&gt;</td>
+        <td><span class="parametername">funcset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>,&#39;?31174&gt;</td>
+        <td><span class="parametername">bbls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.DisasmCFG.html">DisasmCFG</a></td>
+        <td><span class="parametername">g</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">entry</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">leader</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> <span class="xref">option</span></td>
+        <td><span class="parametername">_arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.Vertex-1.html">Vertex</a>&lt;<a class="xref" href="B2R2.BinGraph.DisassemblyBBL.html">DisassemblyBBL</a>&gt; * <a class="xref" href="B2R2.Addr.html">Addr</a> * <a class="xref" href="B2R2.BinGraph.CFGEdge.html">CFGEdge</a> <span class="xref">option</span> <span class="xref">list</span> <span class="xref">option</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_addIRLeader_" data-uid="B2R2.BinGraph.CFGUtils.addIRLeader*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_addIRLeader_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____Set_B2R2_Addr_____Map_B2R2_Addr___int___31179_____B2R2_BinGraph_IRCFG____B2R2_Addr____B2R2_Addr___int____B2R2_Addr_option_" data-uid="B2R2.BinGraph.CFGUtils.addIRLeader(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; Set&lt;B2R2.Addr&gt; -&gt; Map&lt;B2R2.Addr * int,'?31179&gt; -&gt; B2R2.BinGraph.IRCFG -&gt; B2R2.Addr -&gt; B2R2.Addr * int -&gt; B2R2.Addr option)">val addIRLeader: BinHandler -&gt; CFGBuilder -&gt; Set&lt;Addr&gt; -&gt; Map&lt;Addr * int,'?31179&gt; -&gt; IRCFG -&gt; Addr -&gt; Addr * int -&gt; Addr option -&gt; Vertex&lt;IRBBL&gt; * Addr * int * CFGEdge option list option</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val addIRLeader: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; funcset:Set&lt;Addr&gt; -&gt; bbls:Map&lt;Addr * int,'?31179&gt; -&gt; cfg:IRCFG -&gt; entry:Addr -&gt; Addr * int -&gt; _arg1:Addr option -&gt; Vertex&lt;IRBBL&gt; * Addr * int * CFGEdge option list option</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Set</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>&gt;</td>
+        <td><span class="parametername">funcset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a> * <span class="xref">int</span>,&#39;?31179&gt;</td>
+        <td><span class="parametername">bbls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.IRCFG.html">IRCFG</a></td>
+        <td><span class="parametername">cfg</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">entry</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername"></span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername"></span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> <span class="xref">option</span></td>
+        <td><span class="parametername">_arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.Vertex-1.html">Vertex</a>&lt;<a class="xref" href="B2R2.BinGraph.IRBBL.html">IRBBL</a>&gt; * <a class="xref" href="B2R2.Addr.html">Addr</a> * <span class="xref">int</span> * <a class="xref" href="B2R2.BinGraph.CFGEdge.html">CFGEdge</a> <span class="xref">option</span> <span class="xref">list</span> <span class="xref">option</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_bgToJson_" data-uid="B2R2.BinGraph.CFGUtils.bgToJson*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_bgToJson_bool____System_Text_StringBuilder_" data-uid="B2R2.BinGraph.CFGUtils.bgToJson(bool -&gt; System.Text.StringBuilder)">val bgToJson: bool -&gt; StringBuilder -&gt; StringBuilder</h4>
+  <div class="markdown level1 summary"><p>Stringify functions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val bgToJson: toResolve:bool -&gt; sb:StringBuilder -&gt; StringBuilder</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">toResolve</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">sb</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_buildCFGs_" data-uid="B2R2.BinGraph.CFGUtils.buildCFGs*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_buildCFGs_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____B2R2_BinGraph_Funcs_" data-uid="B2R2.BinGraph.CFGUtils.buildCFGs(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; B2R2.BinGraph.Funcs)">val buildCFGs: BinHandler -&gt; CFGBuilder -&gt; Funcs -&gt; CFGBuilder * Funcs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val buildCFGs: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; funcs:Funcs -&gt; CFGBuilder * Funcs</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.Funcs.html">Funcs</a></td>
+        <td><span class="parametername">funcs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a> * <a class="xref" href="B2R2.BinGraph.Funcs.html">Funcs</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_buildDisasmBBLAux_" data-uid="B2R2.BinGraph.CFGUtils.buildDisasmBBLAux*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_buildDisasmBBLAux_B2R2_BinGraph_CFGBuilder____B2R2_Addr____B2R2_Addr_list____B2R2_Addr____B2R2_FrontEnd_Instruction_list_" data-uid="B2R2.BinGraph.CFGUtils.buildDisasmBBLAux(B2R2.BinGraph.CFGBuilder -&gt; B2R2.Addr -&gt; B2R2.Addr list -&gt; B2R2.Addr -&gt; B2R2.FrontEnd.Instruction list)">val buildDisasmBBLAux: CFGBuilder -&gt; Addr -&gt; Addr list -&gt; Addr -&gt; Instruction list -&gt; Result&lt;DisassemblyBBL,unit&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val buildDisasmBBLAux: builder:CFGBuilder -&gt; sAddr:Addr -&gt; leaders:Addr list -&gt; addr:Addr -&gt; instrs:Instruction list -&gt; Result&lt;DisassemblyBBL,unit&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">sAddr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> <span class="xref">list</span></td>
+        <td><span class="parametername">leaders</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">addr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.Instruction.html">Instruction</a> <span class="xref">list</span></td>
+        <td><span class="parametername">instrs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Result</span>&lt;<a class="xref" href="B2R2.BinGraph.DisassemblyBBL.html">DisassemblyBBL</a>,<span class="xref">unit</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_buildDisasmBBLs_" data-uid="B2R2.BinGraph.CFGUtils.buildDisasmBBLs*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_buildDisasmBBLs_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____Map_B2R2_Addr_B2R2_BinGraph_DisassemblyBBL_____B2R2_Addr_list_" data-uid="B2R2.BinGraph.CFGUtils.buildDisasmBBLs(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; Map&lt;B2R2.Addr,B2R2.BinGraph.DisassemblyBBL&gt; -&gt; B2R2.Addr list)">val buildDisasmBBLs: BinHandler -&gt; CFGBuilder -&gt; Map&lt;Addr,DisassemblyBBL&gt; -&gt; Addr list -&gt; Map&lt;Addr,DisassemblyBBL&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val buildDisasmBBLs: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; bbls:Map&lt;Addr,DisassemblyBBL&gt; -&gt; _arg1:Addr list -&gt; Map&lt;Addr,DisassemblyBBL&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>,<a class="xref" href="B2R2.BinGraph.DisassemblyBBL.html">DisassemblyBBL</a>&gt;</td>
+        <td><span class="parametername">bbls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> <span class="xref">list</span></td>
+        <td><span class="parametername">_arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>,<a class="xref" href="B2R2.BinGraph.DisassemblyBBL.html">DisassemblyBBL</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_buildDisasmCFG_" data-uid="B2R2.BinGraph.CFGUtils.buildDisasmCFG*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_buildDisasmCFG_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____B2R2_BinGraph_DisasmCFG____Set_B2R2_Addr_____Map_B2R2_Addr___31176_____B2R2_Addr_" data-uid="B2R2.BinGraph.CFGUtils.buildDisasmCFG(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; B2R2.BinGraph.DisasmCFG -&gt; Set&lt;B2R2.Addr&gt; -&gt; Map&lt;B2R2.Addr,'?31176&gt; -&gt; B2R2.Addr)">val buildDisasmCFG: BinHandler -&gt; CFGBuilder -&gt; DisasmCFG -&gt; Set&lt;Addr&gt; -&gt; Map&lt;Addr,'?31176&gt; -&gt; Addr -&gt; unit</h4>
+  <div class="markdown level1 summary"><p>XXX: Cleanup needed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val buildDisasmCFG: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; cfg:DisasmCFG -&gt; funcset:Set&lt;Addr&gt; -&gt; bbls:Map&lt;Addr,'?31176&gt; -&gt; entry:Addr -&gt; unit</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.DisasmCFG.html">DisasmCFG</a></td>
+        <td><span class="parametername">cfg</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Set</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>&gt;</td>
+        <td><span class="parametername">funcset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>,&#39;?31176&gt;</td>
+        <td><span class="parametername">bbls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">entry</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_buildDisasmCFGs_" data-uid="B2R2.BinGraph.CFGUtils.buildDisasmCFGs*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_buildDisasmCFGs_B2R2_FrontEnd_BinHandler______31177____B2R2_BinGraph_Funcs____Set_B2R2_Addr_____Map_B2R2_Addr___31178_____B2R2_Addr_list_" data-uid="B2R2.BinGraph.CFGUtils.buildDisasmCFGs(B2R2.FrontEnd.BinHandler -&gt; '?31177 -&gt; B2R2.BinGraph.Funcs -&gt; Set&lt;B2R2.Addr&gt; -&gt; Map&lt;B2R2.Addr,'?31178&gt; -&gt; B2R2.Addr list)">val buildDisasmCFGs: BinHandler -&gt; '?31177 -&gt; Funcs -&gt; Set&lt;Addr&gt; -&gt; Map&lt;Addr,'?31178&gt; -&gt; Addr list -&gt; '?31177</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val buildDisasmCFGs: hdl:BinHandler -&gt; builder:'?31177 -&gt; funcs:Funcs -&gt; funcset:Set&lt;Addr&gt; -&gt; bbls:Map&lt;Addr,'?31178&gt; -&gt; _arg1:Addr list -&gt; '?31177</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#39;?31177</td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.Funcs.html">Funcs</a></td>
+        <td><span class="parametername">funcs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Set</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>&gt;</td>
+        <td><span class="parametername">funcset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>,&#39;?31178&gt;</td>
+        <td><span class="parametername">bbls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> <span class="xref">list</span></td>
+        <td><span class="parametername">_arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&#39;?31177</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_buildIRBBLAux_" data-uid="B2R2.BinGraph.CFGUtils.buildIRBBLAux*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_buildIRBBLAux_B2R2_BinGraph_CFGBuilder____B2R2_Addr___int____B2R2_BinGraph_PPoint_list____B2R2_Addr___int____B2R2_BinIR_LowUIR_Stmt_list_" data-uid="B2R2.BinGraph.CFGUtils.buildIRBBLAux(B2R2.BinGraph.CFGBuilder -&gt; B2R2.Addr * int -&gt; B2R2.BinGraph.PPoint list -&gt; B2R2.Addr * int -&gt; B2R2.BinIR.LowUIR.Stmt list)">val buildIRBBLAux: CFGBuilder -&gt; Addr * int -&gt; PPoint list -&gt; Addr * int -&gt; Stmt list -&gt; Result&lt;IRBBL,unit&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val buildIRBBLAux: builder:CFGBuilder -&gt; Addr * int -&gt; leaders:PPoint list -&gt; Addr * int -&gt; stmts:Stmt list -&gt; Result&lt;IRBBL,unit&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername"></span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername"></span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.PPoint.html">PPoint</a> <span class="xref">list</span></td>
+        <td><span class="parametername">leaders</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername"></span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername"></span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinIR.LowUIR.Stmt.html">Stmt</a> <span class="xref">list</span></td>
+        <td><span class="parametername">stmts</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Result</span>&lt;<a class="xref" href="B2R2.BinGraph.IRBBL.html">IRBBL</a>,<span class="xref">unit</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_buildIRBBLs_" data-uid="B2R2.BinGraph.CFGUtils.buildIRBBLs*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_buildIRBBLs_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____Map_B2R2_Addr___int_B2R2_BinGraph_IRBBL_____B2R2_Addr___int_list_" data-uid="B2R2.BinGraph.CFGUtils.buildIRBBLs(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; Map&lt;B2R2.Addr * int,B2R2.BinGraph.IRBBL&gt; -&gt; B2R2.Addr * int list)">val buildIRBBLs: BinHandler -&gt; CFGBuilder -&gt; Map&lt;Addr * int,IRBBL&gt; -&gt; Addr * int list -&gt; Map&lt;Addr * int,IRBBL&gt;</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val buildIRBBLs: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; bbls:Map&lt;Addr * int,IRBBL&gt; -&gt; _arg1:Addr * int list -&gt; Map&lt;Addr * int,IRBBL&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a> * <span class="xref">int</span>,<a class="xref" href="B2R2.BinGraph.IRBBL.html">IRBBL</a>&gt;</td>
+        <td><span class="parametername">bbls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> * <span class="xref">int</span> <span class="xref">list</span></td>
+        <td><span class="parametername">_arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a> * <span class="xref">int</span>,<a class="xref" href="B2R2.BinGraph.IRBBL.html">IRBBL</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_buildIRCFG_" data-uid="B2R2.BinGraph.CFGUtils.buildIRCFG*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_buildIRCFG_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____B2R2_BinGraph_IRCFG____Set_B2R2_Addr_____Map_B2R2_Addr___int___31181_____B2R2_Addr_" data-uid="B2R2.BinGraph.CFGUtils.buildIRCFG(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; B2R2.BinGraph.IRCFG -&gt; Set&lt;B2R2.Addr&gt; -&gt; Map&lt;B2R2.Addr * int,'?31181&gt; -&gt; B2R2.Addr)">val buildIRCFG: BinHandler -&gt; CFGBuilder -&gt; IRCFG -&gt; Set&lt;Addr&gt; -&gt; Map&lt;Addr * int,'?31181&gt; -&gt; Addr -&gt; unit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val buildIRCFG: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; cfg:IRCFG -&gt; funcset:Set&lt;Addr&gt; -&gt; bbls:Map&lt;Addr * int,'?31181&gt; -&gt; entry:Addr -&gt; unit</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.IRCFG.html">IRCFG</a></td>
+        <td><span class="parametername">cfg</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Set</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>&gt;</td>
+        <td><span class="parametername">funcset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a> * <span class="xref">int</span>,&#39;?31181&gt;</td>
+        <td><span class="parametername">bbls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">entry</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_buildIRCFGs_" data-uid="B2R2.BinGraph.CFGUtils.buildIRCFGs*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_buildIRCFGs_B2R2_FrontEnd_BinHandler______31182____B2R2_BinGraph_Funcs____Set_B2R2_Addr_____Map_B2R2_Addr___int___31183_____B2R2_Addr_list_" data-uid="B2R2.BinGraph.CFGUtils.buildIRCFGs(B2R2.FrontEnd.BinHandler -&gt; '?31182 -&gt; B2R2.BinGraph.Funcs -&gt; Set&lt;B2R2.Addr&gt; -&gt; Map&lt;B2R2.Addr * int,'?31183&gt; -&gt; B2R2.Addr list)">val buildIRCFGs: BinHandler -&gt; '?31182 -&gt; Funcs -&gt; Set&lt;Addr&gt; -&gt; Map&lt;Addr * int,'?31183&gt; -&gt; Addr list -&gt; '?31182</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val buildIRCFGs: hdl:BinHandler -&gt; builder:'?31182 -&gt; funcs:Funcs -&gt; funcset:Set&lt;Addr&gt; -&gt; bbls:Map&lt;Addr * int,'?31183&gt; -&gt; _arg1:Addr list -&gt; '?31182</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#39;?31182</td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.Funcs.html">Funcs</a></td>
+        <td><span class="parametername">funcs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Set</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>&gt;</td>
+        <td><span class="parametername">funcset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a> * <span class="xref">int</span>,&#39;?31183&gt;</td>
+        <td><span class="parametername">bbls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> <span class="xref">list</span></td>
+        <td><span class="parametername">_arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&#39;?31182</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_chkAndAddDisasmLeader_" data-uid="B2R2.BinGraph.CFGUtils.chkAndAddDisasmLeader*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_chkAndAddDisasmLeader_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____Set_B2R2_Addr_____Map_B2R2_Addr___31175_____B2R2_BinGraph_DisasmCFG____B2R2_Addr____B2R2_Addr_" data-uid="B2R2.BinGraph.CFGUtils.chkAndAddDisasmLeader(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; Set&lt;B2R2.Addr&gt; -&gt; Map&lt;B2R2.Addr,'?31175&gt; -&gt; B2R2.BinGraph.DisasmCFG -&gt; B2R2.Addr -&gt; B2R2.Addr)">val chkAndAddDisasmLeader: BinHandler -&gt; CFGBuilder -&gt; Set&lt;Addr&gt; -&gt; Map&lt;Addr,'?31175&gt; -&gt; DisasmCFG -&gt; Addr -&gt; Addr -&gt; Vertex&lt;DisassemblyBBL&gt; * Addr * CFGEdge option list option</h4>
+  <div class="markdown level1 summary"><p>XXX: Need to merge functions here</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val chkAndAddDisasmLeader: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; funcset:Set&lt;Addr&gt; -&gt; bbls:Map&lt;Addr,'?31175&gt; -&gt; cfg:DisasmCFG -&gt; entry:Addr -&gt; leader:Addr -&gt; Vertex&lt;DisassemblyBBL&gt; * Addr * CFGEdge option list option</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Set</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>&gt;</td>
+        <td><span class="parametername">funcset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>,&#39;?31175&gt;</td>
+        <td><span class="parametername">bbls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.DisasmCFG.html">DisasmCFG</a></td>
+        <td><span class="parametername">cfg</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">entry</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">leader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.Vertex-1.html">Vertex</a>&lt;<a class="xref" href="B2R2.BinGraph.DisassemblyBBL.html">DisassemblyBBL</a>&gt; * <a class="xref" href="B2R2.Addr.html">Addr</a> * <a class="xref" href="B2R2.BinGraph.CFGEdge.html">CFGEdge</a> <span class="xref">option</span> <span class="xref">list</span> <span class="xref">option</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_chkAndAddIRLeader_" data-uid="B2R2.BinGraph.CFGUtils.chkAndAddIRLeader*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_chkAndAddIRLeader_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____Set_B2R2_Addr_____Map_B2R2_Addr___int___31180_____B2R2_BinGraph_IRCFG____B2R2_Addr____B2R2_Addr___int_" data-uid="B2R2.BinGraph.CFGUtils.chkAndAddIRLeader(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; Set&lt;B2R2.Addr&gt; -&gt; Map&lt;B2R2.Addr * int,'?31180&gt; -&gt; B2R2.BinGraph.IRCFG -&gt; B2R2.Addr -&gt; B2R2.Addr * int)">val chkAndAddIRLeader: BinHandler -&gt; CFGBuilder -&gt; Set&lt;Addr&gt; -&gt; Map&lt;Addr * int,'?31180&gt; -&gt; IRCFG -&gt; Addr -&gt; Addr * int -&gt; Vertex&lt;IRBBL&gt; * Addr * int * CFGEdge option list option</h4>
+  <div class="markdown level1 summary"><p>XXX: Need to merge functions here</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val chkAndAddIRLeader: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; funcset:Set&lt;Addr&gt; -&gt; bbls:Map&lt;Addr * int,'?31180&gt; -&gt; cfg:IRCFG -&gt; entry:Addr -&gt; Addr * int -&gt; Vertex&lt;IRBBL&gt; * Addr * int * CFGEdge option list option</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Set</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a>&gt;</td>
+        <td><span class="parametername">funcset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Map</span>&lt;<a class="xref" href="B2R2.Addr.html">Addr</a> * <span class="xref">int</span>,&#39;?31180&gt;</td>
+        <td><span class="parametername">bbls</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.IRCFG.html">IRCFG</a></td>
+        <td><span class="parametername">cfg</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">entry</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername"></span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername"></span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.Vertex-1.html">Vertex</a>&lt;<a class="xref" href="B2R2.BinGraph.IRBBL.html">IRBBL</a>&gt; * <a class="xref" href="B2R2.Addr.html">Addr</a> * <span class="xref">int</span> * <a class="xref" href="B2R2.BinGraph.CFGEdge.html">CFGEdge</a> <span class="xref">option</span> <span class="xref">list</span> <span class="xref">option</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_construct_" data-uid="B2R2.BinGraph.CFGUtils.construct*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_construct_B2R2_FrontEnd_BinHandler_____b_option_" data-uid="B2R2.BinGraph.CFGUtils.construct(B2R2.FrontEnd.BinHandler -&gt; 'b option)">val construct: BinHandler -&gt; 'b option -&gt; CFGBuilder * Funcs</h4>
+  <div class="markdown level1 summary"><p>This is our primary API</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val construct: hdl:BinHandler -&gt; _arg1:'b option -&gt; CFGBuilder * Funcs</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#39;b <span class="xref">option</span></td>
+        <td><span class="parametername">_arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a> * <a class="xref" href="B2R2.BinGraph.Funcs.html">Funcs</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'b</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_disasmCFGToJson_" data-uid="B2R2.BinGraph.CFGUtils.disasmCFGToJson*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_disasmCFGToJson_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFG_B2R2_BinGraph_DisassemblyBBL_____B2R2_Addr_" data-uid="B2R2.BinGraph.CFGUtils.disasmCFGToJson(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFG&lt;B2R2.BinGraph.DisassemblyBBL&gt; -&gt; B2R2.Addr)">val disasmCFGToJson: BinHandler -&gt; CFG&lt;DisassemblyBBL&gt; -&gt; Addr -&gt; string</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val disasmCFGToJson: hdl:BinHandler -&gt; g:CFG&lt;DisassemblyBBL&gt; -&gt; entry:Addr -&gt; string</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFG.html">CFG</a>&lt;<a class="xref" href="B2R2.BinGraph.DisassemblyBBL.html">DisassemblyBBL</a>&gt;</td>
+        <td><span class="parametername">g</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">entry</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_disasmVertexToString_" data-uid="B2R2.BinGraph.CFGUtils.disasmVertexToString*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_disasmVertexToString_B2R2_BinGraph_DisasmVertex_" data-uid="B2R2.BinGraph.CFGUtils.disasmVertexToString(B2R2.BinGraph.DisasmVertex)">val disasmVertexToString: DisasmVertex -&gt; string</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val disasmVertexToString: v:DisasmVertex -&gt; string</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.DisasmVertex.html">DisasmVertex</a></td>
+        <td><span class="parametername">v</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_getDisasmSuccessors_" data-uid="B2R2.BinGraph.CFGUtils.getDisasmSuccessors*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_getDisasmSuccessors_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____B2R2_BinGraph_DisassemblyBBL_" data-uid="B2R2.BinGraph.CFGUtils.getDisasmSuccessors(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; B2R2.BinGraph.DisassemblyBBL)">val getDisasmSuccessors: BinHandler -&gt; CFGBuilder -&gt; DisassemblyBBL -&gt; Addr * CFGEdge option list</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val getDisasmSuccessors: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; bbl:DisassemblyBBL -&gt; Addr * CFGEdge option list</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.DisassemblyBBL.html">DisassemblyBBL</a></td>
+        <td><span class="parametername">bbl</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> * <a class="xref" href="B2R2.BinGraph.CFGEdge.html">CFGEdge</a> <span class="xref">option</span> <span class="xref">list</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_getIRSuccessors_" data-uid="B2R2.BinGraph.CFGUtils.getIRSuccessors*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_getIRSuccessors_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____B2R2_BinGraph_IRBBL_" data-uid="B2R2.BinGraph.CFGUtils.getIRSuccessors(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; B2R2.BinGraph.IRBBL)">val getIRSuccessors: BinHandler -&gt; CFGBuilder -&gt; IRBBL -&gt; Addr * int * CFGEdge option list</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val getIRSuccessors: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; bbl:IRBBL -&gt; Addr * int * CFGEdge option list</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.IRBBL.html">IRBBL</a></td>
+        <td><span class="parametername">bbl</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> * <span class="xref">int</span> * <a class="xref" href="B2R2.BinGraph.CFGEdge.html">CFGEdge</a> <span class="xref">option</span> <span class="xref">list</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_getJmpTarget_" data-uid="B2R2.BinGraph.CFGUtils.getJmpTarget*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_getJmpTarget_B2R2_FrontEnd_BinHandler____B2R2_BinGraph_CFGBuilder____B2R2_FrontEnd_Instruction______31173____B2R2_Addr_____31173_option_list_" data-uid="B2R2.BinGraph.CFGUtils.getJmpTarget(B2R2.FrontEnd.BinHandler -&gt; B2R2.BinGraph.CFGBuilder -&gt; B2R2.FrontEnd.Instruction -&gt; '?31173 -&gt; B2R2.Addr * '?31173 option list)">val getJmpTarget: BinHandler -&gt; CFGBuilder -&gt; Instruction -&gt; '?31173 -&gt; Addr * '?31173 option list -&gt; Addr * '?31173 option list</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val getJmpTarget: hdl:BinHandler -&gt; builder:CFGBuilder -&gt; instr:Instruction -&gt; edgeType:'?31173 -&gt; succs:Addr * '?31173 option list -&gt; Addr * '?31173 option list</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFGBuilder.html">CFGBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.Instruction.html">Instruction</a></td>
+        <td><span class="parametername">instr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#39;?31173</td>
+        <td><span class="parametername">edgeType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> * &#39;?31173 <span class="xref">option</span> <span class="xref">list</span></td>
+        <td><span class="parametername">succs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> * &#39;?31173 <span class="xref">option</span> <span class="xref">list</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_getNextPpoint_" data-uid="B2R2.BinGraph.CFGUtils.getNextPpoint*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_getNextPpoint_B2R2_Addr___int____B2R2_BinIR_LowUIR_Stmt_" data-uid="B2R2.BinGraph.CFGUtils.getNextPpoint(B2R2.Addr * int -&gt; B2R2.BinIR.LowUIR.Stmt)">val getNextPpoint: Addr * int -&gt; Stmt -&gt; Addr * int</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val getNextPpoint: addr:Addr * cnt:int -&gt; _arg1:Stmt -&gt; Addr * int</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">addr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">cnt</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinIR.LowUIR.Stmt.html">Stmt</a></td>
+        <td><span class="parametername">_arg1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a> * <span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_irCFGToJson_" data-uid="B2R2.BinGraph.CFGUtils.irCFGToJson*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_irCFGToJson___31193____B2R2_BinGraph_CFG_B2R2_BinGraph_IRBBL_______31194_" data-uid="B2R2.BinGraph.CFGUtils.irCFGToJson('?31193 -&gt; B2R2.BinGraph.CFG&lt;B2R2.BinGraph.IRBBL&gt; -&gt; '?31194)">val irCFGToJson: '?31193 -&gt; CFG&lt;IRBBL&gt; -&gt; '?31194 -&gt; string</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val irCFGToJson: hdl:'?31193 -&gt; g:CFG&lt;IRBBL&gt; -&gt; entry:'?31194 -&gt; string</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&#39;?31193</td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFG.html">CFG</a>&lt;<a class="xref" href="B2R2.BinGraph.IRBBL.html">IRBBL</a>&gt;</td>
+        <td><span class="parametername">g</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&#39;?31194</td>
+        <td><span class="parametername">entry</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_irVertexToString_" data-uid="B2R2.BinGraph.CFGUtils.irVertexToString*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_irVertexToString_B2R2_BinGraph_IRVertex_" data-uid="B2R2.BinGraph.CFGUtils.irVertexToString(B2R2.BinGraph.IRVertex)">val irVertexToString: IRVertex -&gt; string</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val irVertexToString: v:IRVertex -&gt; string</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.IRVertex.html">IRVertex</a></td>
+        <td><span class="parametername">v</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_isCondJump_" data-uid="B2R2.BinGraph.CFGUtils.isCondJump*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_isCondJump_B2R2_FrontEnd_Instruction_" data-uid="B2R2.BinGraph.CFGUtils.isCondJump(B2R2.FrontEnd.Instruction)">val isCondJump: Instruction -&gt; bool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val isCondJump: instr:Instruction -&gt; bool</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.Instruction.html">Instruction</a></td>
+        <td><span class="parametername">instr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_isDisasmBlockEnd_" data-uid="B2R2.BinGraph.CFGUtils.isDisasmBlockEnd*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_isDisasmBlockEnd_B2R2_FrontEnd_Instruction_" data-uid="B2R2.BinGraph.CFGUtils.isDisasmBlockEnd(B2R2.FrontEnd.Instruction)">val isDisasmBlockEnd: Instruction -&gt; bool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val isDisasmBlockEnd: instr:Instruction -&gt; bool</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.Instruction.html">Instruction</a></td>
+        <td><span class="parametername">instr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_isDisasmExit_" data-uid="B2R2.BinGraph.CFGUtils.isDisasmExit*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_isDisasmExit_B2R2_FrontEnd_Instruction_" data-uid="B2R2.BinGraph.CFGUtils.isDisasmExit(B2R2.FrontEnd.Instruction)">val isDisasmExit: Instruction -&gt; bool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val isDisasmExit: instr:Instruction -&gt; bool</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.Instruction.html">Instruction</a></td>
+        <td><span class="parametername">instr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_isExecutable_" data-uid="B2R2.BinGraph.CFGUtils.isExecutable*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_isExecutable_B2R2_FrontEnd_BinHandler____B2R2_Addr_" data-uid="B2R2.BinGraph.CFGUtils.isExecutable(B2R2.FrontEnd.BinHandler -&gt; B2R2.Addr)">val isExecutable: BinHandler -&gt; Addr -&gt; bool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val isExecutable: hdl:BinHandler -&gt; addr:Addr -&gt; bool</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.BinHandler.html">BinHandler</a></td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.Addr.html">Addr</a></td>
+        <td><span class="parametername">addr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_isUncondJump_" data-uid="B2R2.BinGraph.CFGUtils.isUncondJump*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_isUncondJump_B2R2_FrontEnd_Instruction_" data-uid="B2R2.BinGraph.CFGUtils.isUncondJump(B2R2.FrontEnd.Instruction)">val isUncondJump: Instruction -&gt; bool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val isUncondJump: instr:Instruction -&gt; bool</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="B2R2.FrontEnd.Instruction.html">Instruction</a></td>
+        <td><span class="parametername">instr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="B2R2_BinGraph_CFGUtils_toJson_" data-uid="B2R2.BinGraph.CFGUtils.toJson*"></a>
+  <h4 id="B2R2_BinGraph_CFGUtils_toJson___31191____B2R2_BinGraph_CFG___31192_____string____B2R2_BinGraph_Vertex___31192_____string____System_Text_StringBuilder_____31191___int____B2R2_BinGraph_Vertex___31192_____System_Text_StringBuilder_____31191___int_" data-uid="B2R2.BinGraph.CFGUtils.toJson('?31191 -&gt; B2R2.BinGraph.CFG&lt;'?31192&gt; -&gt; string -&gt; B2R2.BinGraph.Vertex&lt;'?31192&gt; -&gt; string -&gt; System.Text.StringBuilder * '?31191 * int -&gt; B2R2.BinGraph.Vertex&lt;'?31192&gt; -&gt; System.Text.StringBuilder * '?31191 * int)">val toJson: '?31191 -&gt; CFG&lt;'?31192&gt; -&gt; string -&gt; Vertex&lt;'?31192&gt; -&gt; string -&gt; StringBuilder * '?31191 * int -&gt; Vertex&lt;'?31192&gt; -&gt; StringBuilder * '?31191 * int -&gt; string</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">val toJson: hdl:'?31191 -&gt; g:CFG&lt;'?31192&gt; -&gt; rootAddr:string -&gt; vertexToStrFunc:Vertex&lt;'?31192&gt; -&gt; string -&gt; vertexToJsonFunc:StringBuilder * '?31191 * int -&gt; Vertex&lt;'?31192&gt; -&gt; StringBuilder * '?31191 * int -&gt; string</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&#39;?31191</td>
+        <td><span class="parametername">hdl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.CFG.html">CFG</a>&lt;&#39;?31192&gt;</td>
+        <td><span class="parametername">g</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">rootAddr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="B2R2.BinGraph.Vertex-1.html">Vertex</a>&lt;&#39;?31192&gt; -&gt; <span class="xref">string</span></td>
+        <td><span class="parametername">vertexToStrFunc</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span> * &#39;?31191 * <span class="xref">int</span> -&gt; <a class="xref" href="B2R2.BinGraph.Vertex-1.html">Vertex</a>&lt;&#39;?31192&gt; -&gt; <span class="xref">System.Text.StringBuilder</span> * &#39;?31191 * <span class="xref">int</span></td>
+        <td><span class="parametername">vertexToJsonFunc</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">'?</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
