@@ -202,7 +202,7 @@ let run args =
   let fileName = parts.[Array.length parts - 1]
   let name = fileName.Split([| '.' |]).[0] // 再按 '.' 分割并取 AW
   printfn "Extracted name: %s" name // 输出: Extracted name: AW
-  let baseDir = "/home/test/tools/Smartian/B2/seed" 
+  let baseDir = "/home/test/tools/GPTSmart/B2/seed" 
   // let baseDir = "/home/mingyue/Smartian/B2/seed"
   let filename = baseDir + "/" + name + "_seed.txt"
       //parseTransactions json
