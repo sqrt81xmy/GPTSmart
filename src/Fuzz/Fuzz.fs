@@ -44,6 +44,8 @@ let writeNormalFuncsToFile path (funcSpecs: Seed) =
     let content = funcSpecToString funcSpecs 
     use writer = new StreamWriter(path, false) // 以追加模式打开文件
     writer.WriteLine(content) // 写入内容
+
+ 
  
 let private initializeWithDFA opt =
   let contSpec, seqs = TopLevel.parseAndAnalyze opt.ProgPath opt.ABIPath
@@ -195,7 +197,12 @@ let run args =
   Executor.initialize opt.ProgPath
   let contSpec, initSeeds = if opt.StaticDFA then initializeWithDFA opt
                             else initializeWithoutDFA opt
- 
+
+  let jsonString = JsonConvert.SerializeObject(initSeeds, Formatting.Indented)
+  // writeNormalFuncsToFile "./seeds.txt" jsonString
+  use writer = new StreamWriter("./seeds.txt", false) // 以追加模式打开文件
+  writer.WriteLine(jsonString) // 写入内容
+
   printfn "ABIPath %A" opt.ABIPath
   let input = opt.ABIPath
   let parts = input.Split([| '/' |]) // 先按 '/' 分割
