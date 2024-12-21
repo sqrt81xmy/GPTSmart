@@ -45,7 +45,7 @@ module Transaction =
 
   /// Concretize an input into a TXData.
   let concretize tx =
-    printfn "48L:1 tx %A" tx.FuncSpec
+    // printfn "48L:1 tx %A" tx.FuncSpec
     let funcSpec = tx.FuncSpec
     let funcName = FuncSpec.getName funcSpec
     let payable = funcSpec.Payable

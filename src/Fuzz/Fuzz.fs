@@ -49,10 +49,10 @@ let writeNormalFuncsToFile path (funcSpecs: Seed) =
  
 let private initializeWithDFA opt =
   let contSpec, seqs = TopLevel.parseAndAnalyze opt.ProgPath opt.ABIPath
-  printfn "init %A" contSpec
+  // printfn "init %A" contSpec
   
   let res = JiaTxt contSpec
-  printfn "JiaTxt %A" res
+  // printfn "JiaTxt %A" res
   let outputPath = "./normalFuncs.txt" // 指定输出文件的路径
   //writeNormalFuncsToFile outputPath res  // 调用写入函数 
   let jsonString = JsonConvert.SerializeObject(res, Formatting.Indented)

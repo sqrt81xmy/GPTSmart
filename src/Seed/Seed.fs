@@ -272,6 +272,7 @@ module Seed =
   let mutateTranasctionSenderAt seed idx =
     // Note we can perform shallow copy here, since we don't change TX args.
     let newTxs = Array.copy seed.Transactions
+    printfn "mutateTranasctionSenderAt %A" newTxs
     let tx = newTxs.[idx]
     let newSender = Sender.pick()
     let useAgent = random.Next(100) < TRY_REENTRANCY_PROB

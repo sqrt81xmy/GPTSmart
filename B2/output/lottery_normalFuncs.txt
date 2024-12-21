@@ -1244,7 +1244,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "TargetOwner"
+        "Case": "NormalUser2"
       },
       "UseAgent": false,
       "Timestamp": 10000000,

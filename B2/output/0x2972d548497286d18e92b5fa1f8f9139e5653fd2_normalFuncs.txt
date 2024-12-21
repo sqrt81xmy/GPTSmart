@@ -2198,9 +2198,9 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "NormalUser3"
+        "Case": "NormalUser1"
       },
-      "UseAgent": false,
+      "UseAgent": true,
       "Timestamp": 10000000,
       "Blocknum": 20000000
     }
