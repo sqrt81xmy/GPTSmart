@@ -4,7 +4,7 @@ import subprocess
 import shutil
 
 # 定义路径
-b2_directory = './B2'                                      # B2 文件夹路径
+b2_directory = './B1'                                      # B2 文件夹路径
 bin_directory = os.path.join(b2_directory, 'bin')        # bin 文件夹路径
 abi_directory = os.path.join(b2_directory, 'abi')        # abi 文件夹路径
 output_directory = os.path.join(b2_directory, 'output')  # output 文件夹路径
@@ -29,7 +29,7 @@ for filename in os.listdir(bin_directory):
             process = subprocess.Popen(command, shell=True)
 
             # 等待 5 秒
-            time.sleep(5)
+            time.sleep(3)
 
             # 结束子进程
             process.terminate()

@@ -3,6 +3,7 @@ namespace Smartian
 open Nethermind.Core.Extensions
 open Config
 open Utils
+open Nethermind.Dirichlet.Numerics
 
 /// A collection of input, which corresponds to a transaction sequence.
 type Seed = {
@@ -52,13 +53,22 @@ module Seed =
 
   /// Concretize a seed into a test case.
   let concretize seed: TestCase =
-    let initEther = INITIAL_ETHER.Ether()
+    // let initEther = INITIAL_ETHER.Ether()
+    // let initEther = bigint 115792089237316195423570985008687907853269984665640564039457584007913129639936I
+    let bigIntyh = bigint [|
+      0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy;
+      0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy;
+      0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy;
+      0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy;
+    |]
+    let initEther = UInt256(bigIntyh)
     let makeEntity account contract =
       { Balance = initEther
         Account = account
         Agent = SmartianAgent contract}
     let accounts = Address.OWNER_ACCOUNT :: Address.USER_ACCOUNTS
     let contracts = Address.OWNER_CONTRACT :: Address.USER_CONTRACTS
+    // printfn "length: %A %A" Address.USER_ACCOUNTS.Length Address.USER_CONTRACTS.Length
     let entities = List.map2 makeEntity accounts contracts
     let txArr = Array.map Transaction.concretize seed.Transactions
     let txList = Array.toList txArr
@@ -272,7 +282,7 @@ module Seed =
   let mutateTranasctionSenderAt seed idx =
     // Note we can perform shallow copy here, since we don't change TX args.
     let newTxs = Array.copy seed.Transactions
-    printfn "mutateTranasctionSenderAt %A" newTxs
+    // printfn "mutateTranasctionSenderAt %A" newTxs
     let tx = newTxs.[idx]
     let newSender = Sender.pick()
     let useAgent = random.Next(100) < TRY_REENTRANCY_PROB

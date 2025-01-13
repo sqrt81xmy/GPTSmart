@@ -1,5 +1,6 @@
 module Smartian.Executor
 
+open System
 open System.IO
 open System.Collections.Generic
 open Nethermind.Dirichlet.Numerics
@@ -89,6 +90,8 @@ let private runTx env from ``to`` code reqAddr value data timestamp blocknum =
                                        Data = data,
                                        GasLimit = TX_GASLIMIT,
                                        GasPrice = UInt256 (TX_GASPRICE: int64))
+  let logMessage = sprintf "processor.Execute %A %A %A %A %A" from ``to`` value data tracer
+  File.AppendAllText("./loglog.txt", logMessage + Environment.NewLine)            
   processor.Execute(tx, block.Header, tracer)
   tracer.StatusCode
 
@@ -109,6 +112,7 @@ let private setupEntity env tc entity =
   let targDeployer = tc.TargetDeployer
   let deployTx = tc.DeployTx
   let spec = specProvider.GetSpec(deployTx.Blocknum)
+  // printfn "rntity %A %A" entity.Agent entity.Account
   match entity.Agent with
   | NoAgent ->
     state.CreateAccount(entity.Account, &entity.Balance)
@@ -171,6 +175,7 @@ let private processTx env tc covFlag (accNewBugs, hadDepTx) i tx =
   let sender = tx.From
   let isDepTx = (sender = tc.TargetDeployer)
   let hadDepTx = hadDepTx || isDepTx
+  // printfn "tc.Entities %A" tc.Entities
   let initBalance, isRedirect =
     match List.tryFind (fun e -> Entity.getSender e = sender) tc.Entities with
     | Some entity -> (entity.Balance, Entity.isTXRedirected tx.To entity)

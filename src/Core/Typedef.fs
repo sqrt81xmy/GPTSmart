@@ -1,7 +1,8 @@
 namespace Smartian
 
 open Nethermind.Core
-open Utils
+open Utils 
+open BytesUtils
 
 type Hash = uint64
 
@@ -18,15 +19,19 @@ type AgentType =
   | NoAgent
   | SmartianAgent of Address
   | SFuzzAgent of Address
-
-
+ 
 type Sender =
   | TargetOwner
   | NormalUser1
   | NormalUser2
   | NormalUser3
+  | CustomUser of string
 
 module Sender =
-
+  let mutable senderList = ResizeArray<Sender>([TargetOwner; NormalUser1; NormalUser2; NormalUser3])
   let pick () =
-    pickFromList [TargetOwner; NormalUser1; NormalUser2; NormalUser3]
+    // transfer ResizeArray<Sender> to `Sender list`
+    let senderFSharpList = List.ofSeq senderList 
+    // call pickFromList function
+    pickFromList senderFSharpList
+    // pickFromList List.ofSeq[TargetOwner; NormalUser1; NormalUser2; NormalUser3]

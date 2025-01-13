@@ -116,6 +116,9 @@ let private dumpTestCase opt seed =
   let tcPath = System.IO.Path.Combine(tcDir, tcName)
   if opt.Verbosity >= 1 then
     log "[*] Save new seed %s: %s" tcName (Seed.toString seed)
+  else
+    ()
+    // log "[*] Save new seed %s: %s" tcName (Seed.toString seed)
   System.IO.File.WriteAllText(tcPath, tcStr)
   totalTC <- totalTC + 1
 

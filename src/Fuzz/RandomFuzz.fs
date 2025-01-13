@@ -58,7 +58,7 @@ let private mutateTransactionSender seed =
   let txNum = Seed.getTransactionCount seed
   // Avoid mutating the sender of the deploying transaction.
   let mutIdx = random.Next(1, txNum)
-  printfn "mutateTransactionSender %d %d" mutIdx txNum
+  // printfn "mutateTransactionSender %d %d" mutIdx txNum
   Seed.mutateTranasctionSenderAt seed mutIdx
 
 (*** Argument mutation. ***)

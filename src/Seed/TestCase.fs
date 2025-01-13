@@ -45,10 +45,15 @@ module ArgData =
     splitBytes 20 byteArr |> Array.map makeAddress
 
   let private makeBool (byteArr: byte array) =
-    byteArr.[0] = 0uy
+    if byteArr.[0] = 0uy then 
+      // printfn "makeBool " 
+      byteArr.[0] = 0uy
+    else 
+      byteArr.[0] = 1uy
+    
 
   let private makeBoolArray (byteArr: byte array) =
-    Array.map (fun (b: byte) -> b = 0uy) byteArr
+    Array.map (fun (b: byte) -> if b = 0uy then 0uy else 1uy) byteArr
 
   let private makeString byteArr =
     bytesToStr byteArr

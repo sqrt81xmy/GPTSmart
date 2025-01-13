@@ -106,7 +106,7 @@ let runDefaultMode opt =
     let feedback = execute tc true traceDU checkOptionalBugs useOthersOracle
     stopWatch.Stop()
     totalElapsed <- totalElapsed + stopWatch.Elapsed.TotalMilliseconds
-    TCManage.printBugInfo feedback.BugSet
+    TCManage.printBugInfo feedback.BugSet 
   log "Covered Edges : %d" accumEdges.Count
   log "Covered Instructions: %d" accumInstrs.Count
   log "Elapsed time (ms): %.4f" totalElapsed

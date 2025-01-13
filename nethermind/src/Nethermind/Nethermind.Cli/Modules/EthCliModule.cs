@@ -139,6 +139,7 @@ namespace Nethermind.Cli.Modules
         public BigInteger GetBalance(string address, string blockParameter = null)
         {
             return NodeManager.Post<BigInteger>("eth_getBalance", CliParseAddress(address), blockParameter ?? "latest").Result;
+            // return  115792089237316195423570985008687907853269984665640564039457584007913129639936; 
         }
 
         [CliProperty("eth", "chainId")]

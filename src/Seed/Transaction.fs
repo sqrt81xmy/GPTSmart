@@ -37,7 +37,7 @@ module Transaction =
   /// Postprocess to ensure that the transaction is valid for a constructor.
   let fixForConstructor tx =
     let args = Array.map Arg.fixForConstructor tx.Args
-    { tx with Args = args; Sender = Sender.TargetOwner }
+    { tx with Args = args; }  // Sender = Sender.TargetOwner
 
   /// Return a deep-copied input of a given input.
   let copy tx =

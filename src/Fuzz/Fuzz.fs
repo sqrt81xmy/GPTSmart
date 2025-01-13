@@ -9,7 +9,11 @@ open Config
 open Options 
 open FSharp.Json
 open System.IO 
-open Newtonsoft.Json;
+open Newtonsoft.Json; 
+open Newtonsoft.Json.Linq
+open System
+open Smartian.Address
+open Nethermind.Core
 
 let private makeSingletonSeeds contSpec =
   let constrSpec = contSpec.Constructor
@@ -42,8 +46,9 @@ let writeNormalFuncsToFile path (funcSpecs: Seed) =
       fileStream.Close() // 关闭文件流
     let arraySpecs = funcSpecs
     let content = funcSpecToString funcSpecs 
-    use writer = new StreamWriter(path, false) // 以追加模式打开文件
-    writer.WriteLine(content) // 写入内容
+    // use writer = new StreamWriter(path, false) // 以追加模式打开文件
+    // writer.WriteLine(content) // 写入内容
+    File.WriteAllText(path,content)
 
  
  
@@ -60,9 +65,8 @@ let private initializeWithDFA opt =
   // 打印 JSON 字符串
   // printfn "jsonString %s" jsonString
   writeNormalFuncsToFile outputPath res
-
-  use writer = new StreamWriter(outputPath, false) // 以追加模式打开文件
-  writer.WriteLine(jsonString) // 写入内容
+ 
+  File.WriteAllText(outputPath,jsonString) // 写入内容
 
   if List.isEmpty seqs // No DU chain at all.
   then (contSpec, makeSingletonSeeds contSpec)
@@ -176,9 +180,55 @@ let private fuzzingTimer opt = async {
   exit (0)
 }
 
+
+type SenderConverter() =
+    inherit JsonConverter<Sender>()
+
+    override _.WriteJson(writer: JsonWriter, value: Sender, serializer: JsonSerializer) =
+        match value with
+        | TargetOwner -> writer.WriteValue("TargetOwner")
+        | NormalUser1 -> writer.WriteValue("NormalUser1")
+        | NormalUser2 -> writer.WriteValue("NormalUser2")
+        | NormalUser3 -> writer.WriteValue("NormalUser3")
+        | CustomUser name ->
+            writer.WriteStartObject()
+            writer.WritePropertyName("Case")
+            writer.WriteValue("CustomUser")
+            writer.WritePropertyName("name")
+            writer.WriteValue(name)
+            writer.WriteEndObject()
+
+    override _.ReadJson(reader: JsonReader, objectType: Type, existingValue: Sender, hasExistingValue: bool, serializer: JsonSerializer) =
+        let json = JObject.Load(reader)
+        printfn "ReadJson: %A" json
+        match json["Case"].ToString() with
+        | "TargetOwner" -> TargetOwner
+        | "NormalUser1" -> NormalUser1
+        | "NormalUser2" -> NormalUser2
+        | "NormalUser3" -> NormalUser3
+        | "CustomUser" -> 
+            let contrac = json["name"].ToString()
+            let addr1 = new Address(contrac)
+            if not (List.contains addr1 Address.USER_CONTRACTS) then
+              Address.USER_CONTRACTS <- addr1 :: Address.USER_CONTRACTS
+              //create an account randomly
+              let charArray = contrac.ToCharArray() 
+              // change the specific char of the array
+              charArray[3] <- '2'
+              charArray[6] <- 'a' 
+              // transfer the char array to the string
+              let account = System.String(charArray) 
+              let addr2 = new Address(account) 
+              Address.USER_ACCOUNTS <- addr2 :: Address.USER_ACCOUNTS
+              Sender.senderList.Add(CustomUser (json["name"].ToString()))
+            CustomUser (json["name"].ToString())
+        | _ -> failwith "Unknown sender type"
+
 let parseTransactions json =
-    // let file = Json.deserialize<Seed[]> json
-    let file = JsonConvert.DeserializeObject<Seed[]>(json)
+    // let file = Json.deserialize<Seed[]> json 
+    let settings = JsonSerializerSettings()
+    settings.Converters.Add(SenderConverter())
+    let file = JsonConvert.DeserializeObject<Seed[]>(json, settings)
     file
 
 let loadData path =
@@ -198,19 +248,28 @@ let run args =
   let contSpec, initSeeds = if opt.StaticDFA then initializeWithDFA opt
                             else initializeWithoutDFA opt
 
-  let jsonString = JsonConvert.SerializeObject(initSeeds, Formatting.Indented)
-  // writeNormalFuncsToFile "./seeds.txt" jsonString
-  use writer = new StreamWriter("./seeds.txt", false) // 以追加模式打开文件
-  writer.WriteLine(jsonString) // 写入内容
+  // let jsonString = JsonConvert.SerializeObject(initSeeds, Formatting.Indented)
+  // // writeNormalFuncsToFile "./seeds.txt" jsonString
+  // use writer = new StreamWriter("./seeds.txt", false) // 以追加模式打开文件
+  // writer.WriteLine(jsonString) // 写入内容
+  
+  // // 序列化对象
+  // string jsonString = JsonConvert.SerializeObject(initSeeds, Formatting.Indented);
 
-  printfn "ABIPath %A" opt.ABIPath
+  // // 使用 using 确保自动处理资源
+  // using (StreamWriter writer = new StreamWriter("./seeds.txt", false))
+  // {
+  //     writer.WriteLine(jsonString); // 写入内容
+  // }
+
+  // printfn "ABIPath %A" opt.ABIPath
   let input = opt.ABIPath
   let parts = input.Split([| '/' |]) // 先按 '/' 分割
   let fileName = parts.[Array.length parts - 1]
   let name = fileName.Split([| '.' |]).[0] // 再按 '.' 分割并取 AW
   printfn "Extracted name: %s" name // 输出: Extracted name: AW
-  let baseDir = "/home/test/tools/GPTSmart/B2/seed" 
-  // let baseDir = "/home/mingyue/Smartian/B2/seed"
+  // let baseDir = "/home/test/tools/GPTSmart/B2/seed" 
+  let baseDir = "/home/mingyue/Smartian/B2/seed"
   let filename = baseDir + "/" + name + "_seed.txt"
       //parseTransactions json
   printfn "filename %s" filename
@@ -218,11 +277,13 @@ let run args =
   let transactions = loadData filename  // 读取并解析数据
   let newSeeds = parseTransactions(transactions)
   let initSeeds = List.ofArray newSeeds
-  for seed in initSeeds do
-    printfn "Seed: %A" seed.Transactions[0].FuncSpec // 将调用默认的序列化 
+  // for seed in initSeeds do
+  //   printfn "Seed: %A" seed.Transactions[0].FuncSpec // 将调用默认的序列化 
   // 打印交易内容
 //  for tx in transactions do
   //    printfn "Transaction from: %s, Timestamp: %O, Blocknum: %O" tx.Sender tx.Timestamp tx.Blocknum
+
+ 
   let concQ = List.fold ConcolicQueue.enqueue ConcolicQueue.empty initSeeds
   let randQ = List.fold RandFuzzQueue.enqueue (RandFuzzQueue.init ()) initSeeds
   log "Start main fuzzing phase"
