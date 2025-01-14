@@ -30,104 +30,27 @@
   "TargetContract":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
   "DeployTx":
     {
-      "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
+      "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
       "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
       "Value":"0",
-      "Data":"",
-      "Timestamp":"10000055",
-      "Blocknum":"20000034",
+      "Data":"00000000000000000000000024CD2EDBA056B7C654A50E8201B619D4F624FDDA00000000000000000000000024CD2EDBA056B7C654A50E8201B619D4F624FDDA",
+      "Timestamp":"10000086",
+      "Blocknum":"20000096",
       "Function":"constructor",
-      "OrigData":"",
+      "OrigData":"00000000000000000000000024CD2EDBA056B7C654A50E8201B619D4F624FDDA00000000000000000000000024CD2EDBA056B7C654A50E8201B619D4F624FDDA",
       "OrigValue":"0"
     },
   "Txs":
     [
       {
-        "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"396ED0AB",
-        "Timestamp":"10000136",
-        "Blocknum":"20000086",
-        "Function":"Burn(396ed0ab)",
-        "OrigData":"396ED0AB",
-        "OrigValue":"0"
-      },
-      {
-        "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"06FDDE03",
-        "Timestamp":"10000164",
-        "Blocknum":"20000138",
-        "Function":"name(06fdde03)",
-        "OrigData":"06FDDE03",
-        "OrigValue":"0"
-      },
-      {
-        "From":"0x226cc61b3eac93cc2cc9d6cb8d61856670d50fad",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"4503599627370496",
-        "Data":"40C10F19000000000000000000000000118A2C24808934116E6AB4C00FF481459A3B09E1FFFFFFFF02FFFFFFFFFFFFFFFFFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCA",
-        "Timestamp":"10000241",
-        "Blocknum":"20000156",
-        "Function":"mint(40c10f19)",
-        "OrigData":"40C10F19000000000000000000000000118A2C24808934116E6AB4C00FF481459A3B09E1FFFFFFFF02FFFFFFFFFFFFFFFFFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCA",
-        "OrigValue":"4503599627370496"
-      },
-      {
-        "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"396ED0AB",
-        "Timestamp":"10000253",
-        "Blocknum":"20000188",
-        "Function":"Burn(396ed0ab)",
-        "OrigData":"396ED0AB",
-        "OrigValue":"0"
-      },
-      {
         "From":"0x226cc61b3eac93cc2cc9d6cb8d61856670d50fad",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
         "Value":"0",
-        "Data":"06FDDE03",
-        "Timestamp":"10000282",
-        "Blocknum":"20000219",
-        "Function":"name(06fdde03)",
-        "OrigData":"06FDDE03",
-        "OrigValue":"0"
-      },
-      {
-        "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"70A082310000000000000000000000000000000000000000000000000000000000000000",
-        "Timestamp":"10000302",
-        "Blocknum":"20000283",
-        "Function":"balanceOf(70a08231)",
-        "OrigData":"70A082310000000000000000000000000000000000000000000000000000000000000000",
-        "OrigValue":"0"
-      },
-      {
-        "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"57896044618710753857619771097692912940476827548979729567429066559583720308737",
-        "Data":"",
-        "Timestamp":"10000303",
-        "Blocknum":"20000375",
-        "Function":"fallback",
-        "OrigData":"",
-        "OrigValue":"57896044618710753857619771097692912940476827548979729567429066559583720308737"
-      },
-      {
-        "From":"0x226cc61b3eac93cc2cc9d6cb8d61856670d50fad",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"18160DDD",
-        "Timestamp":"10000372",
-        "Blocknum":"20000383",
-        "Function":"totalSupply(18160ddd)",
-        "OrigData":"18160DDD",
+        "Data":"85F2AEF2",
+        "Timestamp":"10000179",
+        "Blocknum":"20000165",
+        "Function":"team(85f2aef2)",
+        "OrigData":"85F2AEF2",
         "OrigValue":"0"
       }
     ]

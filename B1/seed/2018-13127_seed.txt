@@ -10818,7 +10818,7 @@
                 ],
                 "ArgCursor": 0,
                 "Sender": {
-                    "Case": "preSale"
+                    "Case": "NormalUser1"
                 },
                 "UseAgent": "false",
                 "Timestamp": 10000000,
