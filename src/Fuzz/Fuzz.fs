@@ -269,7 +269,7 @@ let run args =
   let name = fileName.Split([| '.' |]).[0] // 再按 '.' 分割并取 AW
   printfn "Extracted name: %s" name // 输出: Extracted name: AW
   let baseDir = "/home/test/tools/GPTSmart/B1/seed" 
-  // let baseDir = "/home/mingyue/Smartian/B2/seed"
+  // let baseDir = "/home/mingyue/Smartian/B1/seed"
   let filename = baseDir + "/" + name + "_seed.txt"
       //parseTransactions json
   printfn "filename %s" filename
@@ -286,5 +286,5 @@ let run args =
  
   let concQ = List.fold ConcolicQueue.enqueue ConcolicQueue.empty initSeeds
   let randQ = List.fold RandFuzzQueue.enqueue (RandFuzzQueue.init ()) initSeeds
-  log "Start main fuzzing phase"
+  log "Start main fuzzing phase %A" initSeeds
   fuzzLoop opt contSpec concQ randQ
