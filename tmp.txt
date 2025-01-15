@@ -1,0 +1,512 @@
+{
+  "res": [
+    {
+      "functionName": "receiveApproval",
+      "sequences": [],
+      "reason": []
+    },
+    {
+      "functionName": "onlyController",
+      "sequences": [],
+      "reason": []
+    },
+    {
+      "functionName": "controller",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "The constructor sets the controller to msg.sender, which is TargetOwner in this case."
+      ]
+    },
+    {
+      "functionName": "changeController",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "changeController(NormalUser1)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "First, initialize the contract with TargetOwner as the controller. Then, TargetOwner changes the controller to NormalUser1."
+      ]
+    },
+    {
+      "functionName": "transfer",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "transfer(NormalUser1, 100)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, then TargetOwner transfers tokens to NormalUser1."
+      ]
+    },
+    {
+      "functionName": "approve",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "approve(NormalUser1, 100)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, then TargetOwner approves NormalUser1 to spend tokens."
+      ]
+    },
+    {
+      "functionName": "approveAndCall",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "approveAndCall(NormalUser1, 100, 0x0)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, then TargetOwner approves and calls NormalUser1 with tokens."
+      ]
+    },
+    {
+      "functionName": "transferFrom",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "approve(NormalUser1, 100)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "transferFrom(TargetOwner, NormalUser2, 100)",
+            "msgValue": 0,
+            "msgSender": "NormalUser1"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, TargetOwner approves NormalUser1 to spend tokens, then NormalUser1 transfers tokens from TargetOwner to NormalUser2."
+      ]
+    },
+    {
+      "functionName": "transferMulti",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "transferMulti([NormalUser1, NormalUser2], [100, 200])",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, then TargetOwner transfers multiple amounts to NormalUser1 and NormalUser2."
+      ]
+    },
+    {
+      "functionName": "freeze",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "freeze(NormalUser1, 100, 0)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, then TargetOwner freezes tokens for NormalUser1."
+      ]
+    },
+    {
+      "functionName": "_freeze",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "freeze(NormalUser1, 100, 0)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, then TargetOwner freezes tokens for NormalUser1, which internally calls _freeze."
+      ]
+    },
+    {
+      "functionName": "unFreeze",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "freeze(NormalUser1, 100, 0)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "unFreeze(0)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, freeze tokens for NormalUser1, then TargetOwner unfreezes tokens."
+      ]
+    },
+    {
+      "functionName": "generateTokens",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, then TargetOwner generates tokens for themselves."
+      ]
+    },
+    {
+      "functionName": "_generateTokens",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, then TargetOwner generates tokens for themselves, which internally calls _generateTokens."
+      ]
+    },
+    {
+      "functionName": "destroyTokens",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "destroyTokens(TargetOwner, 100)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, then TargetOwner destroys some of their tokens."
+      ]
+    },
+    {
+      "functionName": "_destroyTokens",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "destroyTokens(TargetOwner, 100)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, then TargetOwner destroys some of their tokens, which internally calls _destroyTokens."
+      ]
+    },
+    {
+      "functionName": "changeOwner",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "changeOwner(NormalUser1)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, then TargetOwner changes the owner to NormalUser1."
+      ]
+    },
+    {
+      "functionName": "changeTokensPerEther",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "changeTokensPerEther(20000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, then TargetOwner changes the tokens per ether rate."
+      ]
+    },
+    {
+      "functionName": "changeAirdropQty",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "changeAirdropQty(500)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, then TargetOwner changes the airdrop quantity."
+      ]
+    },
+    {
+      "functionName": "changeAirdropTotalQty",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "changeAirdropTotalQty(500)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, then TargetOwner changes the total airdrop quantity."
+      ]
+    },
+    {
+      "functionName": "changePaused",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "changePaused(true)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, then TargetOwner pauses the contract."
+      ]
+    },
+    {
+      "functionName": "",
+      "sequences": [
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "changeAirdropQty(500)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "changeAirdropTotalQty(500)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "",
+            "msgValue": 0,
+            "msgSender": "NormalUser1"
+          }
+        ],
+        [
+          {
+            "functionName": "controller()",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "generateTokens(TargetOwner, 1000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "changeTokensPerEther(20000)",
+            "msgValue": 0,
+            "msgSender": "TargetOwner"
+          },
+          {
+            "functionName": "",
+            "msgValue": 1000000000000000000,
+            "msgSender": "NormalUser1"
+          }
+        ]
+      ],
+      "reason": [
+        "Initialize the contract, generate tokens for TargetOwner, set airdrop quantity and total airdrop quantity, then NormalUser1 receives airdrop.",
+        "Initialize the contract, generate tokens for TargetOwner, change tokens per ether rate, then NormalUser1 sends ether to receive tokens."
+      ]
+    }
+  ]
+}

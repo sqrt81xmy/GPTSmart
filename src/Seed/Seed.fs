@@ -5,6 +5,7 @@ open Config
 open Utils
 open Nethermind.Dirichlet.Numerics
 
+
 /// A collection of input, which corresponds to a transaction sequence.
 type Seed = {
   /// An array of transactions.

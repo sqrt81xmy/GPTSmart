@@ -17,6 +17,8 @@
  */
 
 using System;
+using System.IO;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
@@ -338,6 +340,10 @@ namespace Nethermind.Evm
 
                             if (currentState.IsTopLevel)
                             {
+                                // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                                // {
+                                //     writer.WriteLine( $"currentState.IsTopLevel");
+                                // } 
                                 return new TransactionSubstate("Error");
                             }
 
@@ -491,8 +497,12 @@ namespace Nethermind.Evm
                 }
                 catch (Exception ex) when (ex is EvmException || ex is OverflowException)
                 {
+                    string filePath = "./evm_log.txt";
                     if (_logger.IsTrace) _logger.Trace($"exception ({ex.GetType().Name}) in {currentState.ExecutionType} at depth {currentState.Env.CallDepth} - restoring snapshot");
-
+                    using (StreamWriter writer = new StreamWriter(filePath, true))
+                    {
+                        writer.WriteLine( $"exception ({ex.GetType().Name}) in {currentState.ExecutionType} at depth {currentState.Env.CallDepth} - restoring snapshot");
+                    } 
                     _state.Restore(currentState.StateSnapshot);
                     _storage.Restore(currentState.StorageSnapshot);
 
@@ -572,8 +582,16 @@ namespace Nethermind.Evm
 
         private bool UpdateGas(long gasCost, ref long gasAvailable)
         {
+            //  using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+            // {
+            //     writer.WriteLine( "gasCost: " + gasCost + " gasAvailable: " + gasAvailable );
+            // } 
             if (gasAvailable < gasCost)
             {
+                //  using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                // {
+                //     writer.WriteLine( "Exception:  gasCost: " + gasCost + " gasAvailable: " + gasAvailable );
+                // } 
                 Metrics.EvmExceptions++;
                 return false;
             }
@@ -625,12 +643,17 @@ namespace Nethermind.Evm
                 }
 
                 Metrics.EvmExceptions++;
+                //  using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                // {
+                //     writer.WriteLine( "maybeExceptin gasCost: " + (dataGasCost + baseGasCost) + " gasAvailable: " + gasAvailable );
+                // } 
                 throw new OutOfGasException();
             }
 
             //if(!UpdateGas(dataGasCost, ref gasAvailable)) return CallResult.Exception;
             if (!UpdateGas(baseGasCost, ref gasAvailable))
             {
+                
                 throw new OutOfGasException();
             }
 
@@ -1039,6 +1062,10 @@ namespace Nethermind.Evm
                 {
                     if (!UpdateGas(memoryCost, ref gasAvailable))
                     {
+                        // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                        // {
+                        //     writer.WriteLine( "CalculateMemoryCost: " + memoryCost + " gasAvailable: " + gasAvailable );
+                        // } 
                         Metrics.EvmExceptions++;
                         EndInstructionTraceError(OutOfGasErrorText);
                         throw new OutOfGasException();
@@ -1430,6 +1457,10 @@ namespace Nethermind.Evm
                             int expSize = 32 - leadingZeros;
                             if (!UpdateGas((spec.IsEip160Enabled ? GasCostOf.ExpByteEip160 : GasCostOf.ExpByte) * expSize, ref gasAvailable))
                             {
+                                // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                                // {
+                                //     writer.WriteLine( "gasCost: " + (spec.IsEip160Enabled ? GasCostOf.ExpByteEip160 : GasCostOf.ExpByte) * expSize + " gasAvailable: " + gasAvailable );
+                                // } 
                                 EndInstructionTraceError(OutOfGasErrorText);
                                 return CallResult.OutOfGasException;
                             }
@@ -1876,6 +1907,10 @@ namespace Nethermind.Evm
                         if (!UpdateGas(GasCostOf.Sha3 + GasCostOf.Sha3Word * EvmPooledMemory.Div32Ceiling(memLength),
                             ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "1912: " + GasCostOf.Sha3 + GasCostOf.Sha3Word * EvmPooledMemory.Div32Ceiling(memLength) + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -2035,6 +2070,10 @@ namespace Nethermind.Evm
                         if (!UpdateGas(GasCostOf.VeryLow + GasCostOf.Memory * EvmPooledMemory.Div32Ceiling(length),
                             ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "2075: " + GasCostOf.VeryLow + GasCostOf.Memory * EvmPooledMemory.Div32Ceiling(length) + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -2075,6 +2114,10 @@ namespace Nethermind.Evm
 
                         if (!UpdateGas(GasCostOf.VeryLow + GasCostOf.Memory * EvmPooledMemory.Div32Ceiling(length), ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "2119: " + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -2110,6 +2153,10 @@ namespace Nethermind.Evm
                     {
                         if (!UpdateGas(spec.IsEip150Enabled ? GasCostOf.ExtCodeSizeEip150 : GasCostOf.ExtCodeSize, ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "2158: "  + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -2140,6 +2187,10 @@ namespace Nethermind.Evm
                         if (!UpdateGas((spec.IsEip150Enabled ? GasCostOf.ExtCodeEip150 : GasCostOf.ExtCode) + GasCostOf.Memory * EvmPooledMemory.Div32Ceiling(length),
                             ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "2192: " + (spec.IsEip150Enabled ? GasCostOf.ExtCodeEip150 : GasCostOf.ExtCode) + GasCostOf.Memory * EvmPooledMemory.Div32Ceiling(length) + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -2551,6 +2602,10 @@ namespace Nethermind.Evm
                         {
                             Metrics.EvmExceptions++;
                             EndInstructionTraceError(OutOfGasErrorText);
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "maybeExceptin gasCost: " + (GasCostOf.CallStipend) + " gasAvailable: " + gasAvailable );
+                            // } 
                             return CallResult.OutOfGasException;
                         }
 
@@ -2590,6 +2645,10 @@ namespace Nethermind.Evm
                                 long netMeteredStoreCost = spec.IsEip2200Enabled ? GasCostOf.SStoreNetMeteredEip2200 : GasCostOf.SStoreNetMeteredEip1283;
                                 if(!UpdateGas(netMeteredStoreCost, ref gasAvailable))
                                 {
+                                    // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                                    // {
+                                    //     writer.WriteLine( "2650: " + " gasAvailable: " + gasAvailable );
+                                    // } 
                                     EndInstructionTraceError(OutOfGasErrorText);
                                     return CallResult.OutOfGasException;
                                 }
@@ -3092,6 +3151,10 @@ namespace Nethermind.Evm
                             GasCostOf.Log + topicsCount * GasCostOf.LogTopic +
                             (long)length * GasCostOf.LogData, ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "3156: " + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -3164,6 +3227,10 @@ namespace Nethermind.Evm
                         long gasCost = GasCostOf.Create + (instruction == Instruction.CREATE2 ? GasCostOf.Sha3Word * EvmPooledMemory.Div32Ceiling(initCodeLength) : 0);
                         if (!UpdateGas(gasCost, ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "3233: " + gasCost + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -3197,6 +3264,10 @@ namespace Nethermind.Evm
                         long callGas = spec.IsEip150Enabled ? gasAvailable - gasAvailable / 64L : gasAvailable;
                         if (!UpdateGas(callGas, ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "3270: " + callGas + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -3482,6 +3553,10 @@ namespace Nethermind.Evm
 
                         if (!UpdateGas(spec.IsEip150Enabled ? GasCostOf.CallEip150 : GasCostOf.Call, ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "3559: " +  " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -3490,6 +3565,10 @@ namespace Nethermind.Evm
                         UpdateMemoryCost(ref outputOffset, outputLength);
                         if (!UpdateGas(gasExtra, ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "3570: " + gasExtra + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -3502,6 +3581,10 @@ namespace Nethermind.Evm
                         long gasLimitUl = (long)gasLimit;
                         if (!UpdateGas(gasLimitUl, ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "3587: " + gasLimitUl + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -3627,6 +3710,10 @@ namespace Nethermind.Evm
 
                         UpdateCurrentState();
                         EndInstructionTrace();
+                        // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                        // {
+                        //     writer.WriteLine( "3715: " + "Instruction.REVERT" + errorDetails );
+                        // } 
                         return new CallResult(errorDetails, null, true);
                     }
                     case Instruction.INVALID:
@@ -3656,6 +3743,10 @@ namespace Nethermind.Evm
 
                         if (spec.IsEip150Enabled && !UpdateGas(GasCostOf.SelfDestructEip150, ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "3745: " + GasCostOf.SelfDestructEip150 + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }
@@ -3839,6 +3930,10 @@ namespace Nethermind.Evm
                         var gasCost = spec.IsEip1884Enabled ? GasCostOf.ExtCodeHashEip1884 : GasCostOf.ExtCodeHash;
                         if (!UpdateGas(gasCost, ref gasAvailable))
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "3932: " + gasCost + " gasAvailable: " + gasAvailable );
+                            // } 
                             EndInstructionTraceError(OutOfGasErrorText);
                             return CallResult.OutOfGasException;
                         }

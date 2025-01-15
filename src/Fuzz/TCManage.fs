@@ -122,8 +122,9 @@ let private dumpTestCase opt seed =
   System.IO.File.WriteAllText(tcPath, tcStr)
   totalTC <- totalTC + 1
 
-let evalAndSave opt seed =
+let evalAndSave opt seed = 
   let covGain, duGain, bugSet = Executor.getCoverage opt seed
+  // printfn "executing seeds:::  %s %A  %A"  (Seed.toString seed) covGain duGain
   if Set.count bugSet > 0 then dumpBug opt seed bugSet
   if covGain then dumpTestCase opt seed
   if not covGain && duGain && opt.Verbosity >= 2 then

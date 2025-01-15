@@ -312,6 +312,10 @@ namespace Nethermind.Evm
                         long codeDepositGasCost = CodeDepositHandler.CalculateCost(substate.Output.Length, spec);
                         if (unspentGas < codeDepositGasCost && spec.IsEip2Enabled)
                         {
+                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                            // {
+                            //     writer.WriteLine( "maybeExceptin gasCost: " + (codeDepositGasCost) + " gasAvailable: " + unspentGas );
+                            // } 
                             throw new OutOfGasException();
                         }
 
@@ -400,7 +404,10 @@ namespace Nethermind.Evm
             {
                 spentGas -= unspentGas;
                 long refund = substate.ShouldRevert ? 0 : Math.Min(spentGas / 2L, substate.Refund + substate.DestroyList.Count * RefundOf.Destroy);
-
+                // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
+                // {
+                //     writer.WriteLine( "Refunding unused gas of " + unspentGas + " and refund of " + refund);
+                // } 
                 if (_logger.IsTrace) _logger.Trace("Refunding unused gas of " + unspentGas + " and refund of " + refund);
                 _stateProvider.AddToBalance(sender, (ulong) (unspentGas + refund) * gasPrice, spec);
                 spentGas -= refund;

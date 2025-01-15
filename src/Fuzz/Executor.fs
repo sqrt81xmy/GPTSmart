@@ -90,9 +90,11 @@ let private runTx env from ``to`` code reqAddr value data timestamp blocknum =
                                        Data = data,
                                        GasLimit = TX_GASLIMIT,
                                        GasPrice = UInt256 (TX_GASPRICE: int64))
-  let logMessage = sprintf "processor.Execute %A %A %A %A %A" from ``to`` value data tracer
-  File.AppendAllText("./loglog.txt", logMessage + Environment.NewLine)            
+  // let logMessage = sprintf "processor.Execute %A %A %A %A %A" from ``to`` value data tracer
+  // File.AppendAllText("./loglog.txt", logMessage + Environment.NewLine)            
   processor.Execute(tx, block.Header, tracer)
+  // let logMessage = sprintf "processor.Execute %A %A %A %A %A %A %A %A" tracer.StatusCode deployFailCount from ``to`` reqAddr tracer.Error value data
+  // File.AppendAllText("./loglog.txt", logMessage + Environment.NewLine)            
   tracer.StatusCode
 
 let private deploy env deployer addr code value data timestamp blocknum =
