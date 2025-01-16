@@ -17,8 +17,6 @@
  */
 
 using System;
-using System.IO;
-using System.Linq;
 using System.Buffers;
 using System.Collections.Generic;
 using System.Numerics;
@@ -77,14 +75,9 @@ namespace Nethermind.Evm
         private static void CheckMemoryAccessViolation(ref UInt256 location, in UInt256 length)
         {
             UInt256 totalSize = location + length;
-            if (totalSize < location || totalSize > UInt256.MaxValue)
+            if (totalSize < location || totalSize > long.MaxValue)
             {
-                //long.MaxValue
                 Metrics.EvmExceptions++;
-                // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
-                // {
-                //     writer.WriteLine( "CheckMemoryAccessViolation gasCost: " + (location) + " gasAvailable: " + totalSize +" " + long.MaxValue );
-                // } 
                 throw new OutOfGasException();
             }
         }
@@ -152,7 +145,7 @@ namespace Nethermind.Evm
             CheckMemoryAccessViolation(ref location, length);
             UInt256 newSize = location + length;
 
-            if (newSize > UInt256.MaxValue) //Size
+            if (newSize > Size)
             {
                 long newActiveWords = Div32Ceiling(newSize);
                 long activeWords = Div32Ceiling(Size);
@@ -208,13 +201,9 @@ namespace Nethermind.Evm
             UInt256 rem = length & 31;
             UInt256 result = length >> 5;
             UInt256 withCeiling = result + (rem.IsZero ? 0UL : 1UL);
-            if (withCeiling > UInt256.MaxValue)
+            if (withCeiling > MaxInt32)
             {
                 Metrics.EvmExceptions++;
-                // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
-                // {
-                //     writer.WriteLine( "withCeiling gasCost: " + (withCeiling) + " gasAvailable: " + MaxInt32 );
-                // } 
                 throw new OutOfGasException();
             }
             
