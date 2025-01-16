@@ -124,6 +124,9 @@ let private dumpTestCase opt seed =
 
 let evalAndSave opt seed = 
   let covGain, duGain, bugSet = Executor.getCoverage opt seed
+  log "Covered Edges: %d" accumEdges.Count
+  log "Covered Instructions: %d" accumInstrs.Count
+  log "Covered Def-Use Chains: %d" accumDUChains.Count
   // printfn "executing seeds:::  %s %A  %A"  (Seed.toString seed) covGain duGain
   if Set.count bugSet > 0 then dumpBug opt seed bugSet
   if covGain then dumpTestCase opt seed

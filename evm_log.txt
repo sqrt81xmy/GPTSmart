@@ -1,0 +1,3 @@
+exception (OutOfGasException) in Call at depth 1 - restoring snapshot
+exception (OutOfGasException) in Call at depth 1 - restoring snapshot
+exception (OutOfGasException) in Call at depth 1 - restoring snapshot
