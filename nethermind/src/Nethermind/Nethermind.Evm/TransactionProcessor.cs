@@ -17,7 +17,6 @@
  */
 
 using System;
-using System.IO;
 using System.Linq;
 using Nethermind.Core;
 using Nethermind.Core.Crypto;
@@ -90,42 +89,20 @@ namespace Nethermind.Evm
             Address sender = transaction.SenderAddress;
             if (_logger.IsTrace) _logger.Trace($"Executing tx {transaction.Hash}");
 
-            // Console.Write("exexexcececece") ;
-            string filePath = "./evm_log.txt";
-            // using (StreamWriter writer = new StreamWriter(filePath, true))
-            // {
-            //     if (_logger.IsTrace) 
-            //     writer.WriteLine($"Executing tx {transaction.Hash}");
-            // }
-
             if (sender == null)
             {
-                // using (StreamWriter writer = new StreamWriter(filePath, true))
-                // {
-                //    writer.WriteLine("SENDER_NOT_SPECIFIED");
-                // } 
                 TraceLogInvalidTx(transaction, "SENDER_NOT_SPECIFIED");
                 QuickFail(transaction, block, txTracer, readOnly);
                 return;
             }
 
             long intrinsicGas = _intrinsicGasCalculator.Calculate(transaction, spec);
-            if (_logger.IsTrace) {
-                _logger.Trace($"Intrinsic gas calculated for {transaction.Hash}: " + intrinsicGas);
-                // using (StreamWriter writer = new StreamWriter(filePath, true))
-                // {
-                //    writer.WriteLine($"Intrinsic gas calculated for {transaction.Hash}: " + intrinsicGas);
-                // } 
-            }
+            if (_logger.IsTrace) _logger.Trace($"Intrinsic gas calculated for {transaction.Hash}: " + intrinsicGas);
 
             if (notSystemTransaction)
             {
                 if (gasLimit < intrinsicGas)
                 {
-                    // using (StreamWriter writer = new StreamWriter(filePath, true))
-                    // {
-                    //     writer.WriteLine($"GAS_LIMIT_BELOW_INTRINSIC_GAS {gasLimit} < {intrinsicGas}");
-                    // } 
                     TraceLogInvalidTx(transaction, $"GAS_LIMIT_BELOW_INTRINSIC_GAS {gasLimit} < {intrinsicGas}");
                     QuickFail(transaction, block, txTracer, readOnly);
                     return;
@@ -135,10 +112,6 @@ namespace Nethermind.Evm
                 {
                     TraceLogInvalidTx(transaction,
                         $"BLOCK_GAS_LIMIT_EXCEEDED {gasLimit} > {block.GasLimit} - {block.GasUsed}");
-                    // using (StreamWriter writer = new StreamWriter(filePath, true))
-                    // {
-                    //     writer.WriteLine( $"BLOCK_GAS_LIMIT_EXCEEDED {gasLimit} > {block.GasLimit} - {block.GasUsed}");
-                    // } 
                     QuickFail(transaction, block, txTracer, readOnly);
                     return;
                 }
@@ -154,19 +127,11 @@ namespace Nethermind.Evm
 
                 if (sender != transaction.SenderAddress)
                 {
-                    // using (StreamWriter writer = new StreamWriter(filePath, true))
-                    // {
-                    //     writer.WriteLine($"TX recovery issue fixed - tx was coming with sender {sender} and the now it recovers to {transaction.SenderAddress}");
-                    // } 
                     if(_logger.IsWarn) _logger.Warn($"TX recovery issue fixed - tx was coming with sender {sender} and the now it recovers to {transaction.SenderAddress}");
                     sender = transaction.SenderAddress;
                 }
                 else
                 {
-                    // using (StreamWriter writer = new StreamWriter(filePath, true))
-                    // {
-                    //     writer.WriteLine($"SENDER_ACCOUNT_DOES_NOT_EXIST {sender}");
-                    // } 
                     TraceLogInvalidTx(transaction, $"SENDER_ACCOUNT_DOES_NOT_EXIST {sender}");
                     if (gasPrice == UInt256.Zero)
                     {
@@ -180,10 +145,6 @@ namespace Nethermind.Evm
                 UInt256 senderBalance = _stateProvider.GetBalance(sender);
                 if ((ulong) intrinsicGas * gasPrice + value > senderBalance)
                 {
-                    // using (StreamWriter writer = new StreamWriter(filePath, true))
-                    // {
-                    //     writer.WriteLine( $"INSUFFICIENT_SENDER_BALANCE: ({sender})_BALANCE = {senderBalance} intrinsicGas:{intrinsicGas} gasPrice:{gasPrice} value:{value}");
-                    // } 
                     TraceLogInvalidTx(transaction, $"INSUFFICIENT_SENDER_BALANCE: ({sender})_BALANCE = {senderBalance}");
                     QuickFail(transaction, block, txTracer, readOnly);
                     return;
@@ -272,23 +233,6 @@ namespace Nethermind.Evm
                 env.CodeInfo = isPrecompile ? new CodeInfo(recipient) : machineCode == null ? _virtualMachine.GetCachedCodeInfo(recipient) : new CodeInfo(machineCode);
                 env.Originator = sender;
 
-                // using (StreamWriter writer = new StreamWriter(filePath, true))
-                // {
-                //     // 将 env 的属性转换为字符串并写入文件
-                //     writer.WriteLine($"Value: {env.Value}"); 
-                //     writer.WriteLine($"transactionValue: {transaction.Value}");
-                //     writer.WriteLine($"transactionReceiver: {transaction.To}");
-                //     writer.WriteLine($"transaction: {transaction}");
-                //     writer.WriteLine($"Sender: {env.Sender}");
-                //     writer.WriteLine($"CodeSource: {env.CodeSource}");
-                //     writer.WriteLine($"ExecutingAccount: {env.ExecutingAccount}"); 
-                //     writer.WriteLine($"GasPrice: {env.GasPrice}");
-                //     writer.WriteLine($"InputData: {env.InputData}"); // 将字节数组转换为十六进制字符串
-                //     writer.WriteLine($"CodeInfo: {env.CodeInfo}");
-                //     writer.WriteLine($"Originator: {env.Originator}");
-                //     writer.WriteLine(); // 添加空行分隔
-                // }
-
                 ExecutionType executionType = transaction.IsContractCreation ? ExecutionType.Create : ExecutionType.Call;
                 using (EvmState state = new EvmState(unspentGas, env, executionType, isPrecompile, true, false))
                 {
@@ -312,10 +256,6 @@ namespace Nethermind.Evm
                         long codeDepositGasCost = CodeDepositHandler.CalculateCost(substate.Output.Length, spec);
                         if (unspentGas < codeDepositGasCost && spec.IsEip2Enabled)
                         {
-                            // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
-                            // {
-                            //     writer.WriteLine( "maybeExceptin gasCost: " + (codeDepositGasCost) + " gasAvailable: " + unspentGas );
-                            // } 
                             throw new OutOfGasException();
                         }
 
@@ -404,10 +344,7 @@ namespace Nethermind.Evm
             {
                 spentGas -= unspentGas;
                 long refund = substate.ShouldRevert ? 0 : Math.Min(spentGas / 2L, substate.Refund + substate.DestroyList.Count * RefundOf.Destroy);
-                // using (StreamWriter writer = new StreamWriter("./evm_log.txt", true))
-                // {
-                //     writer.WriteLine( "Refunding unused gas of " + unspentGas + " and refund of " + refund);
-                // } 
+
                 if (_logger.IsTrace) _logger.Trace("Refunding unused gas of " + unspentGas + " and refund of " + refund);
                 _stateProvider.AddToBalance(sender, (ulong) (unspentGas + refund) * gasPrice, spec);
                 spentGas -= refund;

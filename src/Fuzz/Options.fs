@@ -9,6 +9,7 @@ type FuzzerCLI =
   | [<AltCommandLine("-t")>] [<Mandatory>] [<Unique>] Timelimit of sec: int
   | [<AltCommandLine("-o")>] [<Mandatory>] [<Unique>] OutputDir of path: string
   | [<AltCommandLine("-a")>] [<Unique>] ABIFile of path: string
+  // | [<AltCommandLine("-s")>] [<Unique>] SeedDir of path: string
   | [<Unique>] NoSDFA
   | [<Unique>] NoDDFA
   | [<Unique>] CheckOptionalBugs
@@ -36,6 +37,7 @@ type FuzzOption = {
   Timelimit         : int
   ProgPath          : string
   ABIPath           : string
+  // SeedDir           : string
   StaticDFA         : bool
   DynamicDFA        : bool
   CheckOptionalBugs : bool
@@ -52,6 +54,7 @@ let parseFuzzOption (args: string array) =
     Timelimit = r.GetResult (<@ Timelimit @>)
     ProgPath = r.GetResult (<@ Program @>)
     ABIPath = r.GetResult(<@ ABIFile @>, defaultValue = "")
+    // SeedDir = r.GetResult(<@ SeedDir @>)
     StaticDFA = not (r.Contains(<@ NoSDFA @>))  // Enabled by default.
     DynamicDFA = not (r.Contains(<@ NoDDFA @>)) // Enabled by default.
     CheckOptionalBugs = r.Contains(<@ CheckOptionalBugs @>)

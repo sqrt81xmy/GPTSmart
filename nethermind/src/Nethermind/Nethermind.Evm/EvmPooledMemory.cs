@@ -130,8 +130,22 @@ namespace Nethermind.Evm
             
             UpdateSize(ref location, length);
 
+            // byte[] buffer = new byte[(int)length];
+            // Array.Copy(_memory, (long)location, buffer, 0, buffer.Length);
+
             byte[] buffer = new byte[(int)length];
-            Array.Copy(_memory, (long)location, buffer, 0, buffer.Length);
+            int blockSize = 1024 * 1024 * 1024; // 每次复制 1GB
+            long remaining = (long)buffer.Length;
+            long offset = 0;
+
+            while (remaining > 0)
+            {
+                int bytesToCopy = (int)Math.Min(blockSize, remaining);
+                Array.Copy(_memory, (long)location + offset, buffer, offset, bytesToCopy);
+                offset += bytesToCopy;
+                remaining -= bytesToCopy;
+            }
+
             return buffer;
         }
 
