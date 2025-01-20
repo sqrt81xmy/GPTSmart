@@ -50,7 +50,7 @@ for filename in os.listdir(bin_directory):
                 # 生成新的文件名
                 new_file_name = os.path.join(output_directory, f"{filename.replace('.bin', '')}_normalFuncs.txt")
                 # 移动并重命名文件
-                shutil.copy(normal_funcs_file, new_file_name)
+                shutil.move(normal_funcs_file, new_file_name)
                 print(f"Moved {normal_funcs_file} to {new_file_name}")
                 time.sleep(3)
             else:

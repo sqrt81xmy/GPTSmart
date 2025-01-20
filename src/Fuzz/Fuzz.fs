@@ -275,7 +275,7 @@ let run args =
   printfn "filename %s" filename
   // 使用示例
   let transactions = loadData filename  // 读取并解析数据
-  let newSeeds = parseTransactions(transactions)
+  let newSeeds = parseTransactions(tra nsactions)
   let initSeeds = List.ofArray newSeeds
   // for seed in initSeeds do
   //   printfn "Seed: %A" seed.Transactions[0].FuncSpec // 将调用默认的序列化 
