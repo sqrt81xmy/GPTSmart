@@ -128,7 +128,7 @@ let parseAndAnalyze binFile abiFile =
   // extracting from 'funcInfos', to reflect the updates from static analysis.
   let normalFuncs = List.map (fun info -> info.FuncSpec) funcInfos
   let contractSpec = ContractSpec.make constrFunc (Array.ofList normalFuncs)
-  printfn "contractSpec %A" contractSpec
+  // printfn "contractSpec %A" contractSpec
   // Now, decide transaction sequence order with the analysis result.
   let folder accMap info = Map.add (FuncSpec.getName info.FuncSpec) info accMap
   let funcInfoMap = List.fold folder Map.empty funcInfos

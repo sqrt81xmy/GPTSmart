@@ -244,7 +244,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "TargetOwner"
+        "Case": "NormalUser1"
       },
       "UseAgent": false,
       "Timestamp": 10000000,
@@ -259,257 +259,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 1179,
-        "ArgSpecs": [
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          }
-        ]
-      },
-      "Args": [
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        }
-      ],
-      "ArgCursor": 0,
-      "Sender": {
-        "Case": "TargetOwner"
-      },
-      "UseAgent": false,
-      "Timestamp": 10000000,
-      "Blocknum": 20000000
-    },
-    {
-      "FuncSpec": {
-        "Name": "name",
-        "Signature": "Bv3eAw==",
-        "Kind": {
-          "Case": "Normal"
-        },
-        "Payable": false,
-        "OnlyOwner": false,
-        "Entry": 1222,
+        "Entry": 1237,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -752,6 +502,256 @@
     },
     {
       "FuncSpec": {
+        "Name": "name",
+        "Signature": "Bv3eAw==",
+        "Kind": {
+          "Case": "Normal"
+        },
+        "Payable": false,
+        "OnlyOwner": false,
+        "Entry": 1280,
+        "ArgSpecs": [
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          }
+        ]
+      },
+      "Args": [
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        }
+      ],
+      "ArgCursor": 0,
+      "Sender": {
+        "Case": "TargetOwner"
+      },
+      "UseAgent": false,
+      "Timestamp": 10000000,
+      "Blocknum": 20000000
+    },
+    {
+      "FuncSpec": {
         "Name": "reLoadXname",
         "Signature": "B5zjJw==",
         "Kind": {
@@ -759,7 +759,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 1366,
+        "Entry": 1424,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -1986,7 +1986,7 @@
         },
         "Payable": false,
         "OnlyOwner": true,
-        "Entry": 1435,
+        "Entry": 1493,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -2236,7 +2236,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 1458,
+        "Entry": 1516,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -2617,7 +2617,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "NormalUser2"
+        "Case": "NormalUser1"
       },
       "UseAgent": false,
       "Timestamp": 10000000,
@@ -2632,7 +2632,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 1545,
+        "Entry": 1603,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -2867,7 +2867,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "NormalUser1"
+        "Case": "TargetOwner"
       },
       "UseAgent": false,
       "Timestamp": 10000000,
@@ -2882,7 +2882,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 1588,
+        "Entry": 1646,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -3344,9 +3344,9 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "NormalUser1"
+        "Case": "NormalUser3"
       },
-      "UseAgent": false,
+      "UseAgent": true,
       "Timestamp": 10000000,
       "Blocknum": 20000000
     },
@@ -3359,7 +3359,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 1734,
+        "Entry": 1792,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -4346,7 +4346,7 @@
       "Sender": {
         "Case": "TargetOwner"
       },
-      "UseAgent": false,
+      "UseAgent": true,
       "Timestamp": 10000000,
       "Blocknum": 20000000
     },
@@ -4359,7 +4359,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 1817,
+        "Entry": 1875,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -4821,7 +4821,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "TargetOwner"
+        "Case": "NormalUser3"
       },
       "UseAgent": false,
       "Timestamp": 10000000,
@@ -4836,7 +4836,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 1889,
+        "Entry": 1947,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -5586,937 +5586,6 @@
                 }
               ],
               "MaxLength": 1,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        }
-      ],
-      "ArgCursor": 0,
-      "Sender": {
-        "Case": "TargetOwner"
-      },
-      "UseAgent": false,
-      "Timestamp": 10000000,
-      "Blocknum": 20000000
-    },
-    {
-      "FuncSpec": {
-        "Name": "reLoadXid",
-        "Signature": "NJzcrA==",
-        "Kind": {
-          "Case": "Normal"
-        },
-        "Payable": false,
-        "OnlyOwner": false,
-        "Entry": 1958,
-        "ArgSpecs": [
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          }
-        ]
-      },
-      "Args": [
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        },
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        },
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        },
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
               "ByteCursor": 0
             }
           ],
@@ -6533,6 +5602,937 @@
     },
     {
       "FuncSpec": {
+        "Name": "reLoadXid",
+        "Signature": "NJzcrA==",
+        "Kind": {
+          "Case": "Normal"
+        },
+        "Payable": false,
+        "OnlyOwner": false,
+        "Entry": 2016,
+        "ArgSpecs": [
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          }
+        ]
+      },
+      "Args": [
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        },
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        },
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        },
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        }
+      ],
+      "ArgCursor": 0,
+      "Sender": {
+        "Case": "NormalUser1"
+      },
+      "UseAgent": false,
+      "Timestamp": 10000000,
+      "Blocknum": 20000000
+    },
+    {
+      "FuncSpec": {
         "Name": "withdraw",
         "Signature": "PM/WCw==",
         "Kind": {
@@ -6540,7 +6540,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 2023,
+        "Entry": 2081,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -6790,7 +6790,7 @@
         },
         "Payable": true,
         "OnlyOwner": false,
-        "Entry": 2046,
+        "Entry": 2104,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -7253,7 +7253,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "NormalUser1"
+        "Case": "NormalUser2"
       },
       "UseAgent": false,
       "Timestamp": 10000000,
@@ -7268,7 +7268,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 2182,
+        "Entry": 2240,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -8626,9 +8626,9 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "NormalUser2"
+        "Case": "NormalUser1"
       },
-      "UseAgent": true,
+      "UseAgent": false,
       "Timestamp": 10000000,
       "Blocknum": 20000000
     },
@@ -8641,7 +8641,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 2283,
+        "Entry": 2341,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -8891,733 +8891,6 @@
           ],
           "ElemCursor": 0
         },
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        },
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        }
-      ],
-      "ArgCursor": 0,
-      "Sender": {
-        "Case": "NormalUser2"
-      },
-      "UseAgent": false,
-      "Timestamp": 10000000,
-      "Blocknum": 20000000
-    },
-    {
-      "FuncSpec": {
-        "Name": "rID_",
-        "Signature": "YkrlwA==",
-        "Kind": {
-          "Case": "Normal"
-        },
-        "Payable": false,
-        "OnlyOwner": false,
-        "Entry": 2358,
-        "ArgSpecs": [
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          }
-        ]
-      },
-      "Args": [
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        }
-      ],
-      "ArgCursor": 0,
-      "Sender": {
-        "Case": "NormalUser2"
-      },
-      "UseAgent": false,
-      "Timestamp": 10000000,
-      "Blocknum": 20000000
-    },
-    {
-      "FuncSpec": {
-        "Name": "getPlayerVaults",
-        "Signature": "YwZkNA==",
-        "Kind": {
-          "Case": "Normal"
-        },
-        "Payable": false,
-        "OnlyOwner": false,
-        "Entry": 2401,
-        "ArgSpecs": [
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          }
-        ]
-      },
-      "Args": [
         {
           "Spec": {
             "TypeStr": "uint256",
@@ -10065,6 +9338,733 @@
     },
     {
       "FuncSpec": {
+        "Name": "rID_",
+        "Signature": "YkrlwA==",
+        "Kind": {
+          "Case": "Normal"
+        },
+        "Payable": false,
+        "OnlyOwner": false,
+        "Entry": 2416,
+        "ArgSpecs": [
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          }
+        ]
+      },
+      "Args": [
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        }
+      ],
+      "ArgCursor": 0,
+      "Sender": {
+        "Case": "TargetOwner"
+      },
+      "UseAgent": false,
+      "Timestamp": 10000000,
+      "Blocknum": 20000000
+    },
+    {
+      "FuncSpec": {
+        "Name": "getPlayerVaults",
+        "Signature": "YwZkNA==",
+        "Kind": {
+          "Case": "Normal"
+        },
+        "Payable": false,
+        "OnlyOwner": false,
+        "Entry": 2459,
+        "ArgSpecs": [
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          }
+        ]
+      },
+      "Args": [
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        },
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        }
+      ],
+      "ArgCursor": 0,
+      "Sender": {
+        "Case": "NormalUser2"
+      },
+      "UseAgent": false,
+      "Timestamp": 10000000,
+      "Blocknum": 20000000
+    },
+    {
+      "FuncSpec": {
         "Name": "registerNameXname",
         "Signature": "aF/9gw==",
         "Kind": {
@@ -10072,7 +10072,7 @@
         },
         "Payable": true,
         "OnlyOwner": false,
-        "Entry": 2480,
+        "Entry": 2538,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -10912,7 +10912,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "NormalUser1"
+        "Case": "NormalUser3"
       },
       "UseAgent": false,
       "Timestamp": 10000000,
@@ -10927,7 +10927,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 2598,
+        "Entry": 2656,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -10941,6 +10941,856 @@
         ]
       },
       "Args": [
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        }
+      ],
+      "ArgCursor": 0,
+      "Sender": {
+        "Case": "TargetOwner"
+      },
+      "UseAgent": false,
+      "Timestamp": 10000000,
+      "Blocknum": 20000000
+    },
+    {
+      "FuncSpec": {
+        "Name": "reLoadXaddr",
+        "Signature": "gr/HOQ==",
+        "Kind": {
+          "Case": "Normal"
+        },
+        "Payable": false,
+        "OnlyOwner": false,
+        "Entry": 2842,
+        "ArgSpecs": [
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          {
+            "TypeStr": "address",
+            "Kind": {
+              "Case": "Address"
+            }
+          },
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          }
+        ]
+      },
+      "Args": [
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        },
+        {
+          "Spec": {
+            "TypeStr": "address",
+            "Kind": {
+              "Case": "Address"
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "Address"
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 20,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        },
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        },
         {
           "Spec": {
             "TypeStr": "uint256",
@@ -11170,856 +12020,6 @@
     },
     {
       "FuncSpec": {
-        "Name": "reLoadXaddr",
-        "Signature": "gr/HOQ==",
-        "Kind": {
-          "Case": "Normal"
-        },
-        "Payable": false,
-        "OnlyOwner": false,
-        "Entry": 2784,
-        "ArgSpecs": [
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          {
-            "TypeStr": "address",
-            "Kind": {
-              "Case": "Address"
-            }
-          },
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          }
-        ]
-      },
-      "Args": [
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        },
-        {
-          "Spec": {
-            "TypeStr": "address",
-            "Kind": {
-              "Case": "Address"
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "Address"
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 20,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        },
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        },
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        }
-      ],
-      "ArgCursor": 0,
-      "Sender": {
-        "Case": "NormalUser1"
-      },
-      "UseAgent": false,
-      "Timestamp": 10000000,
-      "Blocknum": 20000000
-    },
-    {
-      "FuncSpec": {
         "Name": "buyXid",
         "Signature": "jzjzCQ==",
         "Kind": {
@@ -12027,7 +12027,7 @@
         },
         "Payable": true,
         "OnlyOwner": false,
-        "Entry": 2871,
+        "Entry": 2929,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -12731,7 +12731,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 2913,
+        "Entry": 2971,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -13718,7 +13718,7 @@
       "Sender": {
         "Case": "TargetOwner"
       },
-      "UseAgent": false,
+      "UseAgent": true,
       "Timestamp": 10000000,
       "Blocknum": 20000000
     },
@@ -13731,7 +13731,7 @@
         },
         "Payable": true,
         "OnlyOwner": false,
-        "Entry": 2972,
+        "Entry": 3030,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -14290,7 +14290,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 3086,
+        "Entry": 3144,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -14525,7 +14525,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "NormalUser2"
+        "Case": "NormalUser3"
       },
       "UseAgent": false,
       "Timestamp": 10000000,
@@ -14540,7 +14540,7 @@
         },
         "Payable": true,
         "OnlyOwner": false,
-        "Entry": 3230,
+        "Entry": 3288,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -15148,7 +15148,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "TargetOwner"
+        "Case": "NormalUser2"
       },
       "UseAgent": false,
       "Timestamp": 10000000,
@@ -15163,7 +15163,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 3294,
+        "Entry": 3352,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -15867,7 +15867,7 @@
         },
         "Payable": true,
         "OnlyOwner": false,
-        "Entry": 3390,
+        "Entry": 3448,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -16852,7 +16852,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "NormalUser2"
+        "Case": "TargetOwner"
       },
       "UseAgent": false,
       "Timestamp": 10000000,
@@ -16867,7 +16867,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 3436,
+        "Entry": 3494,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -17329,7 +17329,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "NormalUser3"
+        "Case": "NormalUser1"
       },
       "UseAgent": false,
       "Timestamp": 10000000,
@@ -17344,7 +17344,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 3508,
+        "Entry": 3566,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -17594,7 +17594,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 3551,
+        "Entry": 3609,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -18298,7 +18298,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 3626,
+        "Entry": 3684,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -18539,256 +18539,6 @@
           ],
           "ElemCursor": 0
         },
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        }
-      ],
-      "ArgCursor": 0,
-      "Sender": {
-        "Case": "NormalUser3"
-      },
-      "UseAgent": false,
-      "Timestamp": 10000000,
-      "Blocknum": 20000000
-    },
-    {
-      "FuncSpec": {
-        "Name": "activated_",
-        "Signature": "1TsmeQ==",
-        "Kind": {
-          "Case": "Normal"
-        },
-        "Payable": false,
-        "OnlyOwner": false,
-        "Entry": 3691,
-        "ArgSpecs": [
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          }
-        ]
-      },
-      "Args": [
         {
           "Spec": {
             "TypeStr": "uint256",
@@ -19012,6 +18762,256 @@
       "Sender": {
         "Case": "NormalUser2"
       },
+      "UseAgent": false,
+      "Timestamp": 10000000,
+      "Blocknum": 20000000
+    },
+    {
+      "FuncSpec": {
+        "Name": "activated_",
+        "Signature": "1TsmeQ==",
+        "Kind": {
+          "Case": "Normal"
+        },
+        "Payable": false,
+        "OnlyOwner": false,
+        "Entry": 3749,
+        "ArgSpecs": [
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          }
+        ]
+      },
+      "Args": [
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        }
+      ],
+      "ArgCursor": 0,
+      "Sender": {
+        "Case": "TargetOwner"
+      },
       "UseAgent": true,
       "Timestamp": 10000000,
       "Blocknum": 20000000
@@ -19025,734 +19025,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 3738,
-        "ArgSpecs": [
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          }
-        ]
-      },
-      "Args": [
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        }
-      ],
-      "ArgCursor": 0,
-      "Sender": {
-        "Case": "NormalUser3"
-      },
-      "UseAgent": false,
-      "Timestamp": 10000000,
-      "Blocknum": 20000000
-    },
-    {
-      "FuncSpec": {
-        "Name": "plyr_",
-        "Signature": "3nh08w==",
-        "Kind": {
-          "Case": "Normal"
-        },
-        "Payable": false,
-        "OnlyOwner": false,
-        "Entry": 3781,
-        "ArgSpecs": [
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          }
-        ]
-      },
-      "Args": [
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        },
-        {
-          "Spec": {
-            "TypeStr": "uint256",
-            "Kind": {
-              "Case": "UInt",
-              "Fields": [
-                32
-              ]
-            }
-          },
-          "Elems": [
-            {
-              "ElemType": {
-                "Case": "UInt",
-                "Fields": [
-                  32
-                ]
-              },
-              "ByteVals": [
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                },
-                {
-                  "Case": "Untouched",
-                  "Fields": [
-                    0
-                  ]
-                }
-              ],
-              "MaxLength": 32,
-              "ByteCursor": 0
-            }
-          ],
-          "ElemCursor": 0
-        }
-      ],
-      "ArgCursor": 0,
-      "Sender": {
-        "Case": "NormalUser3"
-      },
-      "UseAgent": true,
-      "Timestamp": 10000000,
-      "Blocknum": 20000000
-    },
-    {
-      "FuncSpec": {
-        "Name": "potSwap",
-        "Signature": "7XjPSg==",
-        "Kind": {
-          "Case": "Normal"
-        },
-        "Payable": true,
-        "OnlyOwner": false,
-        "Entry": 3940,
+        "Entry": 3796,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -19989,6 +19262,483 @@
       "Sender": {
         "Case": "NormalUser1"
       },
+      "UseAgent": true,
+      "Timestamp": 10000000,
+      "Blocknum": 20000000
+    },
+    {
+      "FuncSpec": {
+        "Name": "plyr_",
+        "Signature": "3nh08w==",
+        "Kind": {
+          "Case": "Normal"
+        },
+        "Payable": false,
+        "OnlyOwner": false,
+        "Entry": 3839,
+        "ArgSpecs": [
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          }
+        ]
+      },
+      "Args": [
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        },
+        {
+          "Spec": {
+            "TypeStr": "uint256",
+            "Kind": {
+              "Case": "UInt",
+              "Fields": [
+                32
+              ]
+            }
+          },
+          "Elems": [
+            {
+              "ElemType": {
+                "Case": "UInt",
+                "Fields": [
+                  32
+                ]
+              },
+              "ByteVals": [
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                },
+                {
+                  "Case": "Untouched",
+                  "Fields": [
+                    0
+                  ]
+                }
+              ],
+              "MaxLength": 32,
+              "ByteCursor": 0
+            }
+          ],
+          "ElemCursor": 0
+        }
+      ],
+      "ArgCursor": 0,
+      "Sender": {
+        "Case": "NormalUser1"
+      },
       "UseAgent": false,
       "Timestamp": 10000000,
       "Blocknum": 20000000
@@ -20002,7 +19752,7 @@
         },
         "Payable": false,
         "OnlyOwner": false,
-        "Entry": 3950,
+        "Entry": 3998,
         "ArgSpecs": [
           {
             "TypeStr": "uint256",
@@ -20383,9 +20133,9 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "TargetOwner"
+        "Case": "NormalUser3"
       },
-      "UseAgent": false,
+      "UseAgent": true,
       "Timestamp": 10000000,
       "Blocknum": 20000000
     },
@@ -20633,7 +20383,7 @@
       ],
       "ArgCursor": 0,
       "Sender": {
-        "Case": "NormalUser3"
+        "Case": "TargetOwner"
       },
       "UseAgent": false,
       "Timestamp": 10000000,

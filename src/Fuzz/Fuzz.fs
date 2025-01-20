@@ -14,6 +14,7 @@ open Newtonsoft.Json.Linq
 open System
 open Smartian.Address
 open Nethermind.Core
+open System.Text.RegularExpressions
 
 let private makeSingletonSeeds contSpec =
   let constrSpec = contSpec.Constructor
@@ -57,16 +58,27 @@ let private initializeWithDFA opt =
   // printfn "init %A" contSpec
   
   let res = JiaTxt contSpec
+
+  let abi = opt.ABIPath
+  // let prefix = abi.Remove(abi.Length - 4)
   // printfn "JiaTxt %A" res
-  let outputPath = "./normalFuncs.txt" // 指定输出文件的路径
+  let prefix = "./B3/abi/"
+  let suffix = ".bin"
+  let startIndex = prefix.Length
+  let endIndex = abi.Length - suffix.Length
+
+  let result = abi.Substring(startIndex, endIndex - startIndex)
+
+  // let outputPath = "/home/mingyue/Smartian/B3/output/" + result + "_normalFuncs.txt" // 指定输出文件的路径
+  // printfn "fhdsjkfhdkhfkjsh %s" outputPath
   //writeNormalFuncsToFile outputPath res  // 调用写入函数 
   let jsonString = JsonConvert.SerializeObject(res, Formatting.Indented)
 
   // 打印 JSON 字符串
   // printfn "jsonString %s" jsonString
-  writeNormalFuncsToFile outputPath res
+  // writeNormalFuncsToFile outputPath res
  
-  File.WriteAllText(outputPath,jsonString) // 写入内容
+  // File.WriteAllText(outputPath,jsonString) // 写入内容
 
   if List.isEmpty seqs // No DU chain at all.
   then (contSpec, makeSingletonSeeds contSpec)

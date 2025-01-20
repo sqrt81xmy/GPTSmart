@@ -38,20 +38,20 @@ for filename in os.listdir(bin_directory):
             process = subprocess.Popen(command, shell=True)
 
             # 等待 5 秒
-            time.sleep(3)
+            time.sleep(5)
 
             # 结束子进程
             process.terminate()
             process.wait()  # 等待进程退出
 
             # 检查 normalFuncs.txt 文件是否生成
-            normal_funcs_file = './normalFuncs.txt'
-            if os.path.exists(normal_funcs_file):
-                # 生成新的文件名
-                new_file_name = os.path.join(output_directory, f"{filename.replace('.bin', '')}_normalFuncs.txt")
-                # 移动并重命名文件
-                shutil.move(normal_funcs_file, new_file_name)
-                print(f"Moved {normal_funcs_file} to {new_file_name}")
-                time.sleep(3)
-            else:
-                print(f"No normalFuncs.txt found after running the command for {filename}.")
+            # normal_funcs_file = './normalFuncs.txt'
+            # if os.path.exists(normal_funcs_file):
+            #     # 生成新的文件名
+            #     new_file_name = os.path.join(output_directory, f"{filename.replace('.bin', '')}_normalFuncs.txt")
+            #     # 移动并重命名文件
+            #     shutil.move(normal_funcs_file, new_file_name)
+            #     print(f"Moved {normal_funcs_file} to {new_file_name}")
+            #     time.sleep(5)
+            # else:
+            #     print(f"No normalFuncs.txt found after running the command for {filename}.")/home/mingyue/Smartian/EVMAnalysis/src/FrontEnd
