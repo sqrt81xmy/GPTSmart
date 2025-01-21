@@ -16,6 +16,8 @@
  * along with the Nethermind. If not, see <http://www.gnu.org/licenses/>.
  */
 
+using System;
+
 namespace Nethermind.Abi
 {
     public class AbiBool : AbiUInt
@@ -34,7 +36,12 @@ namespace Nethermind.Abi
             {
                 return new[] {input ? (byte) 1 : (byte) 0};
             }
-
+            else if (arg is byte byteValue)
+            {
+                bool boolValue = byteValue != 0;
+                return new[] { boolValue ? (byte)1 : (byte)0 };
+            }
+            Console.WriteLine($"Invalid argument value: {arg}, Type: {arg?.GetType()?.Name ?? "null"}");
             throw new AbiException(AbiEncodingExceptionMessage);
         }
 

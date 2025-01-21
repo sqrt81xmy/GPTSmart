@@ -753,11 +753,13 @@ namespace Nethermind.Core.Extensions
             {
                 throw new ArgumentNullException($"{nameof(hexString)}");
             }
-
+            // 打印 hexString
+            Console.WriteLine($"Hex string: {hexString}");
             int startIndex = hexString.StartsWith("0x") ? 2 : 0;
             bool odd = hexString.Length % 2 == 1;
             int numberChars = hexString.Length - startIndex + (odd ? 1 : 0);
             byte[] bytes = new byte[numberChars / 2];
+
             for (int i = 0; i < numberChars; i += 2)
             {
                 if (odd && i == 0)
