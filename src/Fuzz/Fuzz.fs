@@ -69,16 +69,16 @@ let private initializeWithDFA opt =
 
   let result = abi.Substring(startIndex, endIndex - startIndex)
 
-  let outputPath = "/home/mingyue/Smartian/B3/output/" + result + "_normalFuncs.txt" // 指定输出文件的路径
+  // let outputPath = "/home/mingyue/Smartian/B3/output/" + result + "_normalFuncs.txt" // 指定输出文件的路径
   // printfn "fhdsjkfhdkhfkjsh %s" outputPath
   // writeNormalFuncsToFile outputPath res  // 调用写入函数 
-  let jsonString = JsonConvert.SerializeObject(res, Formatting.Indented)
+  // let jsonString = JsonConvert.SerializeObject(res, Formatting.Indented)
 
   // 打印 JSON 字符串
   // printfn "jsonString %s" jsonString
   // writeNormalFuncsToFile outputPath res
  
-  File.WriteAllText(outputPath,jsonString) // 写入内容
+  // File.WriteAllText(outputPath,jsonString) // 写入内容
 
   if List.isEmpty seqs // No DU chain at all.
   then (contSpec, makeSingletonSeeds contSpec)
