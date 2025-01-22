@@ -843,7 +843,7 @@ contract Dice is usingOraclize {
                 Investor lastInvestor = investors[numInvestors];
                 //Set last investor ID to investorID of divesting account
                 investorIDs[lastInvestor.investorAddress] = currentID;
-                //Copy investor at the new position in the mapping
+                //Copy investor at the new positdivestfion in the mapping
                 investors[currentID] = lastInvestor;
                 //Delete old position in the mappping
                 delete investors[numInvestors];

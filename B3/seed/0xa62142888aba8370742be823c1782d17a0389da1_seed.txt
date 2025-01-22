@@ -29522,8 +29522,7 @@
                 ],
                 "ArgCursor": 0,
                 "Sender": {
-                    "Case": "CustomUser",
-                    "name": "18e90fc6f70344f53ebd4f6070bf6aa23e2d748c"
+                    "Case": "NormalUser1"
                 },
                 "UseAgent": "false",
                 "Timestamp": 10000000,
@@ -30174,8 +30173,7 @@
                 ],
                 "ArgCursor": 0,
                 "Sender": {
-                    "Case": "CustomUser",
-                    "name": "8b4da1827932d71759687f925d17f81fc94e3a9d"
+                    "Case": "NormalUser1"
                 },
                 "UseAgent": "false",
                 "Timestamp": 10000000,
@@ -30826,8 +30824,7 @@
                 ],
                 "ArgCursor": 0,
                 "Sender": {
-                    "Case": "CustomUser",
-                    "name": "8e0d985f3ec1857bec39b76aaabdea6b31b67d53"
+                    "Case": "NormalUser1"
                 },
                 "UseAgent": "false",
                 "Timestamp": 10000000,
@@ -31478,8 +31475,7 @@
                 ],
                 "ArgCursor": 0,
                 "Sender": {
-                    "Case": "CustomUser",
-                    "name": "7ac74fcc1a71b106f12c55ee8f802c9f672ce40c"
+                    "Case": "NormalUser1"
                 },
                 "UseAgent": "false",
                 "Timestamp": 10000000,
@@ -32130,8 +32126,7 @@
                 ],
                 "ArgCursor": 0,
                 "Sender": {
-                    "Case": "CustomUser",
-                    "name": "f39e044e1ab204460e06e87c6dca2c6319fc69e3"
+                    "Case": "NormalUser1"
                 },
                 "UseAgent": "false",
                 "Timestamp": 10000000,

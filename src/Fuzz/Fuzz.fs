@@ -69,16 +69,16 @@ let private initializeWithDFA opt =
 
   let result = abi.Substring(startIndex, endIndex - startIndex)
 
-  // let outputPath = "/home/mingyue/Smartian/B3/output/" + result + "_normalFuncs.txt" // 指定输出文件的路径
+  let outputPath = "/home/mingyue/Smartian/B3/output/" + result + "_normalFuncs.txt" // 指定输出文件的路径
   // printfn "fhdsjkfhdkhfkjsh %s" outputPath
-  //writeNormalFuncsToFile outputPath res  // 调用写入函数 
+  // writeNormalFuncsToFile outputPath res  // 调用写入函数 
   let jsonString = JsonConvert.SerializeObject(res, Formatting.Indented)
 
   // 打印 JSON 字符串
   // printfn "jsonString %s" jsonString
   // writeNormalFuncsToFile outputPath res
  
-  // File.WriteAllText(outputPath,jsonString) // 写入内容
+  File.WriteAllText(outputPath,jsonString) // 写入内容
 
   if List.isEmpty seqs // No DU chain at all.
   then (contSpec, makeSingletonSeeds contSpec)
@@ -280,7 +280,7 @@ let run args =
   let fileName = parts.[Array.length parts - 1]
   let name = fileName.Split([| '.' |]).[0] // 再按 '.' 分割并取 AW
   printfn "Extracted name: %s" name // 输出: Extracted name: AW
-  let baseDir = "/home/test/tools/GPTSmart/B3/seed" 
+  let baseDir = "/home/test/tools/GPTSmart/B3/seed1" 
   // let baseDir = "./B3/seed"
   let filename = baseDir + "/" + name + "_seed.txt"
       //parseTransactions json
