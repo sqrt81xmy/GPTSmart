@@ -68,3 +68,10 @@ updated later.
   year = 2021
 }
 ```
+
+
+# Run
+
+```
+dotnet src/bin/Debug/net8.0/Smartian.dll fuzz -p B3/bin/0x1e2fbe6be9eb39fc894d38be976111f332172d83.bin -a B3/abi/0x1e2fbe6be9eb39fc894d38be976111f332172d83.abi -t  120 -o output
+```

@@ -95,7 +95,7 @@ namespace Nethermind.Core.Test.Specs.ChainSpecStyle
             Assert.AreEqual((long?)1920000, chainSpec.DaoForkBlockNumber, "dao transition");
             Assert.AreEqual((long?)7080000, chainSpec.ConstantinopleBlockNumber, "constantinople transition");
             
-            Assert.AreEqual((long?)24576L, chainSpec.Parameters.MaxCodeSize, "max code size");
+            Assert.AreEqual((long?)2457600L, chainSpec.Parameters.MaxCodeSize, "max code size");
             Assert.AreEqual((long?)0L, chainSpec.Parameters.MaxCodeSizeTransition, "max code size transition");
             Assert.AreEqual((long?)0x1388L, chainSpec.Parameters.MinGasLimit, "min gas limit");
             Assert.AreEqual(new Address("0xe3389675d0338462dC76C6f9A3e432550c36A142"), chainSpec.Parameters.Registrar, "registrar");

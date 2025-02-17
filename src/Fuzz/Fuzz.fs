@@ -69,16 +69,10 @@ let private initializeWithDFA opt =
 
   let result = abi.Substring(startIndex, endIndex - startIndex)
 
-  // let outputPath = "/home/mingyue/Smartian/B3/output/" + result + "_normalFuncs.txt" // 指定输出文件的路径
-  // printfn "fhdsjkfhdkhfkjsh %s" outputPath
-  // writeNormalFuncsToFile outputPath res  // 调用写入函数 
+  // let outputPath = "/home/mingyue/Smartian/B2/normalFuncs/" + result + "_normalFuncs.txt" // 指定输出文件的路径
   // let jsonString = JsonConvert.SerializeObject(res, Formatting.Indented)
 
-  // 打印 JSON 字符串
-  // printfn "jsonString %s" jsonString
-  // writeNormalFuncsToFile outputPath res
- 
-  // File.WriteAllText(outputPath,jsonString) // 写入内容
+  File.WriteAllText(outputPath,jsonString) // 写入内容
 
   if List.isEmpty seqs // No DU chain at all.
   then (contSpec, makeSingletonSeeds contSpec)
@@ -280,8 +274,8 @@ let run args =
   let fileName = parts.[Array.length parts - 1]
   let name = fileName.Split([| '.' |]).[0] // 再按 '.' 分割并取 AW
   printfn "Extracted name: %s" name // 输出: Extracted name: AW
-  let baseDir = "/home/test/tools/GPTSmart/B3/seed1" 
-  // let baseDir = "./B3/seed"
+  // let baseDir = "/home/test/tools/GPTSmart/B3/seed1" 
+  let baseDir = "./B3/seed"
   let filename = baseDir + "/" + name + "_seed.txt"
       //parseTransactions json
   printfn "filename %s" filename
@@ -289,11 +283,6 @@ let run args =
   let transactions = loadData filename  // 读取并解析数据
   let newSeeds = parseTransactions(transactions)
   let initSeeds = List.ofArray newSeeds
-  // for seed in initSeeds do
-  //   printfn "Seed: %A" seed.Transactions[0].FuncSpec // 将调用默认的序列化 
-  // 打印交易内容
-//  for tx in transactions do
-  //    printfn "Transaction from: %s, Timestamp: %O, Blocknum: %O" tx.Sender tx.Timestamp tx.Blocknum
 
  
   let concQ = List.fold ConcolicQueue.enqueue ConcolicQueue.empty initSeeds

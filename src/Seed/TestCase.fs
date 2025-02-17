@@ -225,7 +225,7 @@ module Entity =
 
   let getSender entity =
     match entity.Agent with
-    | NoAgent -> entity.Account
+    | NoAgent -> entity.Account 
     | SFuzzAgent addr | SmartianAgent addr -> addr
 
   // Currently TX redirection occurs only when we send a TX to Smartian's agent.

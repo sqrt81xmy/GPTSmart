@@ -66,7 +66,8 @@ module Seed =
     let makeEntity account contract =
       { Balance = initEther
         Account = account
-        Agent = SmartianAgent contract}
+        Agent = if contract = Address.USER_CONTR_4 then NoAgent else SmartianAgent contract}
+      
     let accounts = Address.OWNER_ACCOUNT :: Address.USER_ACCOUNTS
     let contracts = Address.OWNER_CONTRACT :: Address.USER_CONTRACTS
     // printfn "length: %A %A" Address.USER_ACCOUNTS.Length Address.USER_CONTRACTS.Length

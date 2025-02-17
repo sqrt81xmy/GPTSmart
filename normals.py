@@ -4,10 +4,10 @@ import subprocess
 import shutil
 
 # 定义路径
-b2_directory = './B3'                                      # B2 文件夹路径
+b2_directory = './B2'                                      # B2 文件夹路径
 bin_directory = os.path.join(b2_directory, 'bin')        # bin 文件夹路径
 abi_directory = os.path.join(b2_directory, 'abi')        # abi 文件夹路径
-output_directory = os.path.join(b2_directory, 'output')  # output 文件夹路径
+output_directory = os.path.join(b2_directory, 'normalFuncs')  # output 文件夹路径
 
 # 如果 output 文件夹不存在，则创建它
 if not os.path.exists(output_directory):

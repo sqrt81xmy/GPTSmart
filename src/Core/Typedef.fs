@@ -25,6 +25,8 @@ type Sender =
   | NormalUser1
   | NormalUser2
   | NormalUser3
+  | NormalUser4
+  | NormalUser5
   | CustomUser of string
 
 module Sender =

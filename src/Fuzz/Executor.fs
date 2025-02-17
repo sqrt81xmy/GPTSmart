@@ -47,11 +47,15 @@ let mutable useDelegateCall = false
 let mutable canSendEther = false
 
 let mutable private targCode = [||]
+let mutable private targCode1 = [||]
 let mutable private smartianAgentCode = [||]
 let mutable private sFuzzAgentCode = [||]
 
 let initialize targetPath =
-  targCode <- File.ReadAllText(targetPath) |> hexStrToBytes
+  // targetPath = "/home/mingyue/Smartian/output57/Goo.bin"
+  let targetPath1 = "/home/mingyue/Smartian/output57/GooGameConfig.bin"
+  targCode <- File.ReadAllText(targetPath) |> hexStrToBytes 
+  targCode1 <- File.ReadAllText(targetPath1) |> hexStrToBytes 
   let srcDir = Directory.GetParent(__SOURCE_DIRECTORY__).FullName
   let smartianAgentPath = Path.Join(srcDir, "Agent/AttackerContract.bin")
   smartianAgentCode <- File.ReadAllText(smartianAgentPath) |> hexStrToBytes
@@ -93,8 +97,8 @@ let private runTx env from ``to`` code reqAddr value data timestamp blocknum =
   // let logMessage = sprintf "processor.Execute %A %A %A %A %A" from ``to`` value data tracer
   // File.AppendAllText("./loglog.txt", logMessage + Environment.NewLine)            
   processor.Execute(tx, block.Header, tracer)
-  // let logMessage = sprintf "processor.Execute %A %A %A %A %A %A %A %A" tracer.StatusCode deployFailCount from ``to`` reqAddr tracer.Error value data
-  // File.AppendAllText("./loglog.txt", logMessage + Environment.NewLine)            
+  let logMessage = sprintf "processor.Execute %A %A %A %A %A %A %A %A %A" tracer.StatusCode deployFailCount from ``to`` reqAddr tracer.Error value data code
+  File.AppendAllText("./loglog.txt", logMessage + Environment.NewLine)            
   tracer.StatusCode
 
 let private deploy env deployer addr code value data timestamp blocknum =
@@ -130,6 +134,7 @@ let private setupEntity env tc entity =
     state.CreateAccount(entity.Account, &zero)
     setupAgent env entity.Account contAddr smartianAgentCode
     state.AddToBalance(contAddr, &entity.Balance, spec)
+    // printfn "rntity111 %A %A" targDeployer contAddr
     if targDeployer <> contAddr then vm.RegisterUser(contAddr)
 
 let private setupTarget env deployer addr tx =
@@ -139,6 +144,17 @@ let private setupTarget env deployer addr tx =
   let timestamp = tx.Timestamp
   let blocknum = tx.Blocknum
   vm.IsDeployingTarget <- true
+  let bigIntyh = bigint [|
+      0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy;
+      0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy;
+      0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy;
+      0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy; 0xffuy;
+    |]
+  let initEther = UInt256(bigIntyh) 
+  let state = env.State
+  state.CreateAccount(Address.USER_ACCNT_4, &initEther)
+  deploy env Address.USER_ACCNT_4 Address.USER_CONTR_4 targCode1 (UInt256 0L) [||] DEFAULT_TIMESTAMP DEFAULT_BLOCKNUM
+  vm.RegisterUser(Address.USER_CONTR_4)
   deploy env deployer addr targCode value data timestamp blocknum
   vm.IsDeployingTarget <- false
   vm.TargetContractAddr <- addr
@@ -182,6 +198,7 @@ let private processTx env tc covFlag (accNewBugs, hadDepTx) i tx =
     match List.tryFind (fun e -> Entity.getSender e = sender) tc.Entities with
     | Some entity -> (entity.Balance, Entity.isTXRedirected tx.To entity)
     | None -> failwithf "Invalid sender: %s" (Address.toStr sender)
+    // | None -> printfn "Invalid sender: " 
   let prevBalance = env.State.GetBalance(sender)
   let prevBugs = accumBugs
   sendTx env covFlag hadDepTx isRedirect tx

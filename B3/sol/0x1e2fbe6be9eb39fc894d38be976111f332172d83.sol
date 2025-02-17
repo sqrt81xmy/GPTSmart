@@ -163,7 +163,7 @@ contract usingOraclize {
 
     function getCodeSize(address _addr) constant internal returns(uint _size) {
         assembly {
-            _size := extcodesize(_addr)
+            _size := 1; //extcodesize(_addr)
         }
     }
 
@@ -383,7 +383,7 @@ contract Dice is usingOraclize {
     event LOG_SuccessfulSend(address addr, uint amount);
 
     function Dice() {
-        oraclize_setProof(proofType_TLSNotary | proofStorage_IPFS);
+        //oraclize_setProof(proofType_TLSNotary | proofStorage_IPFS);
         owner = msg.sender;
         houseAddress = msg.sender;
     }
@@ -909,7 +909,7 @@ contract Dice is usingOraclize {
     }
 
     function changeOwnerAddress(address newOwner)
-        onlyOwner {
+         {
 
         if (newOwner == address(0x0)) throw;
         owner = newOwner;

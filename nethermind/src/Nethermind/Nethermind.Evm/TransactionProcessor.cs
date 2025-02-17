@@ -16,7 +16,8 @@
  * along with the Nethermind. If not, see <http://www.gnu.org/licenses/>.
  */
 
-using System;
+using System; 
+using System.IO; // 引入 System.IO 命名空间
 using System.Linq;
 using Nethermind.Core;
 using Nethermind.Core.Crypto;
@@ -65,6 +66,11 @@ namespace Nethermind.Evm
         {
             block.GasUsed += (long) tx.GasLimit;
             Address recipient = tx.To ?? Address.OfContract(tx.SenderAddress, _stateProvider.GetNonce(tx.SenderAddress));
+            using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+            {
+                string logMessage = $"invalid at 71" +"\n";
+                writer.WriteLine(logMessage);
+            }
             if (txTracer.IsTracingReceipt) txTracer.MarkAsFailed(recipient, (long) tx.GasLimit, Bytes.Empty, "invalid");
         }
 
@@ -87,23 +93,48 @@ namespace Nethermind.Evm
             byte[] data = transaction.Data ?? Bytes.Empty;
 
             Address sender = transaction.SenderAddress;
-            if (_logger.IsTrace) _logger.Trace($"Executing tx {transaction.Hash}");
+            if (_logger.IsTrace) {
+                // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                // {
+                //     string logMessage = $"Executing tx {transaction.Hash}\n";
+                //     writer.WriteLine(logMessage);
+                // }
+                _logger.Trace($"Executing tx {transaction.Hash}");
+            }
+
 
             if (sender == null)
             {
                 TraceLogInvalidTx(transaction, "SENDER_NOT_SPECIFIED");
+                using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                {
+                    string logMessage = $"SENDER_NOT_SPECIFIED" +"\n";
+                    writer.WriteLine(logMessage);
+                }
                 QuickFail(transaction, block, txTracer, readOnly);
                 return;
             }
 
             long intrinsicGas = _intrinsicGasCalculator.Calculate(transaction, spec);
-            if (_logger.IsTrace) _logger.Trace($"Intrinsic gas calculated for {transaction.Hash}: " + intrinsicGas);
+            if (_logger.IsTrace) {
+                _logger.Trace($"Intrinsic gas calculated for {transaction.Hash}: " + intrinsicGas);
+                // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                // {
+                //     string logMessage = $"Intrinsic gas calculated for {transaction.Hash}: " + intrinsicGas +"\n";
+                //     writer.WriteLine(logMessage);
+                // }
+            }
 
             if (notSystemTransaction)
             {
                 if (gasLimit < intrinsicGas)
                 {
                     TraceLogInvalidTx(transaction, $"GAS_LIMIT_BELOW_INTRINSIC_GAS {gasLimit} < {intrinsicGas}");
+                    using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                    {
+                        string logMessage = $"GAS_LIMIT_BELOW_INTRINSIC_GAS {gasLimit} < {intrinsicGas}" +"\n";
+                        writer.WriteLine(logMessage);
+                    }
                     QuickFail(transaction, block, txTracer, readOnly);
                     return;
                 }
@@ -112,6 +143,12 @@ namespace Nethermind.Evm
                 {
                     TraceLogInvalidTx(transaction,
                         $"BLOCK_GAS_LIMIT_EXCEEDED {gasLimit} > {block.GasLimit} - {block.GasUsed}");
+
+                    using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                    {
+                        string logMessage = $"BLOCK_GAS_LIMIT_EXCEEDED {gasLimit} > {block.GasLimit} - {block.GasUsed}" +"\n";
+                        writer.WriteLine(logMessage);
+                    }
                     QuickFail(transaction, block, txTracer, readOnly);
                     return;
                 }
@@ -133,6 +170,11 @@ namespace Nethermind.Evm
                 else
                 {
                     TraceLogInvalidTx(transaction, $"SENDER_ACCOUNT_DOES_NOT_EXIST {sender}");
+                    // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                    // {
+                    //     string logMessage =  $"SENDER_ACCOUNT_DOES_NOT_EXIST {sender}" +"\n";
+                    //     writer.WriteLine(logMessage);
+                    // }
                     if (gasPrice == UInt256.Zero)
                     {
                         _stateProvider.CreateAccount(sender, UInt256.Zero);
@@ -146,6 +188,11 @@ namespace Nethermind.Evm
                 if ((ulong) intrinsicGas * gasPrice + value > senderBalance)
                 {
                     TraceLogInvalidTx(transaction, $"INSUFFICIENT_SENDER_BALANCE: ({sender})_BALANCE = {senderBalance}");
+                    using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                    {
+                        string logMessage =  $"INSUFFICIENT_SENDER_BALANCE: ({sender})_BALANCE = {senderBalance}" +"\n";
+                        writer.WriteLine(logMessage);
+                    }
                     QuickFail(transaction, block, txTracer, readOnly);
                     return;
                 }
@@ -187,7 +234,7 @@ namespace Nethermind.Evm
                     if (transaction.DeployAddress != null) {
                         if (recipient != transaction.DeployAddress)
                         {
-                            System.Console.WriteLine("[Warning] Unexpected deployed address " + recipient.ToString() + ", forcefully set to " + transaction.DeployAddress.ToString());
+                     //       System.Console.WriteLine("[Warning] Unexpected deployed address " + recipient.ToString() + ", forcefully set to " + transaction.DeployAddress.ToString()+",Sender ",sender);
                         }
                         recipient = transaction.DeployAddress;
                     }
@@ -209,6 +256,11 @@ namespace Nethermind.Evm
                                 if (_logger.IsTrace)
                                 {
                                     _logger.Trace($"Contract collision at {recipient}"); // the account already owns the contract with the code
+                                    using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                                    {
+                                        string logMessage =  $"Contract collision at {recipient}" +"\n";
+                                        writer.WriteLine(logMessage);
+                                    }
                                 }
 
                                 throw new TransactionCollisionException();
@@ -244,6 +296,11 @@ namespace Nethermind.Evm
                 if (substate.ShouldRevert || substate.IsError)
                 {
                     if (_logger.IsTrace) _logger.Trace("Restoring state from before transaction");
+                    // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                    // {
+                    //     string logMessage =  "Restoring state from before transaction" +"\n";
+                    //     writer.WriteLine(logMessage);
+                    // }
                     _stateProvider.Restore(stateSnapshot);
                     _storageProvider.Restore(storageSnapshot);
                 }
@@ -256,7 +313,12 @@ namespace Nethermind.Evm
                         long codeDepositGasCost = CodeDepositHandler.CalculateCost(substate.Output.Length, spec);
                         if (unspentGas < codeDepositGasCost && spec.IsEip2Enabled)
                         {
-                            throw new OutOfGasException();
+                                using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                            {
+                                string logMessage =  $"Destroying at 313 line {unspentGas} {codeDepositGasCost}" +"\n";
+                                writer.WriteLine(logMessage);
+                            }
+                            // throw new OutOfGasException();
                         }
 
                         if (unspentGas >= codeDepositGasCost)
@@ -270,6 +332,11 @@ namespace Nethermind.Evm
                     foreach (Address toBeDestroyed in substate.DestroyList)
                     {
                         if (_logger.IsTrace) _logger.Trace($"Destroying account {toBeDestroyed}");
+                        //  using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                        // {
+                        //     string logMessage =  $"Destroying account {toBeDestroyed}" +"\n";
+                        //     writer.WriteLine(logMessage);
+                        // }
                         _stateProvider.DeleteAccount(toBeDestroyed);
                     }
 
@@ -281,6 +348,11 @@ namespace Nethermind.Evm
             catch (Exception ex) when (ex is EvmException || ex is OverflowException) // TODO: OverflowException? still needed? hope not
             {
                 if (_logger.IsTrace) _logger.Trace($"EVM EXCEPTION: {ex.GetType().Name}");
+                using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                {
+                    string logMessage = $"EVM EXCEPTION: {ex.GetType().Name} at {DateTime.UtcNow:o} \n";
+                    writer.WriteLine(logMessage);
+                }
                 _stateProvider.Restore(stateSnapshot);
                 _storageProvider.Restore(storageSnapshot);
             }
@@ -335,6 +407,11 @@ namespace Nethermind.Evm
         private void TraceLogInvalidTx(Transaction transaction, string reason)
         {
             if (_logger.IsTrace) _logger.Trace($"Invalid tx {transaction.Hash} ({reason})");
+            //  using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+            // {
+            //     string logMessage =  $"Invalid tx {transaction.Hash} ({reason})" +"\n";
+            //     writer.WriteLine(logMessage);
+            // }
         }
 
         private long Refund(long gasLimit, long unspentGas, TransactionSubstate substate, Address sender, UInt256 gasPrice, IReleaseSpec spec)
@@ -346,6 +423,11 @@ namespace Nethermind.Evm
                 long refund = substate.ShouldRevert ? 0 : Math.Min(spentGas / 2L, substate.Refund + substate.DestroyList.Count * RefundOf.Destroy);
 
                 if (_logger.IsTrace) _logger.Trace("Refunding unused gas of " + unspentGas + " and refund of " + refund);
+                // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                // {
+                //     string logMessage =  "Refunding unused gas of " + unspentGas + " and refund of " + refund +"\n";
+                //     writer.WriteLine(logMessage);
+                // }
                 _stateProvider.AddToBalance(sender, (ulong) (unspentGas + refund) * gasPrice, spec);
                 spentGas -= refund;
             }

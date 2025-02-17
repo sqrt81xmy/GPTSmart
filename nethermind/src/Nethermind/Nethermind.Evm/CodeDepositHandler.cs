@@ -15,7 +15,9 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with the Nethermind. If not, see <http://www.gnu.org/licenses/>.
  */
-
+using System; 
+using System.IO; // 引入 System.IO 命名空间
+using System.Linq;
 using Nethermind.Core.Specs;
 
 namespace Nethermind.Evm
@@ -24,8 +26,13 @@ namespace Nethermind.Evm
     {
         public static long CalculateCost(int byteCodeLength, IReleaseSpec spec)
         {
-            if (spec.IsEip170Enabled && byteCodeLength > spec.MaxCodeSize)
+             using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
             {
+                string logMessage =  $"spec.IsEip170Enabled && byteCodeLength > spec.MaxCodeSize {spec.IsEip170Enabled} {byteCodeLength} {spec.MaxCodeSize}" +"\n";
+                writer.WriteLine(logMessage);
+            }
+            if (spec.IsEip170Enabled && byteCodeLength > spec.MaxCodeSize)
+            { 
                 return long.MaxValue;
             }
 

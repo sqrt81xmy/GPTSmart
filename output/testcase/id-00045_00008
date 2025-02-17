@@ -30,12 +30,12 @@
   "TargetContract":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
   "DeployTx":
     {
-      "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
+      "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
       "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
       "Value":"0",
       "Data":"",
-      "Timestamp":"10000010",
-      "Blocknum":"20000060",
+      "Timestamp":"10000080",
+      "Blocknum":"20000032",
       "Function":"constructor",
       "OrigData":"",
       "OrigValue":"0"
@@ -43,37 +43,26 @@
   "Txs":
     [
       {
-        "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
+        "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
         "Value":"0",
-        "Data":"C52CB003",
-        "Timestamp":"10000081",
-        "Blocknum":"20000060",
-        "Function":"OwnerDistribSupply_(c52cb003)",
-        "OrigData":"C52CB003",
+        "Data":"724AE9D0",
+        "Timestamp":"10000083",
+        "Blocknum":"20000077",
+        "Function":"getMinInvestment(724ae9d0)",
+        "OrigData":"724AE9D0",
         "OrigValue":"0"
       },
       {
-        "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
+        "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"E58FC54C0000000000000000000000006B773032D99FB9AAD6FC267651C446FA7F9301AF",
-        "Timestamp":"10000115",
-        "Blocknum":"20000067",
-        "Function":"withdrawForeignTokens(e58fc54c)",
-        "OrigData":"E58FC54C0000000000000000000000006B773032D99FB9AAD6FC267651C446FA7F9301AF",
-        "OrigValue":"0"
-      },
-      {
-        "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"D21CEBA0",
-        "Timestamp":"10000190",
-        "Blocknum":"20000100",
-        "Function":"RemainingTokensReceiverAddress(d21ceba0)",
-        "OrigData":"D21CEBA0",
-        "OrigValue":"0"
+        "Value":"65536",
+        "Data":"11610C25",
+        "Timestamp":"10000101",
+        "Blocknum":"20000163",
+        "Function":"bet(11610c25)",
+        "OrigData":"11610C25",
+        "OrigValue":"65536"
       }
     ]
 }

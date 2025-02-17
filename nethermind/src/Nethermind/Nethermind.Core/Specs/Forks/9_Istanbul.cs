@@ -32,7 +32,7 @@ namespace Nethermind.Core.Specs.Forks
         public static IReleaseSpec Instance => LazyInitializer.EnsureInitialized(ref _instance, () => new Istanbul());
 
         public long MaximumExtraDataSize => 32;
-        public long MaxCodeSize => 24576;
+        public long MaxCodeSize => 2457600;
         public long MinGasLimit => 5000;
         public long GasLimitBoundDivisor => 0x0400;
         public Address Registrar => new Address("0xe3389675d0338462dC76C6f9A3e432550c36A142");

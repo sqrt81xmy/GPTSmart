@@ -16,7 +16,8 @@
  * along with the Nethermind. If not, see <http://www.gnu.org/licenses/>.
  */
 
-using System;
+using System; 
+using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
@@ -492,7 +493,11 @@ namespace Nethermind.Evm
                 catch (Exception ex) when (ex is EvmException || ex is OverflowException)
                 {
                     if (_logger.IsTrace) _logger.Trace($"exception ({ex.GetType().Name}) in {currentState.ExecutionType} at depth {currentState.Env.CallDepth} - restoring snapshot");
-
+                    //  using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                    // {
+                    //     string logMessage =  $"exception ({ex.GetType().Name}) in {currentState.ExecutionType} at depth {currentState.Env.CallDepth} - restoring snapshot" +"\n";
+                    //     writer.WriteLine(logMessage);
+                    // }
                     _state.Restore(currentState.StateSnapshot);
                     _storage.Restore(currentState.StorageSnapshot);
 
@@ -575,6 +580,11 @@ namespace Nethermind.Evm
             if (gasAvailable < gasCost)
             {
                 Metrics.EvmExceptions++;
+                // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                // {
+                //     string logMessage =  $"GasOutException" +"\n";
+                //     writer.WriteLine(logMessage);
+                // }
                 return false;
             }
 
@@ -3215,6 +3225,11 @@ namespace Nethermind.Evm
                         {
                             /* we get the snapshot before this as there is a possibility with that we will touch an empty account and remove it even if the REVERT operation follows */
                             if (isTrace) _logger.Trace($"Contract collision at {contractAddress}");
+                            //  using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                            // {
+                            //     string logMessage =  $"Contract collision at {contractAddress}" +"\n";
+                            //     writer.WriteLine(logMessage);
+                            // }
                             PushZero(bytesOnStack);
                             PushNonTainted();
                             CheckStackConsistency("CREATE* (4)");
@@ -3366,6 +3381,15 @@ namespace Nethermind.Evm
                             _logger.Trace($"Tx target {target}");
                             _logger.Trace($"Tx value {callValue}");
                             _logger.Trace($"Tx transfer value {transferValue}");
+                            //  using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                            // {
+                            //     string logMessage =  $"Tx sender {sender}" +"\n";
+                            //     logMessage += $"Tx code source {codeSource}" + "\n";
+                            //     logMessage +=  $"Tx target {target}" + "\n";
+                            //     logMessage += $"Tx value {callValue}" + "\n";
+                            //     logMessage += $"Tx transfer value {transferValue}" + "\n";
+                            //     writer.WriteLine(logMessage);
+                            // }
                         }
 
                         if (isTestingTarget)
@@ -3527,6 +3551,11 @@ namespace Nethermind.Evm
                             }
 
                             if (isTrace) _logger.Trace("FAIL - call depth");
+                            //  using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                            // {
+                            //     string logMessage =  "FAIL - call depth" +"\n";
+                            //     writer.WriteLine(logMessage);
+                            // }
                             if(_txTracer.IsTracingInstructions) _txTracer.ReportOperationRemainingGas(gasAvailable);
                             if(_txTracer.IsTracingInstructions) _txTracer.ReportOperationError(EvmExceptionType.NotEnoughBalance);
 
@@ -3555,6 +3584,11 @@ namespace Nethermind.Evm
                         callEnv.CodeInfo = isPrecompile ? new CodeInfo(codeSource) : GetCachedCodeInfo(codeSource);
 
                         if (isTrace) _logger.Trace($"Tx call gas {gasLimitUl}");
+                        //  using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                        // {
+                        //     string logMessage =  $"Tx call gas {gasLimitUl}" +"\n";
+                        //     writer.WriteLine(logMessage);
+                        // }
                         if (outputLength == 0)
                         {
                             // TODO: when output length is 0 outputOffset can have any value really
@@ -3627,6 +3661,11 @@ namespace Nethermind.Evm
 
                         UpdateCurrentState();
                         EndInstructionTrace();
+                        // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                        // {
+                        //     string logMessage = $"Revert: {programCounter}\n";
+                        //     writer.WriteLine(logMessage);
+                        // }
                         return new CallResult(errorDetails, null, true);
                     }
                     case Instruction.INVALID:

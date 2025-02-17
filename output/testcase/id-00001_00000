@@ -24,6 +24,18 @@
         "Account":"0x0012000000000000000000000000000000000229",
         "Agent":"SmartianAgent",
         "Contract":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f"
+      },
+      {
+        "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
+        "Account":"0x0012000000000000000000000000000000000231",
+        "Agent":"SmartianAgent",
+        "Contract":"0xf925a82b8c26520170c8d51b65a7def6364877b3"
+      },
+      {
+        "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
+        "Account":"0x0012000000000000000000000000000000000259",
+        "Agent":"SmartianAgent",
+        "Contract":"0xe5bcf8bfee1eca8a308a8b2cfab042ebfd373c38"
       }
     ],
   "TargetDeployer":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
@@ -43,14 +55,36 @@
   "Txs":
     [
       {
-        "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
+        "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
         "Value":"0",
-        "Data":"",
+        "Data":"5FD8C710",
         "Timestamp":"10000000",
         "Blocknum":"20000000",
-        "Function":"fallback",
-        "OrigData":"",
+        "Function":"withdrawBalance(5fd8c710)",
+        "OrigData":"5FD8C710",
+        "OrigValue":"0"
+      },
+      {
+        "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"0",
+        "Data":"C0E317FB",
+        "Timestamp":"10000000",
+        "Blocknum":"20000000",
+        "Function":"addToBalance(c0e317fb)",
+        "OrigData":"C0E317FB",
+        "OrigValue":"0"
+      },
+      {
+        "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"0",
+        "Data":"5FD8C710",
+        "Timestamp":"10000000",
+        "Blocknum":"20000000",
+        "Function":"withdrawBalance(5fd8c710)",
+        "OrigData":"5FD8C710",
         "OrigValue":"0"
       }
     ]
