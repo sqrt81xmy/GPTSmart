@@ -28,8 +28,8 @@
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
         "Account":"0x0012000000000000000000000000000000000231",
-        "Agent":"SmartianAgent",
-        "Contract":"0xf925a82b8c26520170c8d51b65a7def6364877b3"
+        "Agent":"NoAgent",
+        "Contract":""
       },
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
@@ -42,7 +42,7 @@
   "TargetContract":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
   "DeployTx":
     {
-      "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
+      "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
       "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
       "Value":"0",
       "Data":"",
@@ -55,58 +55,14 @@
   "Txs":
     [
       {
-        "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"B2D5AE44",
-        "Timestamp":"10000000",
-        "Blocknum":"20000000",
-        "Function":"getRefund(b2d5ae44)",
-        "OrigData":"B2D5AE44",
-        "OrigValue":"0"
-      },
-      {
-        "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"C8199826",
-        "Timestamp":"10000000",
-        "Blocknum":"20000000",
-        "Function":"buyTickets(c8199826)",
-        "OrigData":"C8199826",
-        "OrigValue":"0"
-      },
-      {
         "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
         "Value":"0",
-        "Data":"EE095C0E",
+        "Data":"01FFC9A70000000000000000000000000000000000000000000000000000000000000000",
         "Timestamp":"10000000",
         "Blocknum":"20000000",
-        "Function":"endRaffle(ee095c0e)",
-        "OrigData":"EE095C0E",
-        "OrigValue":"0"
-      },
-      {
-        "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
-        "To":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
-        "Value":"0",
-        "Data":"A0490EC70000000000000000000000006B773032D99FB9AAD6FC267651C446FA7F9301AF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004C4AE316800000000000000000000000000000000000000000000000000000000",
-        "Timestamp":"10000000",
-        "Blocknum":"20000000",
-        "Function":"togglePause(c4ae3168)",
-        "OrigData":"C4AE3168",
-        "OrigValue":"0"
-      },
-      {
-        "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"41C0E1B5",
-        "Timestamp":"10000000",
-        "Blocknum":"20000000",
-        "Function":"kill(41c0e1b5)",
-        "OrigData":"41C0E1B5",
+        "Function":"supportsInterface(01ffc9a7)",
+        "OrigData":"01FFC9A70000000000000000000000000000000000000000000000000000000000000000",
         "OrigValue":"0"
       }
     ]

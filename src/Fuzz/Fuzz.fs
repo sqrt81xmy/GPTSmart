@@ -72,7 +72,7 @@ let private initializeWithDFA opt =
   // let outputPath = "/home/mingyue/Smartian/B2/normalFuncs/" + result + "_normalFuncs.txt" // 指定输出文件的路径
   // let jsonString = JsonConvert.SerializeObject(res, Formatting.Indented)
 
-  File.WriteAllText(outputPath,jsonString) // 写入内容
+  // File.WriteAllText(outputPath,jsonString) // 写入内容
 
   if List.isEmpty seqs // No DU chain at all.
   then (contSpec, makeSingletonSeeds contSpec)

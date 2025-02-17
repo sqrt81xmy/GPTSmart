@@ -28,8 +28,8 @@
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
         "Account":"0x0012000000000000000000000000000000000231",
-        "Agent":"SmartianAgent",
-        "Contract":"0xf925a82b8c26520170c8d51b65a7def6364877b3"
+        "Agent":"NoAgent",
+        "Contract":""
       },
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
@@ -42,12 +42,12 @@
   "TargetContract":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
   "DeployTx":
     {
-      "From":"0x226cc61b3eac93cc2cc9d6cb8d61856670d50fad",
+      "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
       "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
       "Value":"0",
       "Data":"",
-      "Timestamp":"10000047",
-      "Blocknum":"20000055",
+      "Timestamp":"10000041",
+      "Blocknum":"20000054",
       "Function":"constructor",
       "OrigData":"",
       "OrigValue":"0"
@@ -55,58 +55,47 @@
   "Txs":
     [
       {
-        "From":"0xf925a82b8c26520170c8d51b65a7def6364877b3",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"28948194852987718623125982988761874338926846311930186254381470466609256595456",
-        "Data":"",
-        "Timestamp":"10000087",
-        "Blocknum":"20000067",
-        "Function":"fallback",
-        "OrigData":"",
-        "OrigValue":"28948194852987718623125982988761874338926846311930186254381470466609256595456"
-      },
-      {
-        "From":"0xf925a82b8c26520170c8d51b65a7def6364877b3",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"57E871E7",
-        "Timestamp":"10000129",
-        "Blocknum":"20000131",
-        "Function":"blockNumber(57e871e7)",
-        "OrigData":"57E871E7",
-        "OrigValue":"0"
-      },
-      {
-        "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"58348357467241364100158816664534141066686828210422916353086493952037273731072",
-        "Data":"C8199826",
-        "Timestamp":"10000208",
-        "Blocknum":"20000171",
-        "Function":"buyTickets(c8199826)",
-        "OrigData":"C8199826",
-        "OrigValue":"58348357467241364100158816664534141066686828210422916353086493952037273731072"
-      },
-      {
         "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
         "Value":"0",
-        "Data":"C4AE3168",
-        "Timestamp":"10000225",
-        "Blocknum":"20000188",
-        "Function":"togglePause(c4ae3168)",
-        "OrigData":"C4AE3168",
+        "Data":"8456CB59",
+        "Timestamp":"10000094",
+        "Blocknum":"20000072",
+        "Function":"pause(8456cb59)",
+        "OrigData":"8456CB59",
+        "OrigValue":"0"
+      },
+      {
+        "From":"0x226cc61b3eac93cc2cc9d6cb8d61856670d50fad",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"0",
+        "Data":"27D7874C000000000000000000000000E5BCB8BFEE1ECA8A308A8B2CFAB042EBFD373C38",
+        "Timestamp":"10000109",
+        "Blocknum":"20000095",
+        "Function":"setCEO(27d7874c)",
+        "OrigData":"27D7874C000000000000000000000000E5BCB8BFEE1ECA8A308A8B2CFAB042EBFD373C38",
         "OrigValue":"0"
       },
       {
         "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
-        "To":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
         "Value":"0",
-        "Data":"A0490EC70000000000000000000000006B773032D99FB9AAD6FC267651C446FA7F9301AF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000004C4AE316800000000000000000000000000000000000000000000000000000000",
-        "Timestamp":"10000284",
-        "Blocknum":"20000265",
-        "Function":"togglePause(c4ae3168)",
-        "OrigData":"C4AE3168",
+        "Data":"D0774F74",
+        "Timestamp":"10000132",
+        "Blocknum":"20000180",
+        "Function":"GENSIS_TOTAL_COUNT(d0774f74)",
+        "OrigData":"D0774F74",
+        "OrigValue":"0"
+      },
+      {
+        "From":"0x226cc61b3eac93cc2cc9d6cb8d61856670d50fad",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"0",
+        "Data":"095EA7B300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "Timestamp":"10000149",
+        "Blocknum":"20000208",
+        "Function":"approve(095ea7b3)",
+        "OrigData":"095EA7B300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
         "OrigValue":"0"
       }
     ]
