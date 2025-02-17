@@ -53,7 +53,7 @@ let mutable private sFuzzAgentCode = [||]
 
 let initialize targetPath =
   // targetPath = "/home/mingyue/Smartian/output57/Goo.bin"
-  let targetPath1 = "/home/mingyue/Smartian/output57/GooGameConfig.bin"
+  let targetPath1 = "/home/test/tools/GPTSmart/output57/GooGameConfig.bin"
   targCode <- File.ReadAllText(targetPath) |> hexStrToBytes 
   targCode1 <- File.ReadAllText(targetPath1) |> hexStrToBytes 
   let srcDir = Directory.GetParent(__SOURCE_DIRECTORY__).FullName
