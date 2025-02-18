@@ -48,10 +48,13 @@ contract OraclizeI {
     function setProofType(byte _proofType);
     function setConfig(bytes32 _config);
     function setCustomGasPrice(uint _gasPrice);
-}
+} 
+
 contract OraclizeAddrResolverI {
     function getAddress() returns (address _addr);
 }
+
+
 contract usingOraclize {
     uint constant day = 60*60*24;
     uint constant week = 60*60*24*7;
@@ -163,7 +166,7 @@ contract usingOraclize {
 
     function getCodeSize(address _addr) constant internal returns(uint _size) {
         assembly {
-            _size := 1; //extcodesize(_addr)
+            _size := extcodesize(_addr)
         }
     }
 
@@ -383,7 +386,7 @@ contract Dice is usingOraclize {
     event LOG_SuccessfulSend(address addr, uint amount);
 
     function Dice() {
-        //oraclize_setProof(proofType_TLSNotary | proofStorage_IPFS);
+        oraclize_setProof(proofType_TLSNotary | proofStorage_IPFS);
         owner = msg.sender;
         houseAddress = msg.sender;
     }

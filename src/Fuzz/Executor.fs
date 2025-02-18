@@ -48,14 +48,20 @@ let mutable canSendEther = false
 
 let mutable private targCode = [||]
 let mutable private targCode1 = [||]
+let mutable private targCode2 = [||]
+let mutable private targCode3 = [||]
 let mutable private smartianAgentCode = [||]
 let mutable private sFuzzAgentCode = [||]
 
 let initialize targetPath =
-  // targetPath = "/home/mingyue/Smartian/output57/Goo.bin"
-  let targetPath1 = "/home/test/tools/GPTSmart/output57/GooGameConfig.bin"
+  let targetPath1 = "/home/mingyue/Smartian/output57/GooGameConfig.bin"
+  let targetPath2 = "/home/mingyue/Smartian/output1e2f/OraclizeAddrResolverI.bin"
+  let targetPath3 = "/home/mingyue/Smartian/output1e2f/OraclizeI.bin"
+  // let targetPath1 = "/home/test/tools/GPTSmart/output57/GooGameConfig.bin"
   targCode <- File.ReadAllText(targetPath) |> hexStrToBytes 
   targCode1 <- File.ReadAllText(targetPath1) |> hexStrToBytes 
+  targCode2 <- File.ReadAllText(targetPath2) |> hexStrToBytes 
+  targCode3 <- File.ReadAllText(targetPath3) |> hexStrToBytes 
   let srcDir = Directory.GetParent(__SOURCE_DIRECTORY__).FullName
   let smartianAgentPath = Path.Join(srcDir, "Agent/AttackerContract.bin")
   smartianAgentCode <- File.ReadAllText(smartianAgentPath) |> hexStrToBytes
@@ -155,6 +161,14 @@ let private setupTarget env deployer addr tx =
   state.CreateAccount(Address.USER_ACCNT_4, &initEther)
   deploy env Address.USER_ACCNT_4 Address.USER_CONTR_4 targCode1 (UInt256 0L) [||] DEFAULT_TIMESTAMP DEFAULT_BLOCKNUM
   vm.RegisterUser(Address.USER_CONTR_4)
+  let initEther2 = UInt256(bigIntyh) 
+  state.CreateAccount(Address.USER_ACCNT_5, &initEther2)
+  deploy env Address.USER_ACCNT_5 Address.USER_CONTR_5 targCode2 (UInt256 0L) [||] DEFAULT_TIMESTAMP DEFAULT_BLOCKNUM
+  vm.RegisterUser(Address.USER_CONTR_5)
+  let initEther3 = UInt256(bigIntyh) 
+  state.CreateAccount(Address.USER_ACCNT_6, &initEther3)
+  deploy env Address.USER_ACCNT_6 Address.USER_CONTR_6 targCode3 (UInt256 0L) [||] DEFAULT_TIMESTAMP DEFAULT_BLOCKNUM
+  vm.RegisterUser(Address.USER_CONTR_6)
   deploy env deployer addr targCode value data timestamp blocknum
   vm.IsDeployingTarget <- false
   vm.TargetContractAddr <- addr

@@ -28,26 +28,32 @@
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
         "Account":"0x0012000000000000000000000000000000000231",
-        "Agent":"SmartianAgent",
-        "Contract":"0xf925a82b8c26520170c8d51b65a7def6364877b3"
+        "Agent":"NoAgent",
+        "Contract":""
       },
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
         "Account":"0x0012000000000000000000000000000000000259",
-        "Agent":"SmartianAgent",
-        "Contract":"0xe5bcf8bfee1eca8a308a8b2cfab042ebfd373c38"
+        "Agent":"NoAgent",
+        "Contract":""
+      },
+      {
+        "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
+        "Account":"0x0012000000000000000000000000000000000263",
+        "Agent":"NoAgent",
+        "Contract":""
       }
     ],
   "TargetDeployer":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
   "TargetContract":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
   "DeployTx":
     {
-      "From":"0x226cc61b3eac93cc2cc9d6cb8d61856670d50fad",
+      "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
       "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
       "Value":"0",
       "Data":"",
-      "Timestamp":"10000090",
-      "Blocknum":"20000054",
+      "Timestamp":"10000068",
+      "Blocknum":"20000057",
       "Function":"constructor",
       "OrigData":"",
       "OrigValue":"0"
@@ -55,14 +61,58 @@
   "Txs":
     [
       {
-        "From":"0xf925a82b8c26520170c8d51b65a7def6364877b3",
+        "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
         "Value":"0",
-        "Data":"0D1FCE42",
-        "Timestamp":"10000118",
-        "Blocknum":"20000090",
-        "Function":"getBankroll(0d1fce42)",
-        "OrigData":"0D1FCE42",
+        "Data":"268D50FE1D000000000000000000000000000000000000000000000000000000000000F9",
+        "Timestamp":"10000123",
+        "Blocknum":"20000122",
+        "Function":"ownerSetHouseEdge(268d50fe)",
+        "OrigData":"268D50FE1D000000000000000000000000000000000000000000000000000000000000F9",
+        "OrigValue":"0"
+      },
+      {
+        "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"57896044618658097711770263329906599156105056259237975822216580783929865273343",
+        "Data":"DC6DD152400000000000000000001B000000000000FF410000000094000000000000CE00",
+        "Timestamp":"10000194",
+        "Blocknum":"20000145",
+        "Function":"playerRollDice(dc6dd152)",
+        "OrigData":"DC6DD152400000000000000000001B000000000000FF410000000094000000000000CE00",
+        "OrigValue":"57896044618658097711770263329906599156105056259237975822216580783929865273343"
+      },
+      {
+        "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"0",
+        "Data":"7AC37D5800000000000000000000000000000000000000410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "Timestamp":"10000248",
+        "Blocknum":"20000220",
+        "Function":"ownerTransferEther(7ac37d58)",
+        "OrigData":"7AC37D5800000000000000000000000000000000000000410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "OrigValue":"0"
+      },
+      {
+        "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"0",
+        "Data":"8B7AFE2E",
+        "Timestamp":"10000285",
+        "Blocknum":"20000277",
+        "Function":"contractBalance(8b7afe2e)",
+        "OrigData":"8B7AFE2E",
+        "OrigValue":"0"
+      },
+      {
+        "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"0",
+        "Data":"61D027B3",
+        "Timestamp":"10000372",
+        "Blocknum":"20000320",
+        "Function":"treasury(61d027b3)",
+        "OrigData":"61D027B3",
         "OrigValue":"0"
       }
     ]

@@ -28,8 +28,8 @@
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
         "Account":"0x0012000000000000000000000000000000000231",
-        "Agent":"SmartianAgent",
-        "Contract":"0xf925a82b8c26520170c8d51b65a7def6364877b3"
+        "Agent":"NoAgent",
+        "Contract":""
       },
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
@@ -42,12 +42,12 @@
   "TargetContract":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
   "DeployTx":
     {
-      "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
+      "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
       "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
       "Value":"0",
       "Data":"",
-      "Timestamp":"10000045",
-      "Blocknum":"20000061",
+      "Timestamp":"10000016",
+      "Blocknum":"20000013",
       "Function":"constructor",
       "OrigData":"",
       "OrigValue":"0"
@@ -55,36 +55,25 @@
   "Txs":
     [
       {
-        "From":"0xf925a82b8c26520170c8d51b65a7def6364877b3",
+        "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"313CE567",
-        "Timestamp":"10000141",
-        "Blocknum":"20000099",
-        "Function":"decimals(313ce567)",
-        "OrigData":"313CE567",
-        "OrigValue":"0"
+        "Value":"382451254533639685598238793168115713909188194510364413133062144",
+        "Data":"11610C25",
+        "Timestamp":"10000047",
+        "Blocknum":"20000068",
+        "Function":"bet(11610c25)",
+        "OrigData":"11610C25",
+        "OrigValue":"382451254533639685598238793168115713909188194510364413133062144"
       },
       {
         "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
         "Value":"0",
-        "Data":"A9059CBB0000000000000000000000000000000000EC00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "Timestamp":"10000225",
-        "Blocknum":"20000152",
-        "Function":"transfer(a9059cbb)",
-        "OrigData":"A9059CBB0000000000000000000000000000000000EC00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "OrigValue":"0"
-      },
-      {
-        "From":"0xe5bcf8bfee1eca8a308a8b2cfab042ebfd373c38",
-        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
-        "Value":"0",
-        "Data":"BFF3561800",
-        "Timestamp":"10000288",
-        "Blocknum":"20000235",
-        "Function":"setTransferLock(bff35618)",
-        "OrigData":"BFF3561800",
+        "Data":"724AE9D0",
+        "Timestamp":"10000066",
+        "Blocknum":"20000096",
+        "Function":"getMinInvestment(724ae9d0)",
+        "OrigData":"724AE9D0",
         "OrigValue":"0"
       }
     ]

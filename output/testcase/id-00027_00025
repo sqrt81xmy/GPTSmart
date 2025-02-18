@@ -28,26 +28,32 @@
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
         "Account":"0x0012000000000000000000000000000000000231",
-        "Agent":"SmartianAgent",
-        "Contract":"0xf925a82b8c26520170c8d51b65a7def6364877b3"
+        "Agent":"NoAgent",
+        "Contract":""
       },
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
         "Account":"0x0012000000000000000000000000000000000259",
-        "Agent":"SmartianAgent",
-        "Contract":"0xe5bcf8bfee1eca8a308a8b2cfab042ebfd373c38"
+        "Agent":"NoAgent",
+        "Contract":""
+      },
+      {
+        "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
+        "Account":"0x0012000000000000000000000000000000000263",
+        "Agent":"NoAgent",
+        "Contract":""
       }
     ],
   "TargetDeployer":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
   "TargetContract":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
   "DeployTx":
     {
-      "From":"0x226cc61b3eac93cc2cc9d6cb8d61856670d50fad",
+      "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
       "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
       "Value":"0",
       "Data":"",
-      "Timestamp":"10000077",
-      "Blocknum":"20000003",
+      "Timestamp":"10000076",
+      "Blocknum":"20000096",
       "Function":"constructor",
       "OrigData":"",
       "OrigValue":"0"
@@ -55,37 +61,59 @@
   "Txs":
     [
       {
+        "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"28948022309329048855892746252171976963317496166410141009864396001986872344577",
+        "Data":"DC6DD1520100000000000000000000000000000000000000000000000000000000000000",
+        "Timestamp":"10000100",
+        "Blocknum":"20000174",
+        "Function":"playerRollDice(dc6dd152)",
+        "OrigData":"DC6DD1520100000000000000000000000000000000000000000000000000000000000000",
+        "OrigValue":"28948022309329048855892746252171976963317496166410141009864396001986872344577"
+      },
+      {
+        "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"0",
+        "Data":"4B7FCEE701",
+        "Timestamp":"10000172",
+        "Blocknum":"20000178",
+        "Function":"ownerPausePayouts(4b7fcee7)",
+        "OrigData":"4B7FCEE701",
+        "OrigValue":"0"
+      },
+      {
         "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
         "Value":"0",
-        "Data":"85EAC05F0000000000000000000000006B773032D99FB9AAD6FC267651C446FA7F7F01AF",
-        "Timestamp":"10000106",
-        "Blocknum":"20000094",
-        "Function":"changeOwnerAddress(85eac05f)",
-        "OrigData":"85EAC05F0000000000000000000000006B773032D99FB9AAD6FC267651C446FA7F7F01AF",
+        "Data":"43C1598D",
+        "Timestamp":"10000187",
+        "Blocknum":"20000194",
+        "Function":"maxProfitDivisor(43c1598d)",
+        "OrigData":"43C1598D",
         "OrigValue":"0"
       },
       {
-        "From":"0x226cc61b3eac93cc2cc9d6cb8d61856670d50fad",
+        "From":"0x118a2c24808934116e6ab4c00ff48145d23b09e1",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"1427247692705959881058285969449495136382746624",
+        "Data":"DC6DD1520000000000000000000000000000000000000000000000000000000000000000",
+        "Timestamp":"10000253",
+        "Blocknum":"20000220",
+        "Function":"playerRollDice(dc6dd152)",
+        "OrigData":"DC6DD1520000000000000000000000000000000000000000000000000000000000000000",
+        "OrigValue":"1427247692705959881058285969449495136382746624"
+      },
+      {
+        "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
         "Value":"0",
-        "Data":"12253A6C",
-        "Timestamp":"10000124",
-        "Blocknum":"20000137",
-        "Function":"stopContract(12253a6c)",
-        "OrigData":"12253A6C",
+        "Data":"6EACD48A01",
+        "Timestamp":"10000344",
+        "Blocknum":"20000311",
+        "Function":"ownerPauseGame(6eacd48a)",
+        "OrigData":"6EACD48A01",
         "OrigValue":"0"
-      },
-      {
-        "From":"0xf925a82b8c26520170c8d51b65a7def6364877b3",
-        "To":"0xf925a82b8c26520170c8d51b65a7def6364877b3",
-        "Value":"0",
-        "Data":"A0490EC70000000000000000000000006B773032D99FB9AAD6FC267651C446FA7F9301AF0000000000000000000000000000000000000000000000000000000000009F000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000411610C2500000000000000000000000000000000000000000000000000000000",
-        "Timestamp":"10000160",
-        "Blocknum":"20000152",
-        "Function":"bet(11610c25)",
-        "OrigData":"11610C25",
-        "OrigValue":"40704"
       }
     ]
 }

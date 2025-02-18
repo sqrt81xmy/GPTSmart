@@ -28,26 +28,32 @@
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
         "Account":"0x0012000000000000000000000000000000000231",
-        "Agent":"SmartianAgent",
-        "Contract":"0xf925a82b8c26520170c8d51b65a7def6364877b3"
+        "Agent":"NoAgent",
+        "Contract":""
       },
       {
         "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
         "Account":"0x0012000000000000000000000000000000000259",
-        "Agent":"SmartianAgent",
-        "Contract":"0xe5bcf8bfee1eca8a308a8b2cfab042ebfd373c38"
+        "Agent":"NoAgent",
+        "Contract":""
+      },
+      {
+        "Balance":"115792089237316195417293883273301227089434195242432897623373675307522804678655",
+        "Account":"0x0012000000000000000000000000000000000263",
+        "Agent":"NoAgent",
+        "Contract":""
       }
     ],
   "TargetDeployer":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
   "TargetContract":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
   "DeployTx":
     {
-      "From":"0xf925a82b8c26520170c8d51b65a7def6364877b3",
+      "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
       "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
       "Value":"0",
       "Data":"",
-      "Timestamp":"10000089",
-      "Blocknum":"20000056",
+      "Timestamp":"10000055",
+      "Blocknum":"20000049",
       "Function":"constructor",
       "OrigData":"",
       "OrigValue":"0"
@@ -58,12 +64,34 @@
         "From":"0x24cd2edba056b7c654a50e8201b619d4f624fdda",
         "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
         "Value":"0",
-        "Data":"0751076D3FFFFFFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFFFFFFFFF01FF94FFFFFFFFA7FFFF",
-        "Timestamp":"10000182",
-        "Blocknum":"20000142",
-        "Function":"setBetMax(0751076d)",
-        "OrigData":"0751076D3FFFFFFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFFFFFFFFF01FF94FFFFFFFFA7FFFF",
+        "Data":"550ED1F0",
+        "Timestamp":"10000149",
+        "Blocknum":"20000129",
+        "Function":"getMaxBetAmount(550ed1f0)",
+        "OrigData":"550ED1F0",
         "OrigValue":"0"
+      },
+      {
+        "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"0",
+        "Data":"F8B2CB4F0000000000000000000000000000000000000000000000000000008F00000000",
+        "Timestamp":"10000231",
+        "Blocknum":"20000194",
+        "Function":"getBalance(f8b2cb4f)",
+        "OrigData":"F8B2CB4F0000000000000000000000000000000000000000000000000000008F00000000",
+        "OrigValue":"0"
+      },
+      {
+        "From":"0x33b808a5ae24c410e8739b5ca2d5ef3931d3e09f",
+        "To":"0x6b773032d99fb9aad6fc267651c446fa7f9301af",
+        "Value":"8979466059761067529443439612312734935389903293251673",
+        "Data":"11610C25",
+        "Timestamp":"10000236",
+        "Blocknum":"20000215",
+        "Function":"bet(11610c25)",
+        "OrigData":"11610C25",
+        "OrigValue":"8979466059761067529443439612312734935389903293251673"
       }
     ]
 }

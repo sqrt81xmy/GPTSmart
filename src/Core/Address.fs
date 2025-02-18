@@ -31,10 +31,12 @@ let private USER_ACCNT_3 = fromStr("0012000000000000000000000000000000000229")
 let private USER_CONTR_3 = fromStr("33b808a5ae24c410e8739b5ca2d5ef3931d3e09f")
 let USER_ACCNT_4 = fromStr("0012000000000000000000000000000000000231")
 let USER_CONTR_4 = fromStr("0xf925a82b8c26520170c8d51b65a7def6364877b3")
-let private USER_ACCNT_5 = fromStr("0012000000000000000000000000000000000259")
-let private USER_CONTR_5 = fromStr("0xe5bcf8bfee1eca8a308a8b2cfab042ebfd373c38")
-let mutable USER_ACCOUNTS = [USER_ACCNT_1; USER_ACCNT_2; USER_ACCNT_3; USER_ACCNT_4; USER_ACCNT_5]
-let mutable USER_CONTRACTS = [USER_CONTR_1; USER_CONTR_2; USER_CONTR_3; USER_CONTR_4; USER_CONTR_5]
+let USER_ACCNT_5 = fromStr("0012000000000000000000000000000000000259")
+let USER_CONTR_5 = fromStr("0x1d3b2638a7cc9f2cb3d298a3da7a90b67e5506ed")
+let USER_ACCNT_6 = fromStr("0012000000000000000000000000000000000263")
+let USER_CONTR_6 = fromStr("0x51efaf4c8b3c9afbd5ab9f4bbc82784ab6ef8fcc")
+let mutable USER_ACCOUNTS = [USER_ACCNT_1; USER_ACCNT_2; USER_ACCNT_3; USER_ACCNT_4; USER_ACCNT_5; USER_ACCNT_6]
+let mutable USER_CONTRACTS = [USER_CONTR_1; USER_CONTR_2; USER_CONTR_3; USER_CONTR_4; USER_CONTR_5; USER_CONTR_6]
 
 // The adress that we use to send transactions, is the agent contract's deployer.
 let accountOf = function
@@ -44,6 +46,7 @@ let accountOf = function
   | NormalUser3 -> USER_CONTR_3
   | NormalUser4 -> USER_CONTR_4
   | NormalUser5 -> USER_CONTR_5
+  | NormalUser6 -> USER_CONTR_6
   | CustomUser name -> fromStr(name) 
 
 let contractOf = function
@@ -53,6 +56,7 @@ let contractOf = function
   | NormalUser3 -> USER_CONTR_3
   | NormalUser4 -> USER_CONTR_4
   | NormalUser5 -> USER_CONTR_5
+  | NormalUser6 -> USER_CONTR_6
   | CustomUser name -> fromStr(name) // 处理自定义用户
 
 // Return an address that can be used as an Address type input.

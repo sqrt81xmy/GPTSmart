@@ -188,11 +188,11 @@ namespace Nethermind.Evm
                 if ((ulong) intrinsicGas * gasPrice + value > senderBalance)
                 {
                     TraceLogInvalidTx(transaction, $"INSUFFICIENT_SENDER_BALANCE: ({sender})_BALANCE = {senderBalance}");
-                    using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
-                    {
-                        string logMessage =  $"INSUFFICIENT_SENDER_BALANCE: ({sender})_BALANCE = {senderBalance}" +"\n";
-                        writer.WriteLine(logMessage);
-                    }
+                    // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                    // {
+                    //     string logMessage =  $"INSUFFICIENT_SENDER_BALANCE: ({sender})_BALANCE = {senderBalance}" +"\n";
+                    //     writer.WriteLine(logMessage);
+                    // }
                     QuickFail(transaction, block, txTracer, readOnly);
                     return;
                 }
