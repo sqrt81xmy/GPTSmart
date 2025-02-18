@@ -66,11 +66,11 @@ namespace Nethermind.Evm
         {
             block.GasUsed += (long) tx.GasLimit;
             Address recipient = tx.To ?? Address.OfContract(tx.SenderAddress, _stateProvider.GetNonce(tx.SenderAddress));
-            using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
-            {
-                string logMessage = $"invalid at 71" +"\n";
-                writer.WriteLine(logMessage);
-            }
+            // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+            // {
+            //     string logMessage = $"invalid at 71" +"\n";
+            //     writer.WriteLine(logMessage);
+            // }
             if (txTracer.IsTracingReceipt) txTracer.MarkAsFailed(recipient, (long) tx.GasLimit, Bytes.Empty, "invalid");
         }
 
@@ -106,11 +106,11 @@ namespace Nethermind.Evm
             if (sender == null)
             {
                 TraceLogInvalidTx(transaction, "SENDER_NOT_SPECIFIED");
-                using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
-                {
-                    string logMessage = $"SENDER_NOT_SPECIFIED" +"\n";
-                    writer.WriteLine(logMessage);
-                }
+                // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                // {
+                //     string logMessage = $"SENDER_NOT_SPECIFIED" +"\n";
+                //     writer.WriteLine(logMessage);
+                // }
                 QuickFail(transaction, block, txTracer, readOnly);
                 return;
             }
@@ -130,11 +130,11 @@ namespace Nethermind.Evm
                 if (gasLimit < intrinsicGas)
                 {
                     TraceLogInvalidTx(transaction, $"GAS_LIMIT_BELOW_INTRINSIC_GAS {gasLimit} < {intrinsicGas}");
-                    using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
-                    {
-                        string logMessage = $"GAS_LIMIT_BELOW_INTRINSIC_GAS {gasLimit} < {intrinsicGas}" +"\n";
-                        writer.WriteLine(logMessage);
-                    }
+                    // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                    // {
+                    //     string logMessage = $"GAS_LIMIT_BELOW_INTRINSIC_GAS {gasLimit} < {intrinsicGas}" +"\n";
+                    //     writer.WriteLine(logMessage);
+                    // }
                     QuickFail(transaction, block, txTracer, readOnly);
                     return;
                 }
@@ -144,11 +144,11 @@ namespace Nethermind.Evm
                     TraceLogInvalidTx(transaction,
                         $"BLOCK_GAS_LIMIT_EXCEEDED {gasLimit} > {block.GasLimit} - {block.GasUsed}");
 
-                    using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
-                    {
-                        string logMessage = $"BLOCK_GAS_LIMIT_EXCEEDED {gasLimit} > {block.GasLimit} - {block.GasUsed}" +"\n";
-                        writer.WriteLine(logMessage);
-                    }
+                    // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                    // {
+                    //     string logMessage = $"BLOCK_GAS_LIMIT_EXCEEDED {gasLimit} > {block.GasLimit} - {block.GasUsed}" +"\n";
+                    //     writer.WriteLine(logMessage);
+                    // }
                     QuickFail(transaction, block, txTracer, readOnly);
                     return;
                 }
@@ -256,11 +256,11 @@ namespace Nethermind.Evm
                                 if (_logger.IsTrace)
                                 {
                                     _logger.Trace($"Contract collision at {recipient}"); // the account already owns the contract with the code
-                                    using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
-                                    {
-                                        string logMessage =  $"Contract collision at {recipient}" +"\n";
-                                        writer.WriteLine(logMessage);
-                                    }
+                                    // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                                    // {
+                                    //     string logMessage =  $"Contract collision at {recipient}" +"\n";
+                                    //     writer.WriteLine(logMessage);
+                                    // }
                                 }
 
                                 throw new TransactionCollisionException();
@@ -313,11 +313,11 @@ namespace Nethermind.Evm
                         long codeDepositGasCost = CodeDepositHandler.CalculateCost(substate.Output.Length, spec);
                         if (unspentGas < codeDepositGasCost && spec.IsEip2Enabled)
                         {
-                                using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
-                            {
-                                string logMessage =  $"Destroying at 313 line {unspentGas} {codeDepositGasCost}" +"\n";
-                                writer.WriteLine(logMessage);
-                            }
+                            //     using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                            // {
+                            //     string logMessage =  $"Destroying at 313 line {unspentGas} {codeDepositGasCost}" +"\n";
+                            //     writer.WriteLine(logMessage);
+                            // }
                             // throw new OutOfGasException();
                         }
 
@@ -348,11 +348,11 @@ namespace Nethermind.Evm
             catch (Exception ex) when (ex is EvmException || ex is OverflowException) // TODO: OverflowException? still needed? hope not
             {
                 if (_logger.IsTrace) _logger.Trace($"EVM EXCEPTION: {ex.GetType().Name}");
-                using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
-                {
-                    string logMessage = $"EVM EXCEPTION: {ex.GetType().Name} at {DateTime.UtcNow:o} \n";
-                    writer.WriteLine(logMessage);
-                }
+                // using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+                // {
+                //     string logMessage = $"EVM EXCEPTION: {ex.GetType().Name} at {DateTime.UtcNow:o} \n";
+                //     writer.WriteLine(logMessage);
+                // }
                 _stateProvider.Restore(stateSnapshot);
                 _storageProvider.Restore(storageSnapshot);
             }

@@ -26,11 +26,11 @@ namespace Nethermind.Evm
     {
         public static long CalculateCost(int byteCodeLength, IReleaseSpec spec)
         {
-             using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
-            {
-                string logMessage =  $"spec.IsEip170Enabled && byteCodeLength > spec.MaxCodeSize {spec.IsEip170Enabled} {byteCodeLength} {spec.MaxCodeSize}" +"\n";
-                writer.WriteLine(logMessage);
-            }
+            //  using (StreamWriter writer = new StreamWriter("evm_log.txt", true)) // true 表示追加模式
+            // {
+            //     string logMessage =  $"spec.IsEip170Enabled && byteCodeLength > spec.MaxCodeSize {spec.IsEip170Enabled} {byteCodeLength} {spec.MaxCodeSize}" +"\n";
+            //     writer.WriteLine(logMessage);
+            // }
             if (spec.IsEip170Enabled && byteCodeLength > spec.MaxCodeSize)
             { 
                 return long.MaxValue;
