@@ -55,8 +55,8 @@ let mutable private sFuzzAgentCode = [||]
 
 let initialize targetPath =
   let targetPath1 = "/home/test/tools/GPTSmart/output57/GooGameConfig.bin"
-  let targetPath2 = "/home/test/tools/GPTSmart/output57/OraclizeAddrResolverI.bin"
-  let targetPath3 = "/home/test/tools/GPTSmart/output57/OraclizeI.bin"
+  let targetPath2 = "/home/test/tools/GPTSmart/output1e2f/OraclizeAddrResolverI.bin"
+  let targetPath3 = "/home/test/tools/GPTSmart/output1e2f/OraclizeI.bin"
   // let targetPath1 = "/home/test/tools/GPTSmart/output57/GooGameConfig.bin"
   targCode <- File.ReadAllText(targetPath) |> hexStrToBytes 
   targCode1 <- File.ReadAllText(targetPath1) |> hexStrToBytes 
